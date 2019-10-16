@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="0">
+
+    <record id="menu_Accueil" model="website.menu">
+        <field name="name">Accueil</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">1</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>    
+
+    <record id="menu_presentation" model="website.menu">
+        <field name="name">Présentation</field>
+        <field name="url">titre_bref</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">2</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_A_qui_s'adresse_t_on ?" model="website.menu">
+        <field name="name">A qui s'adresse t-on ?</field>
+        <field name="url">/page/a-qui-s-adresse-t-on</field>
+        <field name="parent_id" ref="website_ingenosya.menu_presentation"/>
+        <field name="sequence" type="int">1</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Departement_Qualite ?" model="website.menu">
+        <field name="name">Département Qualité</field>
+        <field name="url">/page/departement-qualite</field>
+        <field name="parent_id" ref="website_ingenosya.menu_presentation"/>
+        <field name="sequence" type="int">2</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Agilite" model="website.menu">
+        <field name="name">Agilité</field>
+        <field name="url">/page/agilite</field>
+        <field name="parent_id" ref="website_ingenosya.menu_presentation"/>
+        <field name="sequence" type="int">3</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_securite-rgpd" model="website.menu">
+        <field name="name">Conformité RGPD</field>
+        <field name="url">/page/conformite-rgpd</field>
+        <field name="parent_id" ref="website_ingenosya.menu_presentation"/>
+        <field name="sequence" type="int">4</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_prestations" model="website.menu">
+        <field name="name">Prestations</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">3</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Realisation_logiciel_au_forfait" model="website.menu">
+        <field name="name">Réalisation logiciel au forfait</field>
+        <field name="url">/page/realisation-logiciel-au-forfait</field>
+        <field name="parent_id" ref="website_ingenosya.menu_prestations"/>
+        <field name="sequence" type="int">1</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Realisation_logiciel_par_iteration" model="website.menu">
+        <field name="name">Réalisation logiciel par itération</field>
+        <field name="url">/page/realisation-logiciel-par-iteration</field>
+        <field name="parent_id" ref="website_ingenosya.menu_prestations"/>
+        <field name="sequence" type="int">2</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Developpement_logiciel_en_regie" model="website.menu">
+        <field name="name">Développement logiciel en régie</field>
+        <field name="url">/page/developpement-logiciel-en-regie</field>
+        <field name="parent_id" ref="website_ingenosya.menu_prestations"/>
+        <field name="sequence" type="int">3</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Tierce_Maintenance_applicative" model="website.menu">
+        <field name="name">Tierce Maintenance Applicative</field>
+        <field name="url">/page/tierce-maintenance-applicative</field>
+        <field name="parent_id" ref="website_ingenosya.menu_prestations"/>
+        <field name="sequence" type="int">4</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+
+
+    <record id="menu_specialites" model="website.menu">
+        <field name="name">Spécialités</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">4</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_Entreprise_Ressource_Planning" model="website.menu">
+        <field name="name">Enterprise Resource Planning</field>
+        <field name="url">/page/entreprise-ressource-planning</field>
+        <field name="parent_id" ref="website_ingenosya.menu_specialites"/>
+        <field name="sequence" type="int">1</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_page_business_intelligence" model="website.menu">
+        <field name="name">Business Intelligence</field>
+        <field name="url">/page/business-intelligence</field>
+        <field name="parent_id" ref="website_ingenosya.menu_specialites"/>
+        <field name="sequence" type="int">2</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+    <record id="menu_web_multimedia_et_applications_mobiles" model="website.menu">
+        <field name="name">Web et applications mobiles</field>
+        <field name="url">/page/web-et-applications-mobiles</field>
+        <field name="parent_id" ref="website_ingenosya.menu_specialites"/>
+        <field name="sequence" type="int">3</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_odoo_chez_ingenosya" model="website.menu">
+        <field name="name">Odoo chez INGENOSYA</field>
+        <field name="url">/page/odoo-chez-ingenosya</field>
+        <field name="parent_id" ref="website_ingenosya.menu_specialites"/>
+        <field name="sequence" type="int">4</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_references" model="website.menu">
+        <field name="name">Références</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="url">/page/references</field>
+        <field name="sequence" type="int">5</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+     <record id="menu_actualite" model="website.menu">
+        <field name="name">Actualités</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="url">/page/actualite</field>
+        <field name="sequence" type="int">6</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_contact" model="website.menu">
+        <field name="name">Contact</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">7</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_Recrutement" model="website.menu">
+        <field name="name">Recrutement</field>
+        <field name="url">/page/recrutement</field>
+        <field name="parent_id" ref="website_ingenosya.menu_contact"/>
+        <field name="sequence" type="int">1</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record> 
+
+    <record id="menu_Rejoignez_nous" model="website.menu">
+        <field name="name">Rejoignez-nous</field>
+        <field name="url">/page/rejoignez-nous</field>
+        <field name="parent_id" ref="website_ingenosya.menu_contact"/>
+        <field name="sequence" type="int">2</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_poster_demande_de_devis" model="website.menu">
+        <field name="name">Poster une demande de devis</field>
+        <field name="url">/page/poster-une-demande-de-devis</field>
+        <field name="parent_id" ref="website_ingenosya.menu_contact"/>
+        <field name="sequence" type="int">3</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_Mentions_legales" model="website.menu">
+        <field name="name">Mentions légales</field>
+        <field name="url">/page/mentions-legales</field>
+        <field name="parent_id" ref="website_ingenosya.menu_contact"/>
+        <field name="sequence" type="int">4</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="menu_Plan_du_site" model="website.menu">
+        <field name="name">Plan du site</field>
+        <field name="url">/page/plan-du-site</field>
+        <field name="parent_id" ref="website_ingenosya.menu_contact"/>
+        <field name="sequence" type="int">5</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>  
+
+</odoo>

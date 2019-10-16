@@ -1,0 +1,55 @@
+.list-group {
+ 
+ margin:auto;
+ float:left;
+ padding-top:20px;
+}
+
+.lead {
+ 
+ margin:auto;
+ left:0;
+ right:0;
+ padding-top:10%;
+}
+
+.sidebar-class {
+  margin-top: 130px;
+}
+
+/* On screens that are 992px or less, set the margin-top 125px*/
+@media screen and (max-width: 767px) {
+  .sidebar-class {
+  margin-top: 125px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 918px){
+  .sidebar-class {
+  margin-top: 190px;
+  }
+}
+
+.title-sidebar {
+	background-color: rgba(1, 100, 189, 0.25);
+	color: #2059b6;
+	/*font-weight: bold;*/
+    /*border-color: rgba(1, 100, 189, 0.25);*/
+    text-align: center;
+    font-size: 13px;
+}
+
+.sidebar-class > a.list-group-item {
+	padding: 10px 4px;
+    font-size: 13px;
+}
+
+.sidebar-class .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.sidebar-class .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

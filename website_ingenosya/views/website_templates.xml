@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<!--Template Ingenosya en Bref !!!btn Lire la suite!!!-->
+<template id="website.ingenosya-en-bref" name="Ingenosya en Bref" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+  <h1 class="text-center text-primary animated fadeInDown tous_les_titres">Ingenosya en Bref</h1>
+  <div class="row">
+    <div class="col-md-6 animated fadeInLeft mt16">
+      <p class="text-justify">Créée en 1999 Ingenosya est une ESN (SSII offshore francophone) à Madagascar dont le siège social est en France et le bureau d'études et réalisation est à Antananarivo.</p>
+      <p class="text-justify">Ingenosya est spécialisée dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Android, iOS…), l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou encore la maintenance de systèmes d’information.</p>
+      <p class="text-justify">Nos prestations s'adressent à tous ceux qui ont besoin de personnaliser leurs systèmes d'informations ou qui souhaitent sous-traiter des travaux logiciels, dans le cadre du développement informatique offshore.</p>
+      <p class="text-justify">Ingenosya vous accompagne dans la réussite de chaque projet externalisation informatique via une démarche qualité reconnue, avec un coût particulièrement compétitif.</p>
+      <p class="text-justify">Nous mettons aussi à la disposition des clients nos domaines d’expertises, solutions et savoir-faire, ainsi que notre conformité RGPD.</p>
+    </div>
+
+    <div class="col-md-6 animated fadeInRight mt16">
+      <!-- <blockquote> -->
+        <img src="/website_ingenosya/static/src/img/presentation/presentation2.png" class="img img-responsive" alt="Présentation" id="bref2" />
+      <!-- </blockquote> -->
+    </div>
+  </div>
+</div>
+</t>
+</template>
+
+<template id="website.sidebar-presentation" name="Présentation">
+	<div class="sidebar-class">
+	    <a href="/page/presentation" class="list-group-item">Présentation</a>
+	    <a href="/page/a-qui-s-adresse-t-on" class="list-group-item">A qui s'adresse t-on ?</a>
+	    <a href="/page/departement-qualite" class="list-group-item">Département Qualité</a>
+	    <a href="/page/agilite" class="list-group-item">Agilité</a>
+	    <a href="/page/conformite-rgpd" class="list-group-item">Conformité RGPD</a>
+	 </div>
+</template>
+
+<!--Template presentation -->
+<template id="website.presentation" name="Présentation" page="True">
+<t t-call="website.layout">
+<div class="container">
+<div class="row">
+	<div class="col-md-2">
+		<t t-call="website.sidebar-presentation"/>
+	</div>
+	<div class="col-md-10">
+	  <h1 class="text-center text-primary titre_presentation animated zoomIn tous_les_titres">Présentation</h1>
+	  <div class="row">
+	    <div class="col-md-6 para_presentation1">
+	      <p class="text-justify">Proactif depuis 19 ans, Ingenosya est une ESN (SSII) spécialisée dans le
+	        développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Androïd,
+	        iOS…), l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou encore la
+	      maintenance de systèmes d’information. </p>
+	      <p class="text-justify"> INGENOSYA, ESN (SSII) offshore à Madagascar, est composée des profils types
+	        d'experts
+	      en Informatique :</p>
+	      <div class="feature">
+	        <i class="fa fa-check"></i>
+	        <p class="text-justify">une équipe de direction formée en France et avec une expérience de plusieurs
+	        années dans les grandes sociétés françaises (Cap Gemini, Caisse des dépôts, Sopra, Unilog ...)</p>
+	      </div>
+	      <div class="feature">
+	        <i class="fa fa-check"></i>
+	        <p class="text-justify">des consultants capables d’accompagner les clients dans une démarche
+	        projet, de la phase de démarrage et conception du business plan, à la gestion de la tierce maintenance logicielle</p>
+	      </div>
+	      <div class="feature">
+	        <i class="fa fa-check"></i>
+	        <p class="text-justify">des chefs de projets et d’architectes ayant au moins 5 ans d'expériences</p>
+	      </div>
+	      <div class="feature">
+	        <i class="fa fa-check"></i>
+	        <p class="text-justify">une équipe de réalisation issue des meilleures écoles d'ingénieurs en
+	        informatique à Madagascar (ISPM, ENI, ...) encadrée par les chefs de projets et les architectes.</p>
+	      </div>
+	    </div>
+	    <div class="col-md-6">
+	      <blockquote>
+	        <div class="blockquote-text">
+	          <img src="/website_ingenosya/static/src/img/pages/presentation1.png" class="img img-responsive" alt="Equipe Ingenosya"
+	          id="presentation1" />
+	        </div>
+	      </blockquote>
+	    </div>
+	  </div>
+
+	  <div class="row">
+	    <div class="col-md-6 para_presentation3">
+	      <h4 class="text-primary">Actionnaires et dirigeants :</h4>
+	      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Fidom Conseil Sarl (holding
+	      française)</p>
+	      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Cabinet FTHM Conseil (partenaire
+	      malgache)</p>
+	      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Jean Luc Rajaona (fondateur)</p>
+	      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Dominique Morvan (fondateur)</p>
+	      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Cyrille Morvan (gérant)</p>
+	    </div>
+	    <div class="col-md-6 para_presentation2 contenu2_presentation">
+	      <p class="text-justify">Les atouts de votre prestataire informatique basé à Madagascar résident dans une forte
+	        expertise projets, des connaissances métiers, la maîtrise des technologies de pointe. Sa taille humaine
+	        lui
+	        permet de rester proche de ses clients en leur offrant réactivité et souplesse. <br /> Sa structure
+	      répartie entre la France et Madagascar garantit les relations contractuelles.</p>
+	    </div>
+	  </div>
+	</div>
+	</div>
+</div>
+</t>
+</template>
+
+<!-- Template A qui s'adresse t-on ? -->
+<template id="website.a-qui-s-adresse-t-on" name="A qui s'adresse t-on ?" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+  <div class="row">
+    <div class="col-md-2">
+      <t t-call="website.sidebar-presentation"/>
+    </div>
+    <div class="col-md-10">
+      <h1 class="text-center text-primary animated zoomIn tous_les_titres">A qui s'adresse t-on ?</h1>
+      <p>Ingenosya est une société de développement de logiciels spécifiques dont tous les développeurs sont basés à Antananarivo. Nous nous adressons à des :</p>
+      <div class="row">
+      	<!-- <div class="col-md-6 animated fadeInLeft mt8" style="animation-delay:1s"> -->
+        <div class="col-md-6 mt8">
+          <div class="element-border">
+            <h4 class="text-primary text-justify">Sociétés commerciales ou des organisations qui émettent des appels
+            d’offre et attendent des réalisations au forfait :</h4>
+            <div class="text-justify">Ingenosya est régulièrement consultée dans le cadre d’appels d’offre visant à
+              développer, livrer, valider et maintenir une application logicielle.<br /> Le cahier des charges doit
+              être
+              suffisamment détaillé pour permettre la réalisation d’un devis forfaitaire, avec engagement de tenue des
+              charges et délais.<br /> Le devis est réalisé et transmis à distance, mais dans certaines circonstances,
+              il
+            peut être soutenu sur place.
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 animated fadeInRight mt8" style="animation-delay:1.5s"> -->
+        <div class="col-md-6 mt8">
+          <div class="element-border">
+            <h4 class="text-justify text-primary para_adresse_ton1">Editeurs de logiciels qui ont besoin d’externaliser
+            des travaux d’adaptation sur mesure pour leurs clients :</h4>
+            <div class="text-justify">Beaucoup d’éditeurs de logiciel demandent des développements sur mesure ou des
+              adaptations en périphérie de leurs produits.<br />Leurs ressources étant souvent totalement consacrées au
+              programme de développement logiciel informatique, Ingenosya peut intervenir (forfait ou régie) pour
+              renforcer l’éditeur de logiciels dans cette politique de service et de personnalisation, dans des
+            conditions économiques particulièrement attractives.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+        <img src="/website_ingenosya/static/src/img/presentation/odoo1.png" class="img img-responsive animated zoomIn" style="animation-delay:2s" alt="A qui s'adresse Ingenosya" id="a-qui-adresse-t-on" />
+      </div> -->
+      <div class="row">
+        <!-- <div class="col-md-6 animated fadeInLeft mt8" style="animation-delay:2s"> -->
+        <div class="col-md-6 mt8">
+          <div class="element-border">
+            <h4 class="text-primary text-justify">Editeurs de logiciels qui ont besoin de sous-traitance pour les aider
+              dans leurs travaux de R&amp;D :</h4>
+            <div class="text-justify">Beaucoup d’éditeurs de logiciel consacrent leurs équipes à des tâches stratégiques
+              relatives aux évolutions de leur produit. Ils manquent alors de ressources pour intervenir sur la
+              consolidation des produits existants ou sur leur maintenance. <br />Ingenosya peut, dans cette
+              circonstance, proposer des ressources pour travailler sur la sous-traitance informatique de ces travaux,
+              en
+              relation avec l’équipe de R et D. Selon la nature de la prestation (forfait, itération, régie, TMA), le
+              cahier des charges peut être plus ou moins détaillé.
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 animated fadeInRight mt8" style="animation-delay:2.5s"> -->
+        <div class="col-md-6 mt8">
+          <div class="element-border">
+            <h4 class="text-justify text-primary para_adresse_ton2">SSII, intégrateurs de logiciel, qui assurent la
+              maîtrise d’œuvre de travaux logiciels dont une partie peut être sous-traitée:</h4>
+            <div class="text-justify">Les SSII intégrateurs de logiciel et maîtres d’œuvre de projet sont consultés par
+              des
+              clients finaux pour la réalisation de travaux logiciels au forfait. Un ou plusieurs sous-ensembles
+              peuvent
+              souvent être sous-traités, sous contrôle de la maîtrise d’œuvre. <br />Les contraintes financières
+              justifient le recours à l’offshore. Ingenosya, votre société offshore de développement informatique,
+              intervient souvent dès la phase de réponse au client final, en partenariat, généralement dans une
+              relation
+              au forfait, et peut assurer ensuite la TMA de tout ou partie du développement.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</t>
+</template>
+
+<!-- Template Département Qualité -->
+<template id="website.departement-qualite" name="Département Qualité" page="True">
+  <t t-call="website.layout">
+    <div class="container mb32">
+    <div class="row">
+      <div class="col-md-2">
+        <t t-call="website.sidebar-presentation"/>
+      </div>
+      <div class="col-md-10">
+        <h1 class="text-center text-primary animated zoomIn tous_les_titres">Département Qualité</h1>
+        <p>Ingenosya travaille dans le respect d’une méthodologie sous assurance Qualité claire et transparente.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-text">
+              <h3 class="text-primary">Méthodologie et assurance qualité</h3>
+              <p class="text-justify">Chez Ingenosya, la qualité est un principe érigé en objectif. L'orientation
+                volontariste d’INGENOSYA vers la Qualité correspond aux quatre motivations principales des marchés
+                occidentaux et français et à l'obligation qui s'impose encore plus à une société off-shore qui réalise
+                ses travaux à distance:</p>
+                <span>
+                  <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité correspond à une
+                  préoccupation forte de toute maîtrise d'ouvrage,</p>
+                  <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité devient un atout
+                  primordial dans le monde concurrentiel,</p>
+                  <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité est le moyen
+                  privilégié d'accroissement de la performance,</p>
+                  <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité est le seul moyen de
+                  rendre une relation de sous traitance offshore récurrente,</p>
+                </span>
+              </div>
+          </div>
+          <div class="col-md-6 col-img mt16">
+            <img src="/website_ingenosya/static/src/img/presentation/quality4.png" class="img img-responsive" alt="Méthodologie et assurance qualité" id="img_qlt1" />
+          </div>
+          <div class="col-md-12 mt16">
+            <p class="text-justify">La recherche de la qualité est une préoccupation constante d’INGENOSYA. Le Contrôle Qualité est
+              systématiquement mis en œuvre sur tous les projets avec déclinaison et production d'un Plan Qualité Projet.
+            </p>
+            <p class="text-justify"> Pour chaque affaire, Ingenosya convient de la mise en place d'une communication opérationnelle qui prend en compte la distance entre les équipes. Cette communication opérationnelle s’appuie sur des moyens techniques appropriés.</p>
+          </div>
+        </div>
+
+        <!--Template separateur du code-->
+        <div class="row">
+          <div class="col-md-6 col-img mt16">
+            <img src="/website_ingenosya/static/src/img/pages/q2.png" class="img img-responsive" alt="" id="img_qlt2" />
+          </div>
+          <div class="col-md-6 para_qlt2">
+            <div class="col-text">
+              <h3 class="text-primary">Missions du département qualité</h3>
+              <span>
+                <p class="text-justify">Le département Qualité d’Ingenosya assure les missions suivantes :</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité est le moyen
+                privilégié d'accroissement de la performance,</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Formation et sensibilisation à la
+                Qualité de chaque personnel recruté</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Mise en place de procédures
+                transverses de validation : interfaces avec le développement, interfaces avec les clients,
+                établissement de plannings et rapports de test</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Mise en place des outils
+                nécessaires : outils de bug tracking, outils de reporting.</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Conception et développement de
+                tous les applicatifs permettant l’automatisation des procédures de test</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Conduite des revues avec le
+                client et d'audits internes</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!--Template separateur du code-->
+        <div class="row">
+          <div class="col-md-6 para_qlt3">
+            <div class="col-text">
+              <h3 class="text-primary">Procédures d'assurance qualité</h3>
+              <p class="text-justify">L'assurance qualité implique tout au long du cycle de vie d'un projet la mise en
+                œuvre de trois types de procédures spécifiques :</p>
+              <span>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions de vérification en
+                cours de production,</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions de qualification,</p>
+                <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions d'acceptation des
+                fournitures intermédiaires ou finales.</p>
+              </span>
+              <p class="text-justify">Les actions de vérification en cours de production ont pour but de détecter les
+                erreurs résiduelles dans la fourniture intermédiaire ou finale (document, logiciel, jeux d'essai,..).
+                Elles permettent de s'assurer que le niveau de qualité sur le fond et la forme est optimal pour
+                répondre aux exigences spécifiées. Elles donnent lieu à un compte-rendu interne à INGENOSYA qui peut
+                être rendu disponible sur convention.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-img mt16">
+            <img src="/website_ingenosya/static/src/img/presentation/quality6.png" class="img img-responsive" alt="Procédures d'assurance qualité" id="img_qlt3" />
+          </div>
+        </div>
+        <div class="para_qlt4">
+          <p class="text-justify feature para2_qualite"> <i class="fa fa-check"></i> Principalement ce sont des <b>relectures de code</b>. Ingenosya utilise des outils qui donnent des métriques sur la qualité du code. Les commentaires issus de la relecture de code sont obligatoirement mentionnés lors des commits.
+          </p>
+          <p class="text-justify"> Les actions de qualification ont pour but de vérifier l'adéquation de fournitures
+            intermédiaires ou finales au dossier de spécifications ; elles s'effectuent au moyen de jeux d'essais.
+            INGENOSYA distingue la qualification interne faite par le chef de projet et celle effectuée par son client.
+          </p>
+          <p class="text-justify feature"> <i class="fa fa-check"></i> Principalement, Ingenosya utilise la <b>méthode
+          TDD</b>. C'est-à-dire que le développement est piloté par les tests. Ceci permet de maximiser la qualité du
+          code, sa robustesse et la conformité par rapport aux spécifications. De même cette technique permet de
+          limiter les régressions du système à chaque modification. De plus, Ingenosya dispose d’une équipe dédiée
+          aux tests qualité, qui sont des fonctionnels et non des techniciens.
+          </p>
+          <p class="text-justify">Les actions d'acceptation des fournitures intermédiaires ou finales dont le résultat
+            peut prendre trois formes :
+          </p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un constat d'accord sans réserve,</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un constat d'accord avec réserve
+          (non-conformités mineures),</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un refus avec liste des
+          non-conformités détectées en cas de problème majeur.</p>
+          <p class="text-justify">Ces différentes procédures mises en œuvre sont définies dans le Plan Qualité du
+            projet lors de la phase d'initialisation (actions de qualité explicite).</p>
+          <p class="text-justify feature mb0"><i class="fa fa-check"></i>Principalement, la livraison rythmée toutes les
+          2 semaines permet d’avoir un logiciel qui est validé de façon continue.
+          </p>
+        </div>
+    </div>
+  </div>
+</div>
+</t>
+</template>
+
+<!--Template agilite -->
+<template id="website.agilite" name="Agilité" page="True">
+  <t t-call="website.layout">
+    <div class="container mb32">
+      <div class="row">
+        <div class="col-md-2">
+          <t t-call="website.sidebar-presentation"/>
+        </div>
+        <div class="col-md-10">
+          <h1 class="text-center text-primary animated zoomIn titleClickPrestations tous_les_titres">INGENOSYA ET LA METHODOLOGIE AGILE</h1>
+          <div class="row">
+            <div class="col-md-6 para_agile1">
+              <h4 class="text-primary">METHODOLOGIE AGILE</h4>
+              <p class="text-justify">INGENOSYA pratique la méthodologie AGILE ayant pour objectif la satisfaction du
+                client. C’est une approche itérative et incrémentale, avec la mise en place d’une gestion de projet
+                pragmatique : pilotage par les livrables avec une livraison opérationnelle toutes les 2 semaines afin de
+                donner une visibilité globale du déroulement du projet.</p>
+              <p class="text-justify">Ce découpage de projet en courte période de temps permet d’améliorer la conformité
+                aux besoins en impliquant plus les utilisateurs sur des bases concrètes. Pour cela, la constitution d’une
+                équipe mixte client-prestataire, embarquée dans un objectif commun de livraison régulière, est
+                fondamentale.</p>
+              <p>Une méthode AGILE doit respecter les 4 principes du manifeste agile :</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Priorité aux personnes et aux
+              interactions plutôt qu’aux outils et processus.</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Préférer la collaboration avec le
+              client plutôt que les négociations contractuelles.</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Préférer un logiciel qui fonctionne
+              plutôt qu’une documentation exhaustive.</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Réactivité au changement plutôt que
+              suivi de plan.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="/website_ingenosya/static/src/img/presentation/agile1.png" class="img img-responsive" rel="tooltip" data-toggle="tooltip" data-trigger="hover" alt="Methodologie agile" id="img_agile1" data-placement="left" data-title="Le Product Owner (PO)" data-content="est le porteur de la réalisation et de la vision produit, il représente le client au sein de l'equipe de réalisation. Il est la seule personne responsable de gérer le carnet de produit (Product Backlog). Le Scrum Master est un leader au service de l'équipe de réalisation. Il est responsable de s'assurer que le scrum est compris et mis en oeuvre.  Le Product Backlog est la liste priorisée des fonctionnalités du produit. Le Product Backlog est de la responsabilité du Product Owner (PO)."/>
+            </div>
+        </div>
+
+      <div>
+        <h4 class="text-primary" id="timeline">METHODE SCRUM</h4>
+        <p class="text-justify">Depuis quelques mois, INGENOSYA a mis en place la méthode SCRUM. Chaque projet commence par un sprint
+          préparatoire, les sprints suivants sont des sprints de 2 semaines. L’objectif du sprint préparatoire est de
+          définir la vision du produit, les grandes lignes de l’architecture et de mettre en place des environnements
+        de développements.</p>
+        <p class="text-justify">Pour les sprints suivants, nous avons repris certains éléments de la méthode SCRUM.</p>
+      </div>
+
+      <ul class="timeline">
+        <li class="scrum1">
+          <div class="timeline-badge">
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title text-primary">Réunion de début de sprint</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Chaque sprint est précédé d’une réunion de début de sprint dont l’objectif est de décrire les users
+              stories (exigences fonctionnelles), produire le Backlog de sprint et avoir le planning de l’équipe.</p>
+              <p>
+                Durant cette réunion, le Product Owner (la personne qui porte la vision du produit à réaliser)
+                explique les user stories. En fin de réunion, toute l’équipe doit avoir compris le contenu du sprint.
+                Le fonctionnel doit être clair et bien compris et les contraintes doivent être connues de tous.
+              </p>
+              <p>Pour l’évaluation des user stories, chaque membre donne une valeur à chaque user story en utilisant la suite de Fibonacci. Le chiffrage individuel est soumis au groupe, puis le choix de l'estimation finale est fait par consensus.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning">
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title text-primary">Réunion daily meeting</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Tous les matins, l’équipe projet avec le Product Owner fait une réunion daily meeting d’une durée de
+                15 minutes. Cette réunion a comme objectifs de synchroniser l’équipe, de maintenir l’engagement,
+                d’identifier les points de blocage. Chaque participant doit présenter ce qu’il a fait la veille, ce
+              qu’il va faire le jour-même et énoncer les points de blocage s’il y en a.</p>
+              <p>A la fin du sprint, il y a deux réunions :
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger">
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title text-primary">Réunion de revue de sprint</h4>
+            </div>
+            <div class="timeline-body">
+              <p>La réunion de revue de sprint est une réunion de démonstration où chaque membre de l’équipe fait une
+              démonstration des fonctionnalités qu’il a implémentées à l’utilisateur final.</p>
+              <p>L’objectif de cette réunion est de livrer une version de démonstration utilisable par le Product
+                Owner afin de mettre le Backlog produit à jour.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success">
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title text-primary">Réunion rétrospective</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Cette réunion est une réunion en interne avec toute l’équipe projet. L’objectif est d’inspecter les
+                éléments positifs et négatifs du processus de développement, ceux qui ont bien fonctionné et ceux qui
+              sont à améliorer pour en déduire un plan d’actions à mettre en œuvre lors du sprint suivant.</p>
+              <p> En matière de développement, nous utilisons la technique TDD (Test Driven Developpement), le
+              développement est piloté par les tests.</p>
+              <p>Néanmoins, il est important de noter que nous n’imposons pas la méthode à nos clients. En démarrage
+                de projet, nous définissons avec le client la méthodologie et l’organisation qui correspondent à son
+                organisation.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center sous_titre_tableau">LISTE DES OUTILS PRATIQUES POUR JAVA</h1>
+          <table class="table table-bordered contenu_tableau_agile mb0">
+            <tbody>
+              <tr>
+                <td>Source code management, release, code review</td>
+                <td>SVN, Git, GitHub</td>
+              </tr>
+              <tr>
+                <td>Unit tests</td>
+                <td>jUnit, Mockito</td>
+              </tr>
+              <tr>
+                <td>Tracking tool</td>
+                <td>Mantis, Redmine</td>
+              </tr>
+              <tr>
+                <td>Quality measurement tool code</td>
+                <td>Sonar</td>
+              </tr>
+              <tr>
+                <td>Project management tool</td>
+                <td>iceScrum, Microsoft project, OpenErp</td>
+              </tr>
+              <tr>
+                <td>Continuous integration tool</td>
+                <td>Jenkins, maven, SoapUI, Hudson</td>
+              </tr>
+              <tr>
+                <td>Construction tool</td>
+                <td>Maven, Ant</td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Skype, Jabber, hangouts, Mumble</td>
+              </tr>
+              <tr>
+                <td>Frameworks</td>
+                <td>Spring, hibernate</td>
+              </tr>
+              <tr>
+                <td>Java Security</td>
+                <td>Acegi security, Spring security</td>
+              </tr>
+              <tr>
+                <td>Java Web</td>
+                <td>Spring MVC</td>
+              </tr>
+              <tr>
+                <td>Java User Interface</td>
+                <td>Swing, Eclipse RCP</td>
+              </tr>
+              <tr>
+                <td>Reporting</td>
+                <td>Ireport, jasper report</td>
+              </tr>
+              <tr>
+                <td>Database</td>
+                <td>Oracle 9i/10g, MySQL, MariaDB, PostGreSQL</td>
+              </tr>
+              <tr>
+                <td>IDE tools</td>
+                <td>Eclipse, NetBeans</td>
+              </tr>
+              <tr>
+                <td>Servlet/JSP Container</td>
+                <td>Tomcat 6/7, jetty</td>
+              </tr>
+              <tr>
+                <td>Business process</td>
+                <td>JBPM</td>
+              </tr>
+              <tr>
+                <td>XMP API</td>
+                <td>JAX Bind</td>
+              </tr>
+              <tr>
+                <td>JSON API</td>
+                <td>Jackson</td>
+              </tr>
+              <tr>
+                <td>AJAX</td>
+                <td>jQuery, JS, Ext JS</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</t>
+</template>
+
+<!--Template Conformité RGPD-->
+<template id="website.conformite-rgpd" name="Conformité RGPD" page="True">
+  <t t-call="website.layout">
+    <div class="container mb32">
+      <div class="row">
+        <div class="col-md-2">
+          <t t-call="website.sidebar-presentation"/>
+        </div>
+        <div class="col-md-10">
+          <h1 class="text-center text-primary animated zoomIn tous_les_titres">Conformité RGPD</h1>
+          <div class="row">
+            <!-- <div class="col-md-6 text-justify animated fadeInLeft mt16" style="animation-delay:0.5s"> -->
+            <div class="col-md-6 text-justify mt16">
+              <p>INGENOSYA applique dans ses contrats et dans ses procédures les obligations de la loi Européenne dite RGPD (Réglementation Générale pour la Protection des Données personnelles).</p>
+              <p>INGENOSYA est une société de service qui travaille en sous-traitance pour des industriels du logiciel et parfois pour des entreprises d’autres domaines.</p>
+              <p>De ce fait, INGENOSYA n’effectue pas pour son propre compte de collecte de données personnelles et n’en conserve pas.</p>
+              <p>Toutefois, dans le cadre de ses travaux de sous-traitance, INGENOSYA peut être amenée à manipuler des données, soit à des fins de tests soit dans le cadre d’un contrat de maintenance d’une application logicielle. Cette intervention, sur demande du client, se fait dans le cadre d’une prestation bien définie par contrat.</p>
+              <p>Pour cela, INGENOSYA respecte des procédures et des mécanismes de sécurité, le client d’INGENOSYA restant responsable de la collecte des données et de la relation directe avec l’utilisateur qui voudrait faire exercer son droit sur les données le concernant (consultation, modification, suppression,…).</p>
+              <p class="mb0">La responsabilité d’INGENOSYA est parfaitement définie dans les CGV (Conditions Générales de Vente) ci-jointe, ainsi que dans les CPV (Conditions Particulières de Vente) qui seront élaborées préalablement au contrat de prestation entre INGENOSYA et son CLIENT.</p>
+            </div>
+            <!-- <div class="col-md-6 animated fadeInRight mt16" style="animation-delay:1s"> -->
+            <div class="col-md-6 animated">
+              <img src="/website_ingenosya/static/src/img/presentation/conformite_rgpd.png" class="img img-responsive" alt="Conformité RGPD"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </t>
+</template>
+
+<template id="website.sidebar-prestations" name="Prestations">
+	<div class="sidebar-class">
+	    <a href="/page/prestations" class="list-group-item">Prestations</a>
+	    <a href="/page/realisation-logiciel-au-forfait" class="list-group-item">Réalisation logiciel au forfait</a>
+	    <a href="/page/realisation-logiciel-par-iteration" class="list-group-item">Réalisation logiciel par itération</a>
+	    <a href="/page/developpement-logiciel-en-regie" class="list-group-item">Développement logiciel en régie</a>
+	    <a href="/page/tierce-maintenance-applicative" class="list-group-item">Tierce Maintenance Applicative</a>
+	  </div>
+</template>
+
+<!--Template Réalisation logiciel au forfait -->
+<template id="website.realisation-logiciel-au-forfait" name="Réalisation logiciel au forfait" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-md-2">
+  <t t-call="website.sidebar-prestations"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel au forfait</h1>
+  <div class="row">
+    <div class="col-md-6 icone_forfait mt8">
+      <div class="col-md-4 mt8">
+        <div class="orga-stru">
+          <i class="fa fa-laptop fa-5x"></i>
+        </div>
+      </div>
+      <div class="col-md-4 mt8">
+        <div class="orga-stru">
+          <i class="fa fa-briefcase fa-5x"></i>
+        </div>
+      </div>
+      <div class="col-md-4 mt8">
+        <div class="orga-stru">
+          <i class="fa fa-cogs fa-5x"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mt16">
+      <div class="detail-info">
+        <p class="det-p para_forfait_suite">
+          Ces travaux traditionnels reposent sur un cahier des charges suffisamment clair et précis, qui permet
+          de faire une réponse ferme et définitive, sur la base d’un planning et d’un engagement de livrables à
+          approuver, dans les limites d’un engagement de charges et de délai. Une garantie et une maintenance
+          éventuelle succèdent à la phase de développement. Cette prestation s’appuie sur des méthodologies dites de cycle en V.</p>
+        <div class="col-md-12 social_forfait">
+          <ul class="social-network social-circle">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoFacebook" title="Facebook"><i
+            class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoTwitter" title="Twitter"><i
+            class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait&amp;title=Ingenosya&amp;" target="_blank"
+            class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!-- Template Réalisation logiciel par itération -->
+<template id="website.realisation-logiciel-par-iteration" name="Réalisation logiciel par itération" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-md-2">
+  <t t-call="website.sidebar-prestations"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel par itération</h1>
+  <div class="row">
+    <div class="col-md-6 mt16">
+      <img src="/website_ingenosya/static/src/img/prestations/a1.png" class="img img-responsive" alt="Réalisation logiciel par itération" id="rli1" />
+    </div>
+    <div class="col-md-6 mt16 para_iteration1">
+      <p class="text-justify">Quand il est difficile, voire impossible de réaliser un cahier des charges, clair
+        et précis, il est possible de convenir d’une réalisation en 2 ou 3 itérations, chacune au forfait, visant
+        à soit disposer de plus de temps pour spécifier la suite ou certains détails des travaux, soit disposer
+      du résultat d’une itération pour spécifier le contenu des suivantes. </p>
+      <p class="text-justify">Cette organisation semble allonger les délais de réalisation globaux, toutefois les
+        productions des itérations intermédiaires peuvent être mises en service, et la qualité fonctionnelle
+        finale des travaux s’en trouve grandement améliorée. Cette prestation s’appuie sur des méthodologies dites Agile.</p>
+      <div class="col-md-12 para_iteration2">
+        <ul class="social-network social-circle">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoFacebook" title="Facebook"><i
+          class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoTwitter" title="Twitter"><i
+          class="fa fa-twitter"></i></a></li>
+          <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration&amp;title=Ingenosya&amp;" target="_blank"
+          class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!-- Template Développement logiciel en régie -->
+<template id="website.developpement-logiciel-en-regie" name="Développement logiciel en régie" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-lg-2">
+  <t t-call="website.sidebar-prestations"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développement logiciel en régie</h1>
+  <div class="row">
+    <div class="col-md-6 col-img mt16">
+      <img src="/website_ingenosya/static/src/img/pages/regie3.jpg" class="img img-responsive" alt="Développement logiciel en régie" id="img-regie1" />
+    </div>
+    <div class="col-md-6 para_regie mt16">
+      <div class="col-text">
+        <p class="text-justify">Ingenosya, votre SSII offshore francophone, détache souvent des prestataires de
+          développement pour le compte des clients afin qu’ils travaillent à distance et à la demande. Cela
+          suppose, pour le donneur d’ordre, de pouvoir spécifier des tâches de courte durée (quelques heures à
+          quelques jours), de façon quasi quotidienne. La formation au sujet des travaux peut être assurée de
+        différente façon, dans le cadre d’une convention commerciale appropriée :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Chez Ingenosya, sous la forme de travaux pratiques</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Chez le client</p>
+        <p class="text-justify"> <i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Avec un chef de projet détaché sur une courte durée
+        chez le client, et qui formera le reste de l’équipe à son retour.</p>
+        <p class="text-justify">Cette prestation s’intègre entièrement dans la méthodologie du client.</p>
+        <div class="">
+          <ul class="social-network social-circle">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoFacebook" title="Facebook"><i
+            class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoTwitter" title="Twitter"><i
+            class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie&amp;title=Ingenosya&amp;" target="_blank"
+            class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!--Template Tierce Maintenance applicative-->
+<template id="website.tierce-maintenance-applicative" name="Tierce Maintenance applicative" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-lg-2">
+  <t t-call="website.sidebar-prestations"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Tierce Maintenance Applicative</h1>
+  <div class="row">
+    <div class="col-md-6 col-img mt16">
+      <img src="/website_ingenosya/static/src/img/pages/tma1.png" class="img img-responsive" alt="Tierce Maintenance applicative" id="img-tma1" />
+    </div>
+    <div class="col-md-6 para_tma1 mt16">
+      <div class="col-text">
+        <p class="text-justify">Ingenosya, SSII offshore francophone, peut assurer des prestations de maintenance
+        corrective et évolutive de logiciels (prestations de maintien en conditions opérationnelles MCO) :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Consécutives à sa propre prestation de réalisation de
+        ces logiciels, c'est-à-dire consécutivement à la prestation de réalisation au forfait.</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Sur des logiciels réalisés par des tiers.</p>
+        <p class="text-justify">Le principe repose sur l’achat d’un crédit temps de 10 Jours (ou 20 jours), le
+          jour étant de 8 heures effectives, payable d’avance, valable et utilisable pendant 6 mois (ou 1 an),
+        renouvelable autant que nécessaire par multiple de 10 jours.</p>
+        <p class="text-justify">La formule consiste à débiter le crédit temps au fur et mesure de la réalisation
+          des demandes d’intervention. Les demandes sont signalées dans l’outil MANTIS. Elles feront l’objet
+          d’une estimation préalable et la confirmation de cette estimation entraînera la réalisation et la
+        livraison sur un serveur de pré-production.</p>
+        <div class="">
+          <ul class="social-network social-circle">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoFacebook" title="Facebook"><i
+            class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoTwitter" title="Twitter"><i
+            class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative&amp;title=Ingenosya&amp;" target="_blank"
+            class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<template id="website.sidebar-specialites" name="Enterprise Resource Planning">
+	<div class="sidebar-class">
+	    <a href="/page/specialites" class="list-group-item">Spécialités</a>
+	    <a href="/page/entreprise-ressource-planning" class="list-group-item">Enterprise Resource Planning</a>
+	    <a href="/page/business-intelligence" class="list-group-item">Business Intelligence</a>
+	    <a href="/page/web-et-applications-mobiles" class="list-group-item">Web et applications mobiles</a>
+	    <a href="/page/odoo-chez-ingenosya" class="list-group-item">Odoo chez INGENOSYA</a>
+  	</div>
+</template>
+
+<!--Template Pages Enterprise Resource Planning-->
+<template id="website.entreprise-ressource-planning" name="Enterprise Resource Planning" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-md-2">
+  <t t-call="website.sidebar-specialites"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Enterprise Resource Planning</h1>
+  <div class="">
+    <p class="text-justify">Ingenosya, votre société offshore informatique à Madagascar, a développé des
+    compétences fonctionnelles et techniques relatives aux ERP (Enterprise Resource Planning)</p>
+    <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Pour la mise en œuvre opérationnelle
+    de plusieurs ERP Open Source (Open Bravo, Compiere, Odoo)</p>
+    <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Pour le développement logiciel et
+    l’intégration d’ERP dits propriétaires</p>
+  </div>
+  <h3 class="text-center text-primary">Mise en œuvre d’ERP Open Source</h3>
+  <div class="row mb16 mt16">
+    <div class="col-md-4">
+      <p class="text-justify">Les ERP Open Source font l’objet d’une demande croissante de mise en œuvre au sein
+        d’entreprises de toutes tailles, mais en particulier les PME en raison de la souplesse commerciale du
+        modèle Open Source. Ces entreprises les utilisent généralement pour supporter leur processus de type
+      négoce. Ces ERP Open Source supportent les fonctions clés suivantes :</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion des données de base,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion des achats,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion des stocks,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion de la production,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Calcul des besoins et
+      planification,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion commerciale,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion des projets et services,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Comptabilité financière.</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="/website_ingenosya/static/src/img/specialites/erp2.png" class="img img-responsive" alt="Enterprise Resource Planning - ERP" id="img-erp1" />
+      <a href="#">Enterprise Resource Planning</a>
+    </div>
+    <div class="col-md-4">
+      <p class="text-justify">L’offre d’Ingenosya d’assistance à la mise en œuvre d’un ERP Open Source consiste en :</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>L’installation de l’ERP sur sa
+      plateforme d’exploitation,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Le paramétrage de l’ERP pour
+      répondre aux besoins spécifiques de chaque entreprise,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>L’import de données anciennes
+      éventuelles,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La formation et l’assistance à
+      l’utilisation de l’outil,</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La réalisation des analyses et des
+      développements spécifiques d’adaptations notamment</p>
+      <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les interfaces avec des systèmes
+      existants.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-justify">Ils peuvent traiter différentes unités monétaires (multidevises), supporter
+          plusieurs entreprises (multi-sociétés) et interfacer différents systèmes de comptabilité.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6 para_erp3">
+          <h3 class="text-center text-primary">Développements d’ERP propriétaires</h3>
+          <p class="text-justify"> Les compétences fonctionnelles en ERP d’Ingenosya l’amène régulièrement à
+            développer ou maintenir des ERP dits propriétaires, c'est-à-dire ayant des spécificités qui ne sont pas
+            supportées par les ERP commerciaux ou Open Source. Ingenosya, votre prestataire informatique à
+            Madagascar, a ainsi développé ou assuré la tierce maintenance d’ERP dans les domaines fonctionnels
+          suivants :,</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Transport et logistique</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion et traitement de l’eau</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion hôtelière</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Gestion de supermarchés</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>...</p>
+          <p class="text-justify">Les technologies utilisées sont généralement imposées par le donneur d’ordre
+          auquel Ingenosya rend des comptes. On compte, ainsi des travaux réalisés en :</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>PL SQL</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Java J2EE sur base My SQL, PostGre
+          SQL, ou Oracle</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>PHP sur MYSQL</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Delphi sur base Interbase</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>...</p>
+          <p class="mb0">La réalisation s’effectue à partir d’un cahier des charges fonctionnel.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="/website_ingenosya/static/src/img/pages/erp2.png" class="img img-responsive" alt="Développements d’ERP propriétaires" id="img-erp2" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!--Template Business Intelligence-->
+<template id="website.business-intelligence" name="Business Intelligence" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+<div class="col-md-2">
+  <t t-call="website.sidebar-specialites"/>
+</div>
+<div class="col-md-10">
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Business Intelligence</h1>
+  <div class="row">
+    <div class="col-md-6 col-img mt16">
+      <!-- <img src="/website_ingenosya/static/src/img/pages/a2.jpeg" class="img img-responsive animated bounceInLeft"
+      alt="" id="img_titre_bi" /> -->
+      <img src="/website_ingenosya/static/src/img/pages/a2.jpeg" class="img img-responsive" alt="Business Intelligence - BI" id="img_titre_bi" />
+    </div>
+    <!-- <div class="col-md-6 mt16 mb16 animated bounceInRight"> -->
+    <div class="col-md-6 mt16 mb16">
+      <div class="col-text">
+        <p class="text-justify">Cette prestation s’adresse aux entreprises qui ont un système d’information
+        opérationnel et qui doivent y ajouter des applications décisionnelles, souvent métier par métier.</p>
+        <p class="text-justify"> La compétence d’Ingenosya s’exerce autour de :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La mise en œuvre de produits Open Source (Pentaho, Vanilla, Talend, JasperReports) </p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La mise en œuvre des outils Microsoft BI (Business Intelligence) et QlikView</p>
+        <p class="text-justify"> Quelle que soit la technologie retenue, la prestation d’Ingenosya comprend :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Assistance aux choix technologiques et en architecture
+        (ETL, Pilotage, Reporting, OLAP, …)</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Conception et réalisation des entrepôts de données
+        (datawarehouse) et des processus d’alimentation</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Conception et le développement des restitutions
+        utilisateurs (cubes, outils reporting, outils de simulation, états, dashboards,…)</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Prestations d’administration des applicatifs
+        décisionnels dans une logique de Tierce Maintenance Applicative</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div class="col-md-12 text-center">
+        <h3 class="text-primary">Technologies :</h3>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/pentaho.png" class="img img-responsive" alt="Technologies" id="img_pentaho" />
+        <div class="icon_box_content">
+          <h4>PENTAHO :</h4>
+          <p>Java J2EE, JDBC, JNDI, JSR-170, JSP, HTML, XSL, et XML – Tous SGBDR</p>
+        </div>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/vanilla1.png" class="img img-responsive" alt="Technologies" id="img_vanilla" />
+        <div class="icon_box_content">
+          <h4>VANILLA :</h4>
+          <p>Open source français, JAVA, GWT, Eclipse RCP, MySQL – Tous SGBDR</p>
+        </div>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/talend1.png" class="img img-responsive" alt="Technologies" id="img_talend" />
+        <div class="icon_box_content">
+          <h4>TALEND :</h4>
+          <p>Java J2EE, JDBC – Tous SGBDR</p>
+        </div>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/JasperReports.png" class="img img-responsive" alt="Technologies" id="img_jasper" />
+        <div class="icon_box_content">
+          <h4>JasperReports</h4>
+        </div>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/powerbi.png" class="img img-responsive" alt="Technologies" id="img_powerbi" />
+        <div class="icon_box_content">
+          <h4>MICROSOFT BI :</h4>
+          <p>langages dot Net, MS SQL SERVER 2008</p>
+        </div>
+      </div>
+      <div class="col-md-2 mt16">
+        <img src="/website_ingenosya/static/src/img/pages/Qlik.png" class="img img-responsive" alt="Technologies" id="img_qlik" />
+        <div class="icon_box_content">
+          <h4>QlikView, QlikSense</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="col-md-12 text-center">
+        <h3 class="text-center text-primary">Mise en œuvre de produits Business Intelligence en Open Source</h3>
+      </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="text-justify">Ingenosya dispose de l’expertise des suites logicielles Open Source PENTAHO BI , VANILLA, TALEND, JasperReports qui comprennent la panoplie des outils permettant de concevoir, réaliser, mettre en œuvre puis personnaliser un système décisionnel :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un moteur de reporting, avec un
+          logiciel graphique de conception de rapports. Il sera possible pour l’utilisateur de créer ses propres
+        rapports, mais un minimum de connaissances en SQL est requis.</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un outil de conception de
+          metamodels, outil de définition métier d'une base de données relationnelle, permettant de requêter sur
+        cette base sans connaissance technique.</p>
+      </div>
+      <div class="col-md-6">
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un moteur d'analyse
+          multidimensionnelle, permettant l'analyse de très grand volume de données, toujours très simplement pour
+        l'utilisateur</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un accès aux documents décisionnels
+        via un portail web sécurisé</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un outil d'alimentation et de
+        transformation (ETL), ETL très simple à prendre en main.</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Un outil de datamining</p>
+      </div>
+    </div>
+    <p class="text-justify">Il n’y a pas de licences particulières à acquérir par l’utilisateur final.</p>
+  </div>
+  <div>
+    <h3 class="text-center text-primary">Mise en œuvre des outils Microsoft Business Intelligence</h3>
+    <p class="text-justify">Ingenosya, votre société en ingénierie informatique, ingénierie logicielle, dispose de
+      l’expertise des suites logicielles BI de Microsoft SQL Server 2008, qui comprennent la panoplie des outils
+    permettant de concevoir, réaliser, mettre en œuvre puis personnaliser un système décisionnel :</p>
+    <div class="row">
+      <div class="col-md-6 mt16">
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Un outil d’intégration et de
+        transformation de données (ETL) – SSIS – SQL Server Integration Services</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Une base de données pour le
+        datawarehouse – SQL Server 2008</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Un moteur multidimensionnel (cubes
+        OLAP) – SSAS – SQL Server Analysis Services</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Une plateforme complète de
+          reporting d’entreprise gérant stockage, sécurisation, création et diffusion de rapports – SSRS – SQL
+        Server Reporting Services</p>
+        <p class="text-justify mb0">Cette offre requiert l’acquisition de la licence Microsoft par l’utilisateur final.</p>
+      </div>
+      <div class="col-md-6 mt16">
+        <img src="/website_ingenosya/static/src/img/specialites/bi.png" class="img img-responsive" alt="Microsoft Business Intelligence - BI" id="img_bi1" />
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <h3 class="text-center text-primary">Mise en œuvre des outils QlikView</h3>
+    <p class="text-justify">Ingenosya société de sous traitance en informatique à Madagascar, dispose des compétences en QlikView. La différence de QlikView par rapport aux autres outils BI est qu’il fournit des analyses d'activité "in-memory" rapides, puissantes et visuelles. QlikView représente la nouvelle génération de business intelligence :</p>
+    <div class="row">
+    <div class="col-md-6 mt16">
+      <h4 class="text-justify"> Analyse Opérationnelles</h4>
+      <p class="text-justify"> QlikView rend les analyses sophistiquées plus intelligentes en :</p>
+        <div>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Créant des champs pour des paramètres substituables, qui gardent les données en mémoire et peuvent être traitées comme toute autre donnée</p>
+          <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Permettant l'entrée/l'édition de données dans des champs de paramètres substituables et distribuées pour des agrégations si nécessaire</p>
+        </div>
+      <h4 class="text-justify"> Analyses Collaboratives</h4>
+      <p class="text-justify"> QlikView soutient le business intelligence collaboratif à travers :</p>
+      <div>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Des documents, des favoris et des rapports privés et partagés</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> QlikView Server agit comme un "hub" central pour gérer les objets partagés</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Des favoris sur lesquels il suffit de cliquer pour les envoyer par email</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Des analyses développées localement, partagées sur des serveurs locaux</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Une totale intégration de QlikView à des applications client telles que Microsoft® Office™</p>
+      </div>
+      <h4 class="text-justify"> Déploiement de Masse</h4>
+      <p class="text-justify"> QlikView rationnalise le déploiement de masse grâce à :</p>
+      <div>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> La génération automatique de pages web pour tous les trois clients objet (Clients AJAX Zero-Footprint, Java Objects, et QlikX)</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Des besoins serveur simplifiés pour QlikView Server et QlikView Publisher, le module qui automatise le rafraîchissement des données et assure les accès appropriés pour les utilisateurs spécifiques</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Une interface services web pour QlikView Server</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Une installation optimisée et simplifiée</p>
+      </div>
+    </div>
+    <div class="col-md-6 mt16">
+      <h4 class="text-justify"> Déploiement Massif de Document</h4>
+      <p class="text-justify"> La multiplication de QlikView à la fois au sein de l'entreprise et dans l'entreprise "étendue" a créé une demande de plus forte intégration entre QlikView Server et QlikView Publisher. QlikView le réalise de la manière suivante :</p>
+      <div>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Installation intégrée pour QlikView Server et QlikView Publisher Standard Edition</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Accès direct aux documents gérés par QlikView Server et QlikView Publisher via le client QlikView</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Synchronisation des distributions de QlikView Server et QlikView Publisher</p>
+      </div>
+      <img src="/website_ingenosya/static/src/img/specialites/Qlik1.jpg" class="img img-responsive" alt="Qlik View" id="img_bi1" />
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!-- Template Web et applications mobiles -->
+<template id="website.web-et-applications-mobiles" name="Web et applications mobiles" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+  <div class="col-md-2">
+    <t t-call="website.sidebar-specialites"/>
+  </div>
+  <div class="col-md-10">
+    <h1 class="text-center text-primary animated zoomIn tous_les_titres">Web et applications mobiles</h1>
+    <p>De nombreuses applications du web pour des fonctionnalités et des métiers divers ont été développées par
+        Ingenosya, votre société offshore informatique à Madagascar :
+    </p>
+
+    <div class="row">
+      <!-- <div class="col-md-6 animated zoomIn"> -->
+      <div class="col-md-6">
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Ecommerce et vente à distance, avec
+        paiement en ligne</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>CRM</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>GMAO</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Distributeurs automatiques</p>
+      </div>
+      <!-- <div class="col-md-6 animated zoomIn"> -->
+      <div class="col-md-6">
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Portails</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Annuaires</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Production, stockage, diffusion et
+        traitement multimédia</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>...</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr />
+      </div>
+    </div>
+
+    <p>Quelques filières de développement sont principalement pratiquées pour les développements Web :</p>
+    <div class="row" id="contenu_web3">
+      <!-- <div class="col-md-6 animated fadeInLeft"> -->
+      <div class="col-md-6">
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>PHP sous Linux ou Windows, Apache
+        et IIS, et bases de données MySQL, Oracle, SQL Server</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Java J2EE, sous Tomcat, Jboss,
+        frameworks Struts, Spring, hibernate… Base de données MySql, Oracle n, atelier Eclipse </p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Dot Net 3.0 et suivantes, C#,
+        Silverlight, VB.net, SQL server 2005, 2008, 2010 </p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>ASP Net </p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Mise en œuvre de Web Services</p>
+      </div>
+      <div class="col-md-6">
+        <!-- <img src="/website_ingenosya/static/src/img/specialites/web2.png" class="img img-responsive animated fadeInRight"
+        alt=""  /> -->
+        <img src="/website_ingenosya/static/src/img/specialites/web2.png" class="img img-responsive" alt="Développements site web - Développements site internet"  />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr />
+      </div>
+    </div>
+
+    <div class="row" id="contenu_web4">
+      <div class="col-md-4">
+        <img src="/website_ingenosya/static/src/img/pages/web10.png" class="img img-responsive" alt="Développements site web - Développements site internet" id="img_web10" />
+      </div>
+      <div class="col-md-4 para_web5">
+        <p class="text-justify">En complément des applications Web, Ingenosya, votre prestataire informatique à
+          Madagascar, s’est doté d’une expertise en développement d’applications mobiles pour les Smartphones, afin
+        de compléter les moyens de mises en relations des usagers des systèmes d’information Web.</p>
+        <p class="text-justify">Ingenosya développe des applications pour Androïd, Iphone et Windows Phone, avec
+        les outils standards du marché tels que :</p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>L’atelier Eclipse avec le plugin
+        ADT pour android, </p>
+        <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>xCode (objective-C) sous mac Os X,</p>
+        <p class="text-justify mb0"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Xaramin</p>
+        <p class="text-justify mb0"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Ionic</p>
+        <p class="text-justify mb0"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> HTML5</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</t>
+</template>
+
+<!-- Template ODOO chez INGENOSYA -->
+<template id="website.odoo-chez-ingenosya" name="Odoo chez INGENOSYA" page="True">
+<t t-call="website.layout">
+<div class="container mb32">
+<div class="row">
+    <div class="col-md-2">
+      <t t-call="website.sidebar-specialites"/>
+    </div>
+    <div class="col-md-10">
+      <h1 class="text-center text-primary animated zoomIn tous_les_titres">Odoo chez INGENOSYA</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img src="/website_ingenosya/static/src/img/pages/odoo1.png" class="img img-responsive animated fadeInLeft"
+          alt="" id="img-odoo1" /> -->
+          <img src="/website_ingenosya/static/src/img/pages/odoo1.png" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo1" />
+        </div>
+        <!-- <div class="col-md-6 animated fadeInRight" style="animation-delay: 1s;"> -->
+        <div class="col-md-6">
+          <h3 class="text-justify text-primary">Comment utilise-t-on l’ERP Odoo chez INGENOSYA ?</h3>
+          <p class="text-justify">INGENOSYA a décidé de s’appuyer sur l’ERP Odoo open source (autrefois Open ERP)
+            pour construire son système d’information commercial, du web jusqu’au back office comptable. Cette
+            démarche personnelle a donné une forte expérience d’intégration de ce puissant outil qui permet à
+            INGENOSYA de proposer à ses clients de les aider à construire leur propre système d’information
+          commercial.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- <div class="col-md-6 animated fadeInLeft" style="animation-delay: 1.5s;"> -->
+        <div class="col-md-6">
+          <h3 class="text-justify text-primary">Qu’est-ce qu’Odoo ?</h3>
+          <p class="text-justify">Odoo est un ERP Open Source constitué d’une longue liste d’applications
+            optionnelles et compatibles. Il permet de finaliser rapidement une solution intégrée adaptée à chaque
+            type d’activité, en partant d’un site web de relation et ventes en ligne jusqu’à l’organisation de la
+          production.</p>
+          <p class="text-justify">Son interface 100% Web et responsive design permet d’accéder à la base de données
+            de l’entreprise, à tout moment et de n’importe où avec n’importe quel terminal muni d’un navigateur
+            internet (PC, Smart phone, tablette …). C’est l’un des ERP les plus modernes performants et complets du
+            marché.Voir<a href="https://www.odoo.com" target="_blank"> www.odoo.com</a></p>
+        </div>
+        <div class="col-md-6">
+          <!-- <img src="/website_ingenosya/static/src/img/specialites/odoo_contenu2.png" class="img img-responsive animated fadeInRight"
+          style="animation-delay: 2s;" alt="" id="img-odoo2" /> -->
+          <img src="/website_ingenosya/static/src/img/specialites/odoo_contenu2.png" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo2" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 para_odoo3">
+          <h3 class="text-center text-primary ">Démarche d’intégration des modules de Odoo</h3>
+          <p class="text-justify">Avec Odoo, pas besoin de faire une révolution immédiate dans une entreprise. Il
+          suffit d’intégrer progressivement les applications au rythme voulu.</p>
+          <p class="text-justify">Ainsi, cette approche modulaire a permis à INGENOSYA de commencer avec quelques
+            modules et de continuer à en ajouter au fil de l’eau dans le but d’améliorer en permanence notre
+          productivité.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="border-odoo">
+            <h3 class="text-primary text-center">Module Web avec CMS et CRM</h3>
+            <p class="text-justify">Nous avons refait notre site web <a href="http://ingenosya.com/ingenosya/homepage">www.ingenosya.com</a>
+            avec le module de Odoo qui nous apporte simultanément ses propriétés CMS (modifications externes des
+            textes), Responsive design (adaptation automatique des pages au format des écrans de mobile), suivi des
+          demandes de contact et de devis.</p>
+            <p class="text-justify para">La production des bons de commande est intégrée dans la relation client. La
+              gestion de catalogue et de vente en ligne avec paiement est une option ajoutable rapidement pour ceux qui
+            ont une démarche de production et vente de produits.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="border-odoo">
+            <h3 class="text-primary text-center">Gestion de projet et Ressources humaines</h3>
+            <p class="text-justify">Tous nos projets sont suivis par Odoo, que les travaux soient au forfait ou en
+              régie.
+              Chaque ingénieur est affecté à un ou plusieurs projets et doit publier régulièrement ses
+              imputations dans des feuilles de temps gérées en ligne par Odoo. Ces données sont injectées dans le
+              module de gestion de projet qui donne un état précis de l’avancement et des consommations dont nous
+            informons nos clients.</p>
+            <p class="text-justify">Pour les ingénieurs travaillant en régie, l’utilisation du module Gestion de projet
+            nous permet de passer automatiquement à la facturation de nos clients au temps passé.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="row" id="contenu-odoo-mdl-facture">
+      <div class="col-md-12">
+        <h3 class="text-primary text-center">Le module Facturation et Comptabilité</h3>
+        <p class="text-justify">Avec ce module, on crée et gère toutes les factures clients et fournisseurs. On y
+          gère également les avoirs, les reçus de ventes et les paiements. Les rapports officiels et rapports
+        financiers se mettent à jour en temps réel.</p>
+        <p class="text-justify">Les données de facturation et de paiement sont injectées dans le module
+          Comptabilité qui nous permet de travailler dans plusieurs devises séparément, et pour chacune des
+        sociétés du groupe INGENOSYA.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <h3 class="text-primary text-center">Hébergement du service</h3>
+      <div class="col-md-6 para_odoo5" data-animate-scroll="{'x': '-200','y': '0', 'alpha': '0', 'duration': '.5'}"
+        style="transform: translate3d(0px, 0px, 1px); visibility: inherit; opacity: 1; transform-style: flat;">
+        <p class="text-justify">La forme Open Source autorise plusieurs formes d’hébergement du service réalisé </p>
+        <p class="text-justify">1) sur une plateforme client directement connectée à Internet </p>
+        <p class="text-justify">2) chez tout hébergeur offrant des abonnements de type serveur, VPS, ou cloud</p>
+        <p class="text-justify">3) chez Odoo avec sa formule d’hébergement en mode SaaS</p>
+      </div>
+      <div class="col-md-6">
+        <img src="/website_ingenosya/static/src/img/specialites/odooo.png" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo5" />
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-primary text-center">Autres fonctionnalités</h3>
+        <p class="text-justify">Odoo est un ERP puissant et complet qui vous permet de :</p>
+        <p class="text-justify">Augmenter vos ventes - Créer des sites web - Suivre des dépenses - Booster son
+        marketing Et bien plus …</p>
+      </div>
+    </div>
+
+    <div class="row module-odoo1">
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/1.png" class="img img-responsive icon-odoo "
+      alt="Module e-commerce odoo" id="img-odoo-gallery1" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/2.png" class="img img-responsive icon-odoo "
+      alt="Module ventes odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/3.png" class="img img-responsive icon-odoo "
+      alt="Module achats odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/4.png" class="img img-responsive icon-odoo "
+      alt="Module point de vente odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/5.png" class="img img-responsive icon-odoo "
+      alt="Module mailling odoo" id="" /></div>
+    </div>
+
+    <!-- Template separateur de code -->
+    <div class="row module-odoo1">
+      <div class="col-md-12">
+        <hr />
+      </div>
+    </div>
+
+    <div class="row module-odoo1">
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/10.png" class="img img-responsive"
+      alt="Module web odoo" id="img-odoo-gallery1" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/6.png" class="img img-responsive"
+      alt="Module stock odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/7.png" class="img img-responsive"
+      alt="Module projet odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/8.png" class="img img-responsive"
+      alt="Module ressources humaines odoo" id="" /></div>
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/9.png" class="img img-responsive"
+      alt="Module facturation comptabilité odoo" id="" /></div>
+    </div>
+
+    <div class="row module-odoo2">
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/1.png" class="img-odoo" alt="Module e-commerce odoo" />
+      </div>
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/2.png" class="img-odoo" alt="Module ventes odoo" />
+      </div>
+    </div>
+    <div class="row module-odoo2">
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/3.png" class="img-odoo" alt="Module achats odoo" />
+      </div>
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/4.png" class="img-odoo" alt="Module point de vente odoo" />
+      </div>
+    </div>
+    <div class="row module-odoo2">
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/5.png" class="img-odoo" alt="Module mailling odoo" />
+      </div>
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/10.png" class="img-odoo" alt="Module web odoo" />
+      </div>
+    </div>
+    <div class="row module-odoo2">
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/6.png" class="img-odoo" alt="Module stock odoo" />
+      </div>
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/7.png" class="img-odoo" alt="Module projet odoo" />
+      </div>
+    </div>
+    <div class="row module-odoo2">
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/8.png" class="img-odoo" alt="Module ressources humaines odoo" />
+      </div>
+      <div class="element-odoo">
+        <img src="/website_ingenosya/static/src/img/specialites/9.png" class="img-odoo" alt="Module facturation comptabilité odoo" />
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</t>
+</template>
+
+<template id="website.sidebar-references" name="Références">
+<div class="sidebar-class">
+    <!-- <span href="#reference" class="list-group-item title-sidebar">Références</span> -->
+    <a href="#java" class="list-group-item scroll-reference">Java / J2EE
+      <img alt="Java - J2EE" class="image-responsive pull-right  scroll-reference" src="/website_ingenosya/static/src/img/references/java.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#net" class="list-group-item scroll-reference">.NET
+      <img alt=".NET" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/net.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#appmobile" class="list-group-item scroll-reference">Applications Mobiles
+      <img alt="Applications mobiles" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/mobile.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#php" class="list-group-item scroll-reference">PHP
+      <img alt="PHP" class="image-responsive pull-right scroll-reference" src="/website_ingenosya/static/src/img/references/php.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#bi" class="list-group-item scroll-reference">Business Intelligence
+      <img alt="Business Intelligence" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/bi.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#erp" class="list-group-item scroll-reference">ERP, CRM
+      <img alt="ERP - CRM - Odoo" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/erp.png" style="max-height:25px; max-width:25px;"/></a>
+    <a href="#odoo" class="list-group-item scroll-reference">Odoo
+      <img alt="Odoo" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/odoo.png" /></a>
+  </div>
+</template>
+
+<!-- Page TABLEAU REFERENCE -->
+<template id="website.references" name="Références" page="True">
+<t t-call="website.layout">
+<div class="container">
+<div class="row">
+<div class="col-md-2">
+  <t t-call="website.sidebar-references"/>
+</div>
+<div class="col-md-10">
+  <div>
+    <h1 class="text-center text-primary animated zoomIn tous_les_titres">Références</h1>
+    <div class="">
+      <div class="">
+        <div class="animation_table">
+          <h3 class="text-center text-muted sous_titre_tableau" id="java">Quelques références en Java / J2EE</h3>
+          <table class="table table-bordered contenu_references">
+            <tbody>
+              <tr>
+                <td>Refonte d’une application de centralisation, d’archivage des documents, d’agrégation et
+                d’exploitation de données financières concernant les sociétés cotées en bourse</td>
+                <td>Java 8, Spring Boot 1.4, Hibernate 5, API REST, Gradle 3.3, Slf4j, JUnit 4, NodeJS, Angular
+                  4,
+                Typescript, Bootstrap, PostgreSQL 9.4</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application web de location de balises et de réquisitions judiciaires</td>
+                <td>JAVA J2EE, maven, Mockito, REST Services, JUnit, Jenkins, SonarQube, GitHub</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application permettant aux agents enquêteurs d’effectuer les enquêtes sur
+                terrain et de travailler en autonome sans réseau Internet à partir d’un notebook.</td>
+                <td>Java 8, REST, SQLLite</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application de diffusion de publicité vidéo à travers des sites
+                journalistiques et sites de jeux</td>
+                <td>Java 7, Spring MVC 4, hibernate 5, JSP, BIRT, Bootstrap, jQuery, MySQL</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application permettant de gérer les abonnés d’une compagnie d’électricité</td>
+                <td>Spring 4, Hibernate, ACEGI, JSTL, Hibernate, MariaDB, Maven, Wildfly 10, Libreoffice, SOAP</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application permettant de gérer la liaison entre un compte bancaire et un
+                compte mobile money</td>
+                <td>Spring 4, Hibernate, JasperReport, ACEGI, JSTL, Hibernate, MariaDB, Maven, Tomcat 7,
+                SOAP,Mysql</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="text-center text-muted sous_titre_tableau" id="net">Quelques références en .Net</h3>
+          <table class="table table-bordered contenu_references">
+            <tbody>
+              <tr>
+                <td>Développement de plusieurs composants de digitalisation et de dématérialisation de documents</td>
+                <td>Visual Studio 2005, 2008, 2010 C#, ASP Net MVC, SQL Server 2008</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application de street marketing</td>
+                <td>Xamarin C#, API REST SlimPay, API PayPal</td>
+              </tr>
+              <tr>
+                <td>Développement d’un système de journalisation des opérations effectuées par des applications
+                Intranet déployées au sein de systèmes informatiques multi-sites et multi-applications.</td>
+                <td>ESB Cross Vision, MS SQL Server 2005, JBOSS 4.0.4 GA, annuaire LDAP, .Net, Java, SOAP, C#</td>
+              </tr>
+              <tr>
+                <td>Développement d’une application mobile multiplateforme (ios et Android) de réservation de
+                places en crèche</td>
+                <td>C#, Xamarin, Api Google Map, Webservice REST, Json, SQLite, SVN.</td>
+              </tr>
+              <tr>
+                <td>Conception et Réalisation d’une application View and Reporting concernant des informations
+                systèmes et réseaux.</td>
+                <td>JQuery, Kendo UI, ASP .net MVC, ADO .net, Castle, SQL Server 2010.</td>
+              </tr>
+              <tr>
+                <td>Conception et réalisation de l’outil de prévision de production</td>
+                <td>C#, ASP.Net, MS SQLServer, ERP X3, Crystal Report</td>
+              </tr>
+              <tr>
+                <td>Développement d’un logiciel permettant la gestion et le contrôle des étrangers
+                  (entrée/sortie)
+                utilisés par tous les aéroports de Madagascar</td>
+                <td>VB.NET, Visual Studio 2005, MS SQL SERVER 2005<br /><br /></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="text-center text-muted sous_titre_tableau" id="appmobile">Quelques références en applications mobiles</h3>
+          <table class="table table-bordered contenu_references">
+            <tbody>
+              <tr>
+                <td>Application permettant d’effectuer les enquêtes sur terrain et de travailler en
+                  autonome
+                  sans réseau Internet à partir d’un smartphone, notebook ou tablette.
+                </td>
+                <td>Android Smartphone, Tablette Android SDK, SQLLite, PHP, MySQL
+                </td>
+              </tr>
+              <tr>
+                <td>Système de mise à disposition et de consultation de vidéos publicitaires en
+                  contrepartie
+                  de l’achat d’un bien dématérialisé (jeux, musique, logiciel, etc…).
+                </td>
+                <td>iOs et Android Smartphone, Tablette Objective C , outils xCode, Android SDK Java,
+                  Spring,
+                  Hibernate, MySQL, Flex, DailyMotion, Youtube, BlazeDs
+                </td>
+              </tr>
+              <tr>
+                <td>Outil de suivi des élèves de collège et de lycée par leurs parents par la lecture des
+                  bulletins de notes, des commentaires, des programmes et contenus des cours, fiches de
+                  présence, absence et retards des élèves
+                </td>
+                <td>iPhone, iPad Objective C, Web service par JSON, PostgreSQL, Ruby.
+                </td>
+              </tr>
+              <tr>
+                <td>Présentation des coins touristiques aux alentours
+                </td>
+                <td>Android GoogleMaps, JSON, Service web REST, Glassfish, EJB, JPA
+                </td>
+              </tr>
+              <tr>
+                <td>Application permettant de réserver en ligne les créneaux d'accueil dans une crèche.
+                  Consultation des photos et actualités publiées par le personnel de la crèche.
+                  Notification
+                  dès qu’une place se libère.
+                </td>
+                <td>iOs et Android XAMARIN, C#, PHP , MySQL
+                </td>
+              </tr>
+              <tr>
+                <td>Application mobile de gestion des Publicités sur Lieu de Vente et de contrôle de
+                  l’efficacité d’une publicité sur les lieux de vente et la relation avec les distributeurs
+                </td>
+                <td>iOs et Android Smartphone et Tablette Eclipse v3.6 avec plugin ADT , xCode version 5.1
+                avec SDK iOS 7.1, JSON, PHP, MySQL </td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="text-align: center;">
+            <h3 class="text-center text-muted sous_titre_tableau" id="php">Quelques références en PHP</h3>
+            <table class="table table-bordered contenu_references">
+              <tbody>
+                <tr>
+                  <td>CRM (Gestion relationnel de client) avec AMSTER GROUP.</td>
+                  <td>PHP, PostgreSQL, MySQL, Apache , AJAX et plusieurs Frameworks</td>
+                </tr>
+                <tr>
+                  <td>Réalisation d’un site intranet/extranet de gestion de relation client pour un prestataire
+                    de
+                  service des pétroliers.</td>
+                  <td>Windows2000, Apache, MySQL, PHP, JavaScript</td>
+                </tr>
+                <tr>
+                  <td>Réalisation d’une application en ligne (site web) d’offre d’emplois et de gestion des CVs
+                  reçus.</td>
+                  <td>PHP, JELIX, MYSQL</td>
+                </tr>
+                <tr>
+                  <td>Site institutionnel d'une banque</td>
+                  <td>PHP, MYSQL</td>
+                </tr>
+                <tr>
+                  <td>Réalisation de 2 sites web « Allée des Baobabs » et « Saha Forest Camp »</td>
+                  <td>Flash, PHP, MySQL</td>
+                </tr>
+                <tr>
+                  <td>Réalisation de la lettre d’information interne bi-mensuelle 5/5 avec 2 versions Nationale
+                    et
+                  Locale pour une société de télécommunication</td>
+                  <td>IIS, ASP, JavaScript, Ms ACCESS</td>
+                </tr>
+                <tr>
+                  <td>Développement d’une plateforme de vidéoconférence en groupe et d’outils de e-learning</td>
+                  <td>PHP, MySQL</td>
+                </tr>
+                <tr>
+                  <td>Développement d’un site de réservation de packages de voyages (Transport / hôtels) pour la
+                  société PHILEOG.</td>
+                  <td>PHP, Smarty, JavaScript, HTML, MySQL, Payline<br /><br /><br /></td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="text-center text-muted sous_titre_tableau" id="bi">Quelques références en Business
+            Intelligence</h3>
+            <div style="text-align: left;">
+              <table class="table table-bordered contenu_references">
+                <tbody>
+                  <tr>
+                    <td>Développement d’un outil de gestion efficiente des flottes de lignes Télécoms avec la
+                    capacité d’éditer les rapports d’usages et de consommations</td>
+                    <td>iReport, JASPerReport, MySQL</td>
+                  </tr>
+                  <tr>
+                    <td>Mise en place d’un système intégré d’information et de statistiques touristiques de
+                    Madagascar</td>
+                    <td>PENTAHO, MySQL</td>
+                  </tr>
+                  <tr>
+                    <td>Conception de toutes les requêtes de l’Infocentre en s’appuyant sur le SI bancaire
+                    Amplitude</td>
+                    <td>Requetor, Oracle</td>
+                  </tr>
+                  <tr>
+                    <td>Développement de rapports du progiciel de gestion de ressources humaines ORHUS.</td>
+                    <td>iReport, JASPerReport, Oracle</td>
+                  </tr>
+                  <tr>
+                    <td>Mise en place du système d’information décisionnelle capable de générer les tableaux de
+                      bord sur l’ensemble du système d’information : systèmes de gestion, comptabilité, gestion
+                      de
+                    trésorerie, gestion des immobilisations, gestion des stocks, gestion de RH.</td>
+                    <td>PENTAHO, Vanilla, BIRT, Oracle.</td>
+                  </tr>
+                  <tr>
+                    <td>Mise en place d’une application Business Intelligence pour les départements Ventes et
+                    Supply Chain (domaine agroalimentaire).</td>
+                    <td>Outils BI de Microsoft SSIS, SSAS, SSRS, MOSS SharePoint Server.</td>
+                  </tr>
+                  <tr>
+                    <td>Développement sous Business Object des états pour le compte de IDG Douane (Roubaix -
+                    FRANCE).</td>
+                    <td>Business Object, Oracle.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div style="text-align: center;">
+                <h3 class="text-center text-muted sous_titre_tableau" id="erp">Quelques références en ERP, CRM
+                </h3>
+                <table class="table table-bordered contenu_references">
+                  <tbody>
+                    <tr>
+                      <td>
+                        Développement ou migration de CRM basés sur le framework OPENCRM.
+                      </td>
+                      <td>Eclipse Ganymède, OpenCRM, PostgreSql
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Réalisation d’une application intranet de gestion d’approvisionnements :
+                        réapprovisionnement en stock, lancement des achats, demandes de consommation
+                      </td>
+                      <td>Développements spécifiques</td>
+                    </tr>
+                    <tr>
+                      <td>Conception et développement de la version 3G troisième génération du logiciel INCOM sur
+                        la base d’une plateforme J2EE : <br />
+                        <ul>
+                          <li>Gestion de l’approvisionnement</li>
+                          <li>Gestion des achats (stocks, transfert, inventaires)</li>
+                          <li>Gestion des devis, commandes, factures, livraisons</li>
+                          <li>Gestion des produits, des tiers (clients et fournisseurs)</li>
+                          <li>Gestion budgétaire et financière</li>
+                          <li>Gestion des immobilisations (patrimoine, biens, équipements)</li>
+                          <li>Gestion des agendas</li>
+                        </ul>
+                      </td>
+                      <td>Développements spécifiques</td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place d’un système d’information de gestion complet :<br />
+                        <ul>
+                          <li>Comptabilité et finances</li>
+                          <li>Gestion des ressources humaines</li>
+                          <li>Tableaux de bords marketing et financier</li>
+                          <li>Gestion de stocks et approvisionnements</li>
+                          <li>Gestion hôtelière</li>
+                        </ul>
+                      </td>
+                      <td>Développements spécifiques</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div style="text-align: center;">
+                <h3 class="text-center text-muted sous_titre_tableau" id="odoo">Quelques références en Odoo
+                </h3>
+                <table class="table table-bordered contenu_references">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>Mise en place des modules Odoo 10 : achats, stocks, Ventes, comptabilité et finance</li>
+                          <li>Développement de rapports spécifiques pour les factures clients et les bons de sortie d’articles</li>
+                          <li>Développement d'une tâche cron permettant de sauvegarder automatiquement et périodiquement les inventaires des articles detenus par les clients</li>
+                          <li>Développements spécifiques pour la génération de factures par rapport au durée de location d'articles</li>
+                        </ul>
+                      </td>
+                      <td>Odoo 10, Python, XML, Github, PostgreSQL
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>Maintenance du Module commercial</li>
+                          <li>Mise en place d’un module pour le suivi clientèle</li>
+                          <li>Synchronisation niveau contractuel avec un webservice</li>
+                          <li>Actualisation tarifaire automatique des contrats avec Indice Syntec</li>
+                        </ul>
+                      </td>
+                      <td>Odoo 10, Python, Javascript, XML, Gitlab, PostgreSQL
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place de Odoo 10 : achats, approvisionnement, stocks, immobilisation,
+                        assemblage,
+                        distribution, RH, personnel, Paie, Interface avec QuickBooks et HDSI2
+                      </td>
+                      <td>Odoo 10
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place de Odoo 10 : finance, immobilisation, achats, ventes, stocks, paie,
+                        production, helpdesk Reprise des données de SAGE
+                      </td>
+                      <td>Odoo 10
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place de Odoo 8 et 10 : site, ventes, projets, comptabilité, ressources
+                        humaines
+                        Plusieurs développements spécifiques dans tous les modules cités
+                      </td>
+                      <td>Odoo 8, 10
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place de Odoo 8 et 9: ventes, achats, entrepôts, ressources humaines, MRP,
+                        Plusieurs développements spécifiques dans tous les modules cités
+                      </td>
+                      <td>Odoo 8, 9
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Migration OpenERP v7 vers Odoo 8
+                      </td>
+                      <td>Odoo 7, 8</td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place d’un serveur Odoo 8<br />Modules P.O.S et stock<br />Vente<br />Comptabilité
+                        Développement : gestion de tables – gestion multi-vendeurs
+                      </td>
+                      <td>Odoo 8 </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          Mise en place de Odoo : finance <br/>
+                          Suivi des factures fournisseurs et workflow de validation correspondants <br/>
+                          Reprise des données de SA<br/>
+                      </td>
+                      <td>Odoo 10 </td>
+                    </tr>
+                    <tr>
+                      <td>Mise en place de Odoo - Module Commercial, Comptabilité et finance, Ressources humaines, Congés, Recrutement, Evaluations, Gestion des contrats, Gestion des dossiers, Gestion des lignes de prestation, Abonnement
+                      </td>
+                      <td>Odoo 10 </td>
+                    </tr>
+                    <tr>
+                      <td>Création de rapport PDF
+                      </td>
+                      <td>Odoo 12 </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</t>
+</template>
+
+<!-- Recrutement -->
+<template id="website.recrutement" name="Recrutement" page="True">
+  <t t-name="website_ingenosya.recrutement">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty"/>
+  </t>
+  </t>
+</template>
+
+
+
+
+<template id="website.sidebar-contact" name="Contact">
+<div class="sidebar-class">
+          <a href="/page/contact" class="list-group-item">Contact</a>
+          <a href="/page/recrutement" class="list-group-item">Recrutement</a>
+          <a href="/page/rejoignez-nous" class="list-group-item">Rejoignez-nous</a>
+          <a href="/page/poster-une-demande-de-devis" class="list-group-item">Poster une demande de devis</a>
+          <a href="/page/mentions-legales" class="list-group-item">Mentions légales</a>
+          <a href="/page/plan-du-site" class="list-group-item">Plan du site</a>
+        </div>
+</template>
+
+<!-- Template Rejoignez-nous -->
+<template id="website.rejoignez-nous" name="Rejoignez-nous" page="True">
+<t t-call="website.layout">
+   <div class="container mb32">
+    <div class="row">
+      <div class="col-md-2">
+        <t t-call="website.sidebar-contact"/>
+      </div>
+      <div class="col-md-10">
+        <h1 class="text-primary text-center animated zoomIn tous_les_titres">Rejoignez-nous</h1>
+        <div class="row">
+          <div class="col-md-12 text-center" data-name="Title">
+            <p class="text-justify">Ingenosya, votre société d’externalisation informatique à Madagascar, recrute
+              principalement des bac + 5 issus des écoles d’ingénieurs de Madagascar. Celles-ci ont des cycles et des
+              domaines de formation comparables à celui des écoles françaises. Parmi les plus grandes écoles
+            d’ingénieurs de Madagascar, on peut distinguer :</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mt16">
+            <div class="element-border">
+              <img src="/website_ingenosya/static/src/img/contact/eni.png" class="img-responsive" id="img_rg1" alt="Rejoignez-nous"/>
+              <p class="text-justify mt16">L’ENI installée à Fianarantsoa depuis 1983, est organisée en
+                deux départements qui sont la Formation de techniciens supérieurs en Maintenance des Systèmes
+              Informatiques (MSI) et la Formation d'Ingénieurs.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt16">
+            <div class="element-border">
+              <img src="/website_ingenosya/static/src/img/contact/ankatso.png" class="img-responsive" id="img_rg2" alt="Rejoignez-nous"/>
+              <p class="text-justify mt16">Fondée avec l'aide du projet PRESUP (Programme de Renforcement de
+                l'Enseignement SUPérieur) et la Coopération Française, la MISA est une formation à la fois académique et
+                professionnalisante ayant pour but de réhausser les compétences des étudiants en mathématiques et
+                administration d'entreprise en utilisant à bon escient les nouvelles technologies issues du progrès
+              informatique et de l'internet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mt16">
+            <div class="element-border">
+              <img src="/website_ingenosya/static/src/img/contact/ITU.png" class="img-responsive" id="img_rg3" alt="Rejoignez-nous"/>
+              <p class="text-justify mt16">IT University est un établissement d’enseignement supérieur privé
+                spécialisé en informatique, nouvellement créé, pour répondre aux besoins du secteur professionnel en
+              matière de nouvelles technologies.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt16">
+            <div class="element-border">
+              <img src="/website_ingenosya/static/src/img/contact/ispm.png" class="img-responsive" id="img_rg4" alt="Rejoignez-nous"/>
+              <p class="text-justify mt16">L'institut est organisé en plusieurs filières notamment la filière
+                Electronique, Systèmes Informatiques et Intelligence Artificielle (ESIIA) et la filière Informatique de
+              Gestion, Génie logiciel et Intelligence Artificielle (IGGLIA)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</t>
+</template>
+
+  <!--Template Mentions légales -->
+ <template id="website.mentions-legales" name="Mentions légales" page="True">
+ <t t-call="website.layout">
+  <div class="container">
+	  <div class="row mb32">
+		  <div class="col-md-2 ">
+		    <t t-call="website.sidebar-contact"/>
+		  </div>
+		  <div class="col-md-10">
+		    <h1 class="text-primary text-center animated zoomIn tous_les_titres">Mentions légales</h1>
+		    <div class="row">
+		      	<div class="col-md-6 para_mention1">
+			        <h4 class="text-primary text-underlined">France :</h4>
+			        <!-- <div class="line-shape" /> -->
+			          <div class="mention_legale">
+			          	<p><b>26 rue des Rigoles Paris 75020</b> </p>
+			            <p><b>Fidom Conseil SARL</b> 84.456,75€ </p>
+			            <p>Fidom Conseil détient et exploite la marque commerciale Ingenosya. </p>
+			            <p><b>RCS</b> Paris B 421152273 </p>
+			            <p><b>NAF</b> 6430Z </p>
+			            <p><b>Tél. :</b> +33 1 30 05 60 33 </p>
+			         </div>
+		      	</div>
+		      	<div class="col-md-6 para_mention2">
+		      		<h4 class="text-primary text-underlined">Madagascar :</h4>
+		          	<!-- <div class="line-shape" /> -->
+			        <div class="mention_legale">
+			        	<p><b>Lot III U 134 Anosizato EST, Antananarivo 101</b> </p>
+			            <p><b>SA</b> au capital de 116.000.000 MGA </p>
+			            <p><b>RC</b> 99B180 </p>
+			            <p><b>Statistique</b> n° 74133 11 1999 0 100 69 </p>
+			            <p><b>Tél. :</b> (261) 20 22 693 62. </p>
+			            <p>Ingenosya SA est détenu à 100% par Fidom Conseil </p>
+			         </div>
+	        	</div>
+			</div>
+		    <p><b>Directeur de la publication :</b> Jean Luc Rajaona</p>
+		    <p class="text-justify mb0">Le site est hébergé par OVH <a href="https://www.ovh.com" target="_blank">www.ovh.com</a> - 2 rue Kellermann -
+		      59100 Roubaix - France</p>
+		   </div>
+	   </div>
+   </div>
+</t>
+</template>
+
+<!-- Template  Plan du site -->
+<template id="website.plan-du-site" name="Plan du site">
+<t t-call="website.layout">
+    <div class="col-md-2 ">
+      <t t-call="website.sidebar-contact"/>
+    </div>
+    <div class="col-md-10">
+      <h1 class="text-center text-primary titre_plan_de_site animated zoomIn tous_les_titres">Plan du site</h1>
+      <div class="row">
+        <div class="col-md-4 plan_de_site">
+          <p class="text-center" id="btn_plan"><a href="/page/presentation" class="btn btn-default btn-lg">Présentation</a></p>
+          <p class="text-center"><a href="/page/a-qui-s-adresse-t-on" class="">A qui s'adresse t-on ?</a></p>
+          <p class="text-center"><a href="/page/departement-qualite" class="">Département Qualité</a></p>
+          <p class="text-center"><a href="/page/agilite" class="">Agilité</a></p>
+          <p class="text-center"><a href="/page/conformite-rgpd" class="">Conformité RGPD</a></p>
+          <p class="text-center" id="btn_plan1"><a href="/" class="btn btn-default btn-lg">Accueil</a></p>
+          <p class="text-center" id="btn_plan2"><a href="/page/prestations" class="btn btn-default btn-lg">Prestations</a></p>
+          <p class="text-center"><a href="/page/realisation-logiciel-au-forfait" class="">Réalisation logiciel au forfait</a></p>
+          <p class="text-center"><a href="/page/realisation-logiciel-par-iteration" class="">Réalisation
+          logiciel par itération</a></p>
+          <p class="text-center"><a href="/page/developpement-logiciel-en-regie" class="">Développement logiciel en régie</a></p>
+          <p class="text-center"><a href="/page/tierce-maintenance-applicative" class="">Tierce Maintenance Applicative</a></p>
+        </div>
+        <div class="col-md-4 plan_de_site">
+          <img src="/website_ingenosya/static/src/img/pages/plan_site.png" class="img img-responsive" alt="Plan du site" id="img_plan_site" />
+        </div>
+        <div class="col-md-4 plan_de_site">
+          <p class="text-center" id="btn_plan3"><a href="/page/specialites" class="btn btn-default btn-lg">Spécialités</a></p>
+          <p class="text-center"><a href="/page/entreprise-ressource-planning" class="">Enterprise Resource Planning</a></p>
+          <p class="text-center"><a href="/page/business-intelligence" class="">Business Intelligence</a></p>
+          <p class="text-center"><a href="/page/web-et-applications-mobiles" class="">Web et applications mobiles</a></p>
+          <p class="text-center"><a href="/page/odoo-chez-ingenosya" class="">Odoo chez INGENOSYA</a></p>
+          <p class="text-center" id="btn_plan4"><a href="/page/references" class="btn btn-default btn-lg">Références</a></p>
+          <p class="text-center" id="btn_plan5"><a href="/page/contact" class="btn btn-default btn-lg">Contact</a></p>
+          <p class="text-center"><a href="/page/recrutement" class="">Recrutement</a></p>
+          <p class="text-center"><a href="/page/rejoignez-nous" class="">Rejoignez-nous</a></p>
+          <p class="text-center"><a href="/page/poster-une-demande-de-devis" class="">Poster une demande de devis</a></p>
+          <p class="text-center"><a href="/page/mentions-legales" class="">Mentions légales</a></p>
+          <p class="text-center"><a href="/page/plan-du-site" class="">Plan du site</a></p>
+        </div>
+      </div>
+    </div>
+    </t>
+    </template>
+
+<!--Template Demande de devis -->
+<template id="website.poster-une-demande-de-devis" name="Poster une demande de devis" page="True">
+<t t-call="website.layout">
+    <script type="text/javascript">
+      function testRecaptcha() {
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            alert("Merci de cocher la case dans le captcha, s'il vous plaît.");
+            return false;
+        }
+        else {
+            return true;
+        }
+      }
+    </script>
+    <div id="wrap">
+      <div class="oe_structure" />
+        <div class="container devis">
+          <div class="row mb32">
+            <div class="col-md-2">
+              <t t-call="website.sidebar-contact"/>
+            </div>
+            <div class="col-md-10">
+              <h1 class="text-center text-primary animated zoomIn tous_les_titres">Poster une demande de devis</h1>
+              <form class="" enctype="multipart/form-data" method="POST" action="/page/envoyer-une-demande-de-devis" onreset="grecaptcha.reset();" onsubmit="testRecaptcha();">
+                <div class="row demande">
+                  <label class="col-md-4" for="société"> Nom société * </label>
+                  <div class="col-md-8">
+                    <input name="societe" class="form-control input-sm" t-att-value="ste" type="text" id="société" required="required" />
+                    <input name="csrf_token" type="hidden" t-att-value="request.csrf_token()" />
+                  </div>
+                </div>
+                <div class="row demande">
+                  <label class="col-md-4" for="nom"> Nom interlocuteur * </label>
+                  <div class="col-md-8">
+                    <input name="nom" class="form-control input-sm" type="text" t-att-value="nom" id="nom" required="required" />
+                  </div>
+                </div>
+                <div class="row demande">
+                  <label class="col-md-4" for="tel"> Téléphone * </label>
+                  <div class="col-md-8">
+                    <input name="tel" class="form-control input-sm" type="tel" t-att-value="tel" id="tel" required="required"
+                    pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"
+                    placeholder="ex: +261331234563" />
+                  </div>
+                </div>
+                <div class="row demande">
+                  <label class="col-md-4" for="email"> Email * </label>
+                  <div class="col-md-8">
+                    <input name="email" class="form-control input-sm" type="email" t-att-value="email" id="email" required="required"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="ex: alive@yahoo.fr" />
+                  </div>
+                </div>
+                <div class="row demande">
+                  <label class="col-md-4" for="besoin">Nature du besoin *</label>
+                  <div class="col-md-8">
+                    <textarea name="besoin" class="form-control input-sm" rows="4" id="besoin" required="required" />
+                  </div>
+                </div>
+                <div class="row demande">
+                  <label class="col-md-4" for="fichier">Fichier cahier des charges</label>
+                  <div class="col-md-8">
+                    <input name="ufile" type="file" class=" responsive-width" id="fichier" accept=".pdf,.jpg,.doc,.docx"/>
+                  </div>
+                </div>
+                <div class="row demande mt16">
+                  <label class="col-md-4" for="captcha">Captcha *</label>
+                  <div class="col-md-8">
+                    <div id="captcha_element"></div>
+                  </div>
+                </div>
+                <div>
+                  <span style="font-size: 11px;!important">*Champ obligatoire</span>
+                </div>
+                <div class="row demande">
+                  <div class="col-md-4">&amp;nbsp;</div>
+                  <div class="col-md-8">
+                    <input class="btn btn-primary" name="post" value="Valider" type="submit"/>
+                    <input class="btn btn-primary" name="cancel" value="Réinitialiser" type="reset"/>
+                  </div>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        <div class="oe_structure"/>
+        </div>
+
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit" async="async" defer="defer">
+        </script>
+
+        </t>
+        </template>
+
+    <!--Template demande de devis envoyée-->
+    <template id="website.demande-de-devis-envoyee" name="Demande de devis envoyée">
+    <t t-call="website.layout">
+      <div class="container mb32">
+        <div class="row">
+          <div class="col-md-2">
+            <t t-call="website.sidebar-contact"/>
+          </div>
+          <div class="col-md-10">
+            <div class="element-border2 text-center animated zoomIn">
+              <span>Merci de votre confiance, nous vous répondrons dans les plus brefs délais.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </t>
+      </template>
+
+	<!-- Prestations base -->
+	<template id="website.prestations" name="Prestations" page="True">
+        <t t-call="website.layout">
+          <div class="container mb32">
+          <div class="row">
+            <div class="col-md-2">
+           		<t t-call="website.sidebar-prestations"/>
+            </div>
+            <div class="col-md-10">
+              <h1 class="text-center text-primary animated zoomIn titleClickPrestations tous_les_titres">Prestations</h1>
+              <div class="row">
+                <div class="col-md-6 contenu_prestations_click mt16">
+                  <img src="/website_ingenosya/static/src/img/prestations/prestation.png" class="img img-responsive" alt="Prestations" id="img_prestations"/>
+                </div>
+                <div class="col-md-6 contenu_prestations_click1 mt16">
+                  <p class="text-justify">Tous les travaux techniques d’Ingenosya sont réalisés à Antananarivo, mais selon les circonstances, le personnel d’Ingenosya peut se déplacer pour de courtes durées (une à plusieurs semaines) sur le site client, sans que cela ne surcharge les coûts de façon trop importante. Les prestations contractuelles d’Ingenosya, votre société de développement informatique offshore, sont conçues pour répondre avec souplesse aux différents besoins :</p>
+                  <p class="text-justify">
+                  <ul>
+                    <li> Conseil en organisation de start up (business plan, recherche de fonds, formalisation des processus organisationnels, organisation en vue du CIR, …)</li>
+                    <li> Assistance technique au développement logiciel en régie</li>
+                    <li> Réalisation de logiciel au forfait, estimé sur la base d’un cahier des charges détaillé</li>
+                    <li> Tierce Maintenance Applicative</li>
+                  </ul>
+                  </p>
+                  <div class="social_forfait">
+                    <ul class="social-network social-circle">
+                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/prestations" target="_blank" class="icoFacebook" title="Facebook"><i
+                      class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/prestations" target="_blank" class="icoTwitter" title="Twitter"><i
+                      class="fa fa-twitter"></i></a></li>
+                      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/prestations&amp;title=Ingenosya&amp;" target="_blank"
+                      class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/prestations" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                      <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </t>
+        </template>
+
+     <!--Template spécialités base -->
+     <template id="website.specialites" name="Spécialités" page="True">
+        <t t-call="website.layout">
+        <div class="container mb32">
+        <div class="row">
+        <div class="col-md-2">
+          <t t-call="website.sidebar-specialites"/>
+        </div>
+        <div class="col-md-10">
+          <h1 class="text-center text-primary animated zoomIn titleClickSpecialites tous_les_titres">Spécialités</h1>
+          <div class="row">
+            <!-- <div class="col-md-6 animated fadeInLeft img_Double_click mt16"> -->
+            <div class="col-md-6 img_Double_click mt16">
+              <img src="/website_ingenosya/static/src/img/specialites/aa.png" class="img img-responsive" alt="Spécialités" id="img_specialites"/>
+            </div>
+            <!-- <div class="col-md-6 para_spec_base animated fadeInRight img_Double_click1 mt16"> -->
+            <div class="col-md-6 para_spec_base img_Double_click1 mt16">
+              <p class="text-justify">Ingenosya a développé plusieurs spécialités, souvent exercées au service de quelques métiers fonctionnels, réalisées sous une ou plusieurs technologies.</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i><a href="/page/entreprise-ressource-planning">ERP (Enterprise Resource Planning)</a>, progiciels intégrés de gestion d’entreprise qui nécessitent parfois des travaux de personnalisation, ou un développement spécifique quand un progiciel du marché ne répond pas au besoin</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i><a href="/page/business-intelligence">BI (Business Intelligence)</a>, conseil et réalisation pour la mise en place de solutions décisionnelles ou de business intelligence</p>
+              <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i><a href="/page/web-et-applications-mobiles">Web et applications mobiles</a>, conception, développement et maintenance d’applications Web (e-commerce, CRM, annuaires, portails,…), informatique et multimédia vidéo, ainsi que des applications mobiles.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </t>
+      </template>
+
+      <!-- page actualite -->
+    <template id="website.actualite" name="Actualité" page="True">
+      <t t-name="website_ingenosya.actualite">
+      <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty"/>
+      </t>
+      </t>
+    </template>
+
+      <!-- Contact base -->
+      <template id="website.contact" name="Contact" page="True">
+      <t t-call="website.layout">
+        <div class="container mb32">
+        <div class="row">
+          <div class="col-md-2 ">
+            <t t-call="website.sidebar-contact"/>
+          </div>
+          <div class="col-md-10">
+            <!-- <h1 class="text-center text-primary tous_les_titres">Contact</h1> -->
+            <h1 class="text-primary text-center animated zoomIn tous_les_titres">Contact</h1>
+            <div class="row">
+              <!-- <div class="col-lg-5 animated fadeInLeft contact_contenu1"> -->
+              <div class="col-lg-5 contact_contenu1">
+                <h3 class="text-primary">Ingenosya France</h3>
+                <!-- <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Ingenosya est une marque commerciale de Fidom Conseil SARL</p> -->
+                <!-- <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="/page/website.mentions-legales">Voir nos mentions légales</a></p> -->
+                <p><b>Téléphone :</b> +33 1 30 05 60 33</p>
+                <p><b>Web :</b> <a href=" http://www.ingenosya.com">http://www.ingenosya.com</a></p>
+                <p><b>Email :</b> <a href="mailto:sales@ingenosya.com">sales@ingenosya.com</a> (Direction commerciale)</p>
+                <h3 class="text-primary">Ingenosya Madagascar</h3>
+                <!-- <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i> SA au capital de 116.000.000 ARIARY,</p> -->
+                <!-- <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i> RC 99B180 - Statistique n°598.014</p> -->
+                <p><b>Lot III U 134 Anosizato EST - Antananarivo 101 - Madagascar</b></p>
+                <p><b>Tel/Fax :</b> (261 20) 22 693 62</p>
+                <p class="mb0"><b>Email :</b> <a href="mailto:contact@ingenosya.mg">contact@ingenosya.mg</a> (Direction technique)</p>
+              </div>
+              <!-- <div class="col-md-7 animated fadeInRight contact_contenu2"> -->
+              <div class="col-md-7 contact_contenu2">
+                <img src="/website_ingenosya/static/src/img/contact/contact.png" class="img img-responsive" alt="Contact" id="img_contact"/>
+                <!-- <div id="map"></div> -->
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    <!-- <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuLAM8XSJAXOnETPhwXKzfHLiEBnlXmX0&amp;callback=initMap"></script> -->
+      </t>
+    </template>
+
+  <!-- Template Développement iphone et android -->
+  <template id="website.developpement-iphone-et-android" name="Développement iphone et android" page="True">
+    <t t-call="website.layout">
+      <div class="container mb32">
+      <div class="row">
+        <div class="col-lg-2">
+          <t t-call="website.sidebar-specialites"/>
+        </div>
+        <div class="col-md-10">
+          <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développement iphone et android</h1>
+          <div class="row">
+            <div class="col-md-6 col-img mt16">
+              <img src="/website_ingenosya/static/src/img/pages/mobile.jpg" class="img img-responsive" alt="Développement iphone et android" id="img-regie1" />
+            </div>
+            <div class="col-md-6 para_regie mt16">
+              <div class="col-text">
+                <p class="text-justify">Face à l’évolution du développement des applications pour les smartphones et les tablettes, Ingenosya, SSII offshore francophone, s’est lancé dans le développement Iphone et Android.</p>
+                <p class="text-justify">Ingenosya vous accompagne dans la conception et développements d’applications mobiles que ce soit en langage Natif, Objective C et Java Android, ou en HTML... Quel que soit vos besoins, Ingenosya saura imaginer les fonctionnalités, l'ergonomie et le design qui assureront le succès de  votre application mobile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </t>
+  </template>
+
+<template id="website.sidebar-actualite" name="Actualité">
+  <div class="sidebar-class">
+    <a href="#actualite" class="list-group-item scroll-reference list-group-item">Actualités</a>
+    <a href="#info-mada" class="list-group-item scroll-reference list-group-item">Information sur Madagascar</a>
+  </div>
+</template>
+
+</odoo>

@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <data>
+    <!--Snippets header_slider-->
+    <template id="s_header_slider" name="slider header">
+      <section id="contact" class="section back">
+        <div id="myCarousel1535035937865" class="carousel slide s_banner" data-interval="8000" style="height: 550px;">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel1535035937865" data-slide-to="0" class="active" />
+            <li data-target="#myCarousel1535035937865" data-slide-to="1" />
+            <li data-target="#myCarousel1535035937865" data-slide-to="2" />
+          </ol>
+          <div class="carousel-inner">
+            <div class="item oe_img_bg active" style="background-image: url(&quot;/website_ingenosya/static/src/img/slider/home_slide1.jpg&quot;);background-size:cover;background-position:center;">
+              <div class="container">
+                <div class="row content">
+                  <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
+                    <h2 class="text-center  o_default_snippet_text animated fadeInDown text_Slider1"> INGENOSYA</h2>
+                    <h3 class="text-center animated fadeInUp sous_Text_Slider">Développement logiciel sur le mode
+                      offshore informatique à Madagascar avec des prix particulièrement compétitifs</h3>
+                    <div class="button_slide"><br /><br /><br />
+
+                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay ooo"
+                        data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
+                        Plaquette</a>
+                      <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay ooo"
+                        data-original-title="" title="">Poster une demande de devis </a>
+                    </div>
+                  </div>
+                  <div class="carousel-img col-md-6 col-md-offset-1 hidden-sm hidden-xs mt48">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.jpg&quot;);background-size:cover;background-position:center;">
+              <div class="container">
+                <div class="row content">
+                  <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
+                    <h2 class="text-center  o_default_snippet_text animated fadeInDown text_Slider1"> INGENOSYA</h2>
+                    <h3 class="text-center animated fadeInUp sous_Text_Slider">Utilisation des outils collaboratifs
+                      performants pour le suivi de votre projet</h3>
+                    <div class="button_slide"><br /><br /><br />
+
+                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="text-center btn btn-warning btn-lg animated fadeInUp btn_delay"
+                        data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
+                        Plaquette</a>
+                      <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay"
+                        data-original-title="" title="">Poster une demande de devis </a>
+                    </div>
+                  </div>
+                  <div class="carousel-img col-md-6 col-md-offset-1 hidden-sm hidden-xs mt48">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.jpg&quot;);">
+              <div class="container">
+                <div class="row content">
+                  <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
+                    <h2 class="text-center  o_default_snippet_text animated fadeInDown text_Slider1"> INGENOSYA</h2>
+                    <h3 class="text-center animated fadeInUp sous_Text_Slider">Des prix de sous-traitance offshore d'équipes structurées, plus avantageux à Madagascar qu'ailleurs </h3>
+                    <div class="button_slide"><br /><br /><br />
+
+                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay"
+                        data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
+                        Plaquette</a>
+                      <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay"
+                        data-original-title="" title="">Poster une demande de devis </a>
+                    </div>
+                  </div>
+                  <div class="carousel-img col-md-6 col-md-offset-1 hidden-sm hidden-xs mb4 mt48">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-control left" data-target="#myCarousel1535035937865" data-slide="prev" style="width: 10%"
+            data-cke-saved-href="#myCarousel1535035937865">
+            <i class="fa fa-chevron-left" />
+          </div>
+          <div class="carousel-control right" data-target="#myCarousel1535035937865" data-slide="next" style="width: 10%"
+            data-cke-saved-href="#myCarousel1535035937865">
+            <i class="fa fa-chevron-right" />
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets Ingenosya en bref-->
+    <template id="s_bref" name="Ingenosya en bref">
+            <section class="s_2_column_text oe_structure">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4 animated zoomIn para_bref_ingenosya1">
+                            <h1 class="text-primary text-center" id="titre_bref2">Cette semaine</h1>
+                            <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
+
+                            <br/>
+                            <div class="container">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                                    </ol>
+
+
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <a href="/page/actualite">
+                                                <img src="/website_ingenosya/static/src/img/accueil/contenu1.jpg"/>
+                                            </a>
+
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="/page/recrutement">
+                                                <img src="/website_ingenosya/static/src/img/accueil/contenu2.jpg"/>
+                                            </a>
+
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="/page/recrutement">
+                                                <img src="/website_ingenosya/static/src/img/accueil/contenu3.jpg"/>
+                                            </a>
+
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="/page/recrutement">
+                                                <img src="/website_ingenosya/static/src/img/accueil/contenu4.jpg"/>
+                                            </a>
+
+
+                                        </div>
+
+                                        <div class="item">
+                                            <a href="/page/recrutement">
+                                                <img src="/website_ingenosya/static/src/img/accueil/contenu5.jpg"/>
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <br/>
+
+                        </div>
+                        <div class="col-md-4 animated zoomIn para_bref_ingenosya">
+                            <h1 class="text-primary text-center Présentation" id="titre_bref">Ingenosya en bref</h1>
+                            <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
+                            <p class="text-justify" id="text_bref">Créée en 1999
+                                Ingenosya est une ESN (SSII offshore francophone) à Madagascar dont le siège social est
+                                en France et le
+                                bureau d'études et réalisation est à Antananarivo. INGENOSYA est spécialisée dans le
+                                développement
+                                d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles
+                                (Android, iOS…),
+                                l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou
+                                encore la
+                                maintenance de systèmes d’information.
+                            </p>
+                            <p class="text-justify">Nos prestations s'adressent à tous ceux qui ont besoin de
+                                personnaliser leurs
+                                systèmes d'informations ou qui souhaitent sous-traiter des travaux logiciels, dans le
+                                cadre du
+                                développement informatique offshore.
+                            </p>
+                            <p class="text-justify">INGENOSYA vous accompagne dans la réussite de chaque projet
+                                externalisation
+                                informatique via une démarche...
+                            </p>
+                            <p class="text-center" id="btn_b1">
+                                <a href="/page/ingenosya-en-bref" class="btn btn-primary btn-lg">Lire
+                                    la suite
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 animated zoomIn para_bref_ingenosya1">
+                            <h1 class="text-primary text-center" id="titre_bref2">Présentation</h1>
+                            <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
+                            <p class="text-justify" id="text_bref">Proactif depuis 19 ans, Ingenosya est une ESN
+                                (SSII) spécialisée
+                                dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation
+                                d’applications mobiles
+                                (Androïd, iOS…), l’intégration de systèmes (la conception de solutions ERP, Business
+                                intelligence), ou
+                                encore la maintenance de systèmes d’information.<br/>INGENOSYA, ESN (SSII) offshore à
+                                Madagascar, est
+                                composée des profils types d'experts en Informatique :
+                            </p>
+                            <div class="feature">
+                                <i class="fa fa-check"></i>
+                                <p>une équipe de direction formée en France et avec une expérience de plusieurs années
+                                    dans les
+                                    grandes sociétés françaises (Cap Gemini, Caisse des dépôts, Sopra, Unilog ...)
+                                </p>
+                            </div>
+                            <div class="feature">
+                                <i class="fa fa-check"></i>
+                                <p>des consultants capables d’accompagner les clients dans une démarche projet, de la
+                                    phase de démarrage et conception du business plan, ...
+                                    <br/>
+                                </p>
+                            </div>
+                            <p class="text-center" id="btn_b2">
+                                <a href="/page/presentation" class="btn btn-primary btn-lg">Lire
+                                    la suite
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </template>
+
+    <!--snippets icone social-->
+    <template id="s_icone" name="icone">
+      <section id="slide">
+        <div class="col-md-12">
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u={url}" class="icoFacebook" title="Facebook"><i
+                  class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets s_specialite-->
+    <template id="s_specialit_titre" name="titre specialite">
+      <section class="s_title" id="titre_specialite">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center Spécialités">
+                <font style="color: rgb(8, 82, 148);">Spécialités</font>
+              </h1>
+              <div class="line-shape" style="margin-left: calc(50% - 40px);" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets s_specialite-->
+    <template id="s_contenu_splte_1" name="contenu specialite 1">
+      <section class="s_features" id="s_spec">
+        <div class="container contenu_spec1" data-aos="fade-down">
+          <div class="row mt16 mb16">
+            <div class="col-md-4 text-center bg to-click" id="spec1" name="entreprise-ressource-planning">
+              <img src="/website_ingenosya/static/src/img/ui/ERP.png" alt="" id="logo_spc" />
+              <h3 class="mb0 mt8">
+                <font style="color: rgb(66, 66, 66);">Enterprise Resource Planning</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font style="color: rgb(0, 0, 0);">Ingenosya, votre société offshore informatique à Madagascar, a
+                  développé des compétences fonctionnelles et techniques relatives aux ERP (Enterprise Resource Planning) pour la mise en œuvre opérationnelle..</font>
+                <font style="color: rgb(66, 66, 66);">.</font>
+                <p class="text-center" id="btn_b1">
+                  <a class="btn btn-primary btn-lg" href="/page/entreprise-ressource-planning" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+            <div class="col-md-4 text-center bg to-click" id="spec2" name="business-intelligence">
+              <img src="/website_ingenosya/static/src/img/ui/bis.png" alt="" id="logo_spc" />
+              <h3 class="mb0 mt8">
+                <font style="color: rgb(66, 66, 66);">Business Intelligence</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font color="#000000" style="color: rgb(0, 0, 0);">Ingenosya, votre SSII à Madagascar, a développé
+                  plusieurs spécialités, souvent exercées au service de quelques métiers fonctionnels, réalisées sous
+                  une ou plusieurs technologies..</font>
+                <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
+                <p class="text-center" id="btn_b1">
+                   <a class="btn btn-primary btn-lg" href="/page/business-intelligence" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+            <div class="col-md-4 text-center bg to-click" id="spec3" name="web-et-applications-mobiles">
+              <img src="/website_ingenosya/static/src/img/ui/webapplication.png" alt="" id="logo_web" />
+              <h3 class="mb0 mt8">
+                <font style="color: rgb(66, 66, 66);">Web et applications mobiles</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font color="#000000" style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des
+                  fonctionnalités et des métiers divers ont été développés par Ingenosya, votre société offshore
+                  informatique à Madagascar :..</font>
+                <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
+                <p class="text-center" id="btn_b1">
+                  <a class="btn btn-primary btn-lg" href="/page/web-et-applications-mobiles" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets contenu_specialite_suite-->
+    <template id="s_contenu_splte_2" name="contenu specialite 2">
+      <section class="s_spec1" id="suite_specc1">
+        <div class="container target_animate_specialites">
+          <div class="row mt16 mb16">
+            <div class="col-md-4 text-center mb16 spec bg to-click" id="spec4" name="developpement-iphone-et-android">
+              <img src="/website_ingenosya/static/src/img/ui/b.png" alt="" id="logo_mobile" />
+              <h3 class="mt8 mb0">
+                <font style="color: rgb(66, 66, 66);">Développement Iphone et Android</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font style="color: rgb(0, 0, 0);">Face à l’évolution du développement des applications pour les
+                  smartphones et les tablettes, Ingenosya, SSII offshore francophone, s’est lancé dans le développement
+                  Iphone et Android..</font>
+                <font style="color: rgb(156, 156, 148);">.</font>
+                <p class="text-center" id="btn_b1">
+                  <a class="btn btn-primary btn-lg" href="/page/developpement-iphone-et-android" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+            <div class="col-md-4 text-center bg to-click" id="spec5" name="developpement-logiciel-en-regie">
+              <img src="/website_ingenosya/static/src/img/ui/regie.png" alt="" id="logo_spc" />
+              <h3 class="mt8 mb0">
+                <font style="color: rgb(66, 66, 66);">Développement logiciel en régie</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font style="color: rgb(0, 0, 0);">Ingenosya, votre SSII offshore francophone, détache souvent des
+                  prestataires de développement pour le compte de clients afin qu’ils travaillent à distance et à la
+                  demande. Cela suppose,..</font>
+                <font style="color: rgb(156, 156, 148);">.</font>
+                <p class="text-center" id="btn_b1">
+                  <a class="btn btn-primary btn-lg" href="/page/developpement-logiciel-en-regie" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+            <div class="col-md-4 text-center bg to-click" id="spec6" name="realisation-logiciel-au-forfait">
+              <img src="/website_ingenosya/static/src/img/ui/forfait.png" alt="" id="logo_forfait" />
+              <h3 class="mt8 mb0">
+                <font style="color: rgb(66, 66, 66);">Réalisation de logiciel au forfait</font>
+              </h3>
+              <p class="text-muted" style="text-align: justify; ">
+                <font style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des fonctionnalités et des
+                  métiers divers ont été développés par Ingenosya, votre société offshore informatique à Madagascar :
+                  Ecommerce et..</font>
+                  <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
+                <p class="text-center" id="btn_b1">
+                  <a class="btn btn-primary btn-lg" href="/page/realisation-logiciel-au-forfait" >Lire la suite</a>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets titre_technologie-->
+    <template id="s_titre_techonologie" name="titre_reference">
+      <section class="sous_title_technologie">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 titre_techno">
+              <h1 class="text-center">
+                <font style="color: rgb(8, 82, 148);">Technologies</font>
+                <br />
+              </h1>
+              <div class="line-shape" style="margin-left: calc(50% - 40px);" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets titre_technologie-->
+    <template id="s_titre_outil" name="titre outils">
+      <section class="sous_title_outil">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 titre_techno">
+              <h1 class="text-center Spécialités">
+                <font style="color: rgb(8, 82, 148);">Nos outils de développement</font>
+                <br />
+              </h1>
+              <div class="line-shape" style="margin-left: calc(50% - 40px);" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <!--Snippets techonologie-->
+    <template id="s_contenu_techonologie" name="contenu_techonologie">
+      <section class="s_feature_grid mb32">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mt16" id="animation_reference">
+              <div class="row">
+              <div class="col-md-12 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/java.png" class="pull-left img_techno" alt="" id="logo_java" />
+                <h4 class="mb0 mt0">
+                  <b>
+                    <font style="color: rgb(0, 0, 0);">Développement avec JAVA/J2EE</font>
+                  </b>
+                </h4>
+                <p style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">Développement d’une application web de location de balises et de
+                    réquisitions judiciaires</font>
+                </p>
+              </div>
+              <div class="col-md-12 mt8 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/mi.png" class="pull-left img_techno" alt="" id="logo_dotnet" />
+                <h4 class="mb0 mt0">
+                  <b>
+                    <font style="color: rgb(0, 0, 0);">Développement avec .NET</font>
+                  </b>
+                </h4>
+                <p style="text-align: justify;" >
+                  <font style="color: rgb(0, 0, 0);">Développement de plusieurs composants de digitalisation et
+                    dématérialisation de documents</font>
+                </p>
+              </div>
+              <div class="col-md-12 mt8 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/mobile.png" class="pull-left img_techno" alt="" id="logo_mobile" />
+                <h4 class="mb0 mt0">
+                  <b>
+                    <font style="color: rgb(0, 0, 0);">Application Mobile</font>
+                  </b>
+                  <br />
+                </h4>
+                <p style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">Présentation des coins touristiques aux alentours</font>
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 mt16">
+              <div>
+                <img src="/website_ingenosya/static/src/img/pages/technologies.png" id="element-animated" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 mt16" id="animation_reference_suite">
+              <div class="row">
+              <div class="col-md-12 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/null.png" class="pull-left img_techno" alt="" id="logo_php" />
+                <h4 class="mb0 mt0">
+                  <font style="color: rgb(0, 0, 0);">
+                    <b>Développement avec PHP</b>
+                  </font>
+                </h4>
+                <p style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">CRM (Gestion relationnel de client) avec AMSTER GROUP.</font>
+                </p>
+              </div>
+              <div class="col-md-12 mt8 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/biiii.png" class="pull-left img_techno" alt="" id="logo_bii" />
+                <h4 class="mb0 mt0">
+                  <font style="color: rgb(0, 0, 0);">
+                    <b>Business Intelligence</b>
+                  </font>
+                  <br />
+                </h4>
+                <p style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">Mise en place d’un système intégré d’information et de
+                    statistiques touristiques de Madagascar</font>
+                </p>
+              </div>
+              <div class="col-md-12 mt8 div-techno">
+                <img src="/website_ingenosya/static/src/img/ui/aa.png" class="pull-left img_techno" alt="" id="logo_erp" />
+                <h4 class="mb0 mt0">
+                  <font style="color: rgb(0, 0, 0);">
+                    <b>ERP/CRM</b>
+                  </font>
+                  <br />
+                </h4>
+                <p>
+                  <font style="color: rgb(0, 0, 0);">Développement ou migration de CRM basés sur le framework OPENCRM</font>
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+<!--recrutement -->
+
+        <template id="s_recrutement" name="Recrutement">
+            <section class="s_3_column_text oe_structure">
+                <div class="container mb32">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <t t-call="website.sidebar-contact"/>
+                        </div>
+
+                        <div class="col-md-10">
+                            <h1 class="text-primary text-center animated zoomIn tous_les_titres">Recrutement</h1>
+                            <div class="row">
+
+
+                                <div class="row mt32"
+                                     style="margin-top:2px ! important; margin-left:0px; margin-right:-0px;">
+                                    <!-- Recruitment 1 -->
+
+
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="recru blog-item-text element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR PHP/PRESTASHOP</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+
+                                                <p class="text-justify">Participer à l’analyse des besoins des
+                                                    clients
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement
+                                                    des sites internet
+                                                </p>
+                                                <p class="text-justify">Intervenir dans la production front et back
+                                                    office
+                                                </p>
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil</p>
+                                                <p>Prendre en compte la maintenance corrective et évolutive des sites
+                                                </p>
+
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Minimum Bac + 5 en informatique</p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maitrise des langages : PRESTASHOP/ HTML/
+                                                    PHP/ CSS/ JavaScript/ MySQL/
+                                                </p>
+                                                <p class="text-justify">Maîtrise de la langue française</p>
+                                                <p class="text-justify">Créatif, rigoureux et passionné</p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--recrutement 2-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR PHP SENIOR</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Participer à l’analyse des besoins des
+                                                    clients
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement
+                                                    des sites internet
+                                                </p>
+                                                <p class="text-justify">Intervenir dans la production front et back
+                                                    office
+                                                </p>
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil</p>
+                                                <p class="text-justify">Prendre en compte la maintenance corrective
+                                                    et évolutive des sites
+                                                </p>
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Minimum Bac + 5 en informatique</p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maitrise des langages : HTML/ PHP/ CSS/
+                                                    JavaScript/ MySQL/
+                                                </p>
+                                                <p class="text-justify">Maîtrise de la langue française</p>
+                                                <p class="text-justify">Créatif, rigoureux et passionné</p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--recrutement 3-->
+
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR JAVA SPRING</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Assurer l’analyse et développement des
+                                                    fonctionnalités et des évolutions
+                                                </p>
+                                                <p class="text-justify">Réaliser les tests unitaires et
+                                                    fonctionnels
+                                                </p>
+                                                <p class="text-justify">Rédiger les documentations techniques</p>
+
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Ingénieur en informatique</p>
+                                                <p class="text-justify">Minimum 3 ans d’expériences
+                                                    professionnelles dans un poste similaire
+                                                </p>
+                                                <p class="text-justify">Une réelle maitrise de Java
+                                                    (Spring/Hibernate) et MySQL, acquise dans le cadre de la réalisation
+                                                    d’au moins un projet d’ampleur
+                                                </p>
+                                                <p class="text-justify">Vous appréciez les développements bien
+                                                    conçus, exécutés, documentés et maintenables
+                                                </p>
+                                                <p class="text-justify">Autonome et capable de s’adapter à des
+                                                    différents types de projets Rigoureux et méthodique
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--recrutement 4-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR CODELGNITER</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Participer à l’analyse des besoins des
+                                                    clients
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement
+                                                    des sites internet
+                                                </p>
+                                                <p class="text-justify">Intervenir dans la production front et back
+                                                    office
+                                                </p>
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil</p>
+                                                <p class="text-justify">Prendre en compte la maintenance corrective
+                                                    et évolutive des sites
+                                                </p>
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Minimum Bac + 5 en informatique</p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maitrise du codelgniter</p>
+                                                <p class="text-justify">Maîtrise de la langue française</p>
+                                                <p class="text-justify">Créatif, rigoureux et passionné</p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!--Recrutement5-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec2.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+
+
+                                            <div class="blog-item-text element-recruitment" id="overflowTest"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">RESPONSABLE TECHNICO-COMMERCIAL
+                                                    </span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Sous la responsabilité d’un Directeur
+                                                    Technique et Commercial vos missions principales sont :
+                                                </p>
+                                                <p class="text-justify-recrutement">Participer à la définition de
+                                                    la politique commerciale à partir de la stratégie de la société
+                                                </p>
+                                                <p class="text-justify-recrutement">Collecte des informations
+                                                    commerciales, prospecte, identifie des opportunités chez des clients
+                                                    nouveaux ou existants (objectif, taille, risque, rentabilité…)
+                                                </p>
+                                                <p class="text-justify">Prospecter des entreprises en vue de leur
+                                                    vendre des prestations
+                                                </p>
+                                                <p class="text-justify">S’approprier les offres, prospecte,
+                                                    identifie des opportunités
+                                                </p>
+                                                <p class="text-justify">Concevoir les offres de service et faire
+                                                    connaître les offres au client
+                                                </p>
+                                                <p class="text-justify">Participer à la rédaction des propositions
+                                                    commerciales
+                                                </p>
+                                                <p class="text-justify">Participer à la négociation avec les
+                                                    clients
+                                                </p>
+                                                <p class="text-justify">Fixer les objectifs et les axes
+                                                    prioritaires
+                                                </p>
+                                                <p class="text-justify">Réaliser un chiffre d’affaires conforme aux
+                                                    objectifs fixés
+                                                </p>
+                                                <p class="text-justify">Gérer la relation commerciale en avant et
+                                                    après-vente
+                                                </p>
+                                                <p class="text-justify">Formalise les références commerciales</p>
+                                                <p class="text-justify">Reporter à la Direction</p>
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Ingénieur en informatique suivi d’une
+                                                    formation aux techniques commerciales
+                                                </p>
+                                                <p class="text-justify">Avoir 3 ans d'expériences dans un poste
+                                                    similaire 
+                                                </p>
+                                                <p class="text-justify">Bonne connaissance des principaux outils de
+                                                    développement (Java, PHP, .net…) et d’un ensemble de solutions
+                                                    applicatives (ERP, Odoo, …)
+                                                </p>
+                                                <p class="text-justify">Connaissance des processus et méthodes de
+                                                    gestion de projet (planning, budget,…)
+                                                </p>
+                                                <p class="text-justify">Maitrise de techniques commerciales et de
+                                                    négociation
+                                                </p>
+                                                <p class="text-justify">Excellent niveau de français</p>
+                                                <p class="text-justify">Maitrise de la langue anglaise sera un
+                                                    atout
+                                                </p>
+                                                <p class="text-justify">Capacité à prendre des décisions</p>
+                                                <p class="text-justify">Esprit d'initiative, orientation client et
+                                                    communication
+                                                </p>
+
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--recrutement 6-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec2.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">TELEPROSPECTEUR</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Atteindre les objectifs d’appels pour avoir
+                                                    des rendez-vous
+                                                </p>
+                                                <p class="text-justify">
+                                                    <h4>Objectifs :</h4>
+                                                </p>
+                                                <p class="text-justify">- 100 appels par jour</p>
+                                                <p class="text-justify">- 3 rendez-vous par jour</p>
+
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Excellent niveau de français parlé (sans
+                                                    accent)
+                                                </p>
+                                                <p class="text-justify">La connaissance des outils informatiques
+                                                </p>
+                                                <p class="text-justify">Avoir des expériences dans un centre
+                                                    d’appel sera un atout
+                                                </p>
+                                                <p class="text-justify">Sens de l’écoute, patience et diplomatie
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--recrutement 7-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper max-height:60%" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR ASP NET SENIOR</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify">Participer à l’analyse des besoins des
+                                                    clients
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement
+                                                    des demandes des clients
+                                                </p>
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil,</p>
+                                                <p class="text-justify">Prendre en compte la maintenance corrective
+                                                    et évolutive des applications
+                                                </p>
+                                                <p class="text-justify">Rédaction des documents</p>
+                                                <p class="text-justify">
+                                                    <h4>Profil :</h4>
+                                                </p>
+                                                <p class="text-justify">Minimum titulaire d’un bacc+5 en
+                                                    informatique
+                                                </p>
+                                                <p class="text-justify">Ayant 3 ans d’expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maîtrise du C#, ASP.NET et C++</p>
+                                                <p class="text-justify">Bon maîtrise d’anglais (rédaction)</p>
+                                                <p class="text-justify">Facilité d’adaptation à des différents
+                                                    types de projet
+                                                </p>
+                                                <p class="text-justify">Excellente capacité rédactionnelle</p>
+                                                <p class="text-justify">Autonome sur la relation client et gestion
+                                                    de projet
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--recrutement 8-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper max-height:60%" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR ANDROID</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify-">Participer à l’analyse des besoins des clients
+
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement des
+                                                    applications mobiles
+                                                </p>
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil</p>
+                                                <p class="text-justify">Prendre en compte la maintenance corrective et
+                                                    évolutive des applications
+                                                </p>
+                                                <h4>Profil :</h4>
+
+                                                <p class="text-justify">Minimum Bac + 5 en informatique
+                                                </p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maitrise des langages : Android native, iOs
+                                                    native
+                                                </p>
+                                                <p class="text-justify">Maîtrise de la langue française</p>
+                                                <p class="text-justify">Créatif, rigoureux et passionné
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--recrutement 9-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper max-height:60%" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR PRESTASHOP</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify-">Participer à l’analyse des besoins des clients
+
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement des
+                                                    applications mobiles
+                                                </p>
+                                                <p class="text-justify">Intervenir dans la production front et back
+                                                    office
+                                                </p>
+
+                                                <p class="text-justify">Assurer les tests des projets en cours</p>
+                                                <p class="text-justify">Former les utilisateurs de l’outil</p>
+                                                <p class="text-justify">Prendre en compte la maintenance corrective et
+                                                    évolutive des sites
+                                                </p>
+                                                <h4>Profil :</h4>
+
+                                                <p class="text-justify">Minimum Bac + 5 en informatique
+                                                </p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Ayant au moins 3 ans d'expériences
+                                                    professionnelles
+                                                </p>
+                                                <p class="text-justify">Maitrise des langages : PRESTASHOP/ HTML/PHP/
+                                                    CSS/ JavaScript/ MySQL/
+                                                </p>
+                                                <p class="text-justify">Maîtrise de la langue française
+                                                </p>
+                                                <p class="text-justify">Créatif, rigoureux et passionné
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--recrutement 10-->
+                                    <div class="col-md-4 langage-item" style="">
+                                        <div class="blog-item-wrapper max-height:60%" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-recruitment"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">DEVELOPPEUR PENTAHO</span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>Vos missions :</h4>
+                                                </p>
+                                                <p class="text-justify-">Participer à l’analyse des besoins des clients
+
+                                                </p>
+                                                <p class="text-justify">Réaliser la conception et le développement des
+                                                    applications mobiles
+                                                </p>
+
+                                                <p class="text-justify">Prendre en compte la maintenance corrective et
+                                                    évolutive des sites
+                                                </p>
+                                                <h4>Profil :</h4>
+
+                                                <p class="text-justify">Minimum Bac + 5 en informatique
+                                                </p>
+                                                <p class="text-justify">Maitrise de SQL et MySQL 
+                                                </p>
+                                                <p class="text-justify">Maîtrise de Pentaho BI et des requêtes MDX
+                                                </p>
+                                                <p class="text-justify">Connaissance de BTable et de Saiku </p>
+                                                <p class="text-justify">Dynamique et autonome 
+                                                </p>
+                                                <p class="text-justify">Forte capacité de travail 
+                                                </p>
+                                                <div style="padding-bottom:60px"></div>
+                                                <a href="mailto:contact@ingenosya.mg"
+                                                   class="btn-info btn-xs active btn btn-common btn-rm text-down-rec">
+                                                    Postuler
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+<!--  actualité-->
+<template id="s_actualite" name="actualite">
+            <section class="s_3_column_text oe_structure">
+                <div class="container mb32">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <t t-call="website.sidebar-actualite"/>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <h1 id="actualite" class="text-primary text-center animated zoomIn tous_les_titres">
+                                    Actualités Septembre 2019
+                                </h1>
+                            </div>
+                            <!--actualite 1-->
+
+
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/actualite/barea.jpg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités ingenosya</center>
+                                                    </span>
+                                                </h3>
+                                                <h4>
+                                                    <span>
+                                                        <b>INGENOSYA A SOUTENU LES BAREA</b>
+                                                    </span>
+                                                </h4>
+
+                                                <p class="text-justify">En tant qu’entreprise qui soutient les
+                                                    jeunes talents
+                                                </p>
+                                                <p class="text-justify">INGENOSYA a fourni des Goodies ainsi que des
+                                                    tee-shirts à l’effigie des BAREA, l’équipe Nationale de
+                                                    Football, à ses collaborateurs afin qu’ils aient tous les
+                                                    éléments pour les soutenir lors des 1/4 de finale de CAN 2019.
+                                                </p>
+
+                                                <a href="#"
+                                                   class="btn btn-common text-down-act" target="_blank">
+                                                    Pour en savoir plus
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--actualite 2-->
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper">
+                                            <span>
+                                                <img src="/website_ingenosya/static/src/img/actualite/africa 50.jpg"
+                                                     class="img img-responsive "/>
+                                            </span>
+                                            <div class="blog-item-text element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités économiques</center>
+                                                    </span>
+                                                </h3>
+                                                <h4>
+                                                    <span>
+                                                        <b>Financements des projets
+                                                            d’infrastructures : Madagascar
+                                                            présent à l’assemblée annuelle d’Africa 50
+                                                        </b>
+                                                    </span>
+                                                </h4>
+
+                                                <p class="text-justify">La visibilité de Madagascar au niveau de la
+                                                    communauté des bailleurs de fonds internationaux se renforce. La
+                                                    Grande Ile a participé à la 4e assemblée générale annuelle des
+                                                    actionnaires de la plateforme panafricaine d’investissement
+                                                    Africa50, qui s’est déroulée à Kigali (Rwanda), du 9 au 10
+                                                    juillet
+                                                    dernier.
+                                                </p>
+                                                <div class="text-down-act">
+                                                    <a href="http://www.midi-madagasikara.mg/economie/2019/07/13/financements-des-projets-dinfrastructures-madagascar-present-a-lassemblee-annuelle-dafrica-50/" target="_blank">
+                                                        Pour en savoir plus
+                                                    </a>
+
+                                                    <p style="width:97%">
+                                                        <h6 style="word-wrap: break-word; font-size:12px">Source
+                                                            http://www.midi-madagasikara.mg/eco
+                                                            <br/>
+                                                            nomie/2019/07/13/financements-des-projets-<br/>dinfra
+
+                                                            structures-madagascar-present-a-lassem
+                                                            <br/>
+                                                            blee-annuelle-dafrica-50
+                                                        </h6>
+                                                    </p>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--actualite 3-->
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/actualite/baleine.jpg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités touristiques</center>
+                                                    </span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>
+                                                        <span>
+                                                            <b>Malgré les projections de
+                                                                performance en faveur du secteur, les opérateurs
+                                                                gardent les pieds sur terre pour assurer un
+                                                                développement pérenne du
+                                                                tourisme
+                                                            </b>
+                                                        </span>
+                                                    </h4>
+
+                                                </p>
+                                                <p class="text-justify">Encourageant. Le cabinet d’études
+                                                    international Forward Keys a récemment annoncé que
+                                                    Madagascar est en bonne place pour vivre un boom touristique,
+                                                    cette année.
+                                                </p>
+
+                                                <div class="text-down-act">
+                                                    <a href="https://lexpress.mg/16/07/2019/tourisme-la-haute-saison-entre-optimisme-et-realisme/" target="_blank">
+                                                        Pour en savoir plus
+                                                    </a>
+                                                    <h6 style="word-wrap: break-word; font-size:12px">Source
+                                                        https://lexpress.mg/16/07/2019/touri
+                                                        <br/>
+                                                        sme-la-haute-saison-entre-optimisme-et-realisme
+                                                    </h6>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h1 id="info-mada"
+                                            class="text-primary text-center animated zoomIn tous_les_titres_act2">
+                                            Informations sur Madagascar
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--actualite 4-->
+
+
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <br/>
+                                    <div class="col-text">
+                                        <span><font size="1">Les chiffres ci-après ne sont donnés qu’en tant que valeurs indicatives pour un éventuel voyageur. Il est toutefois possible que selon les endroits et les fournisseurs, ces données varient de façon significative.</font></span>
+                                        <p>
+                                            <b class="text-primary">VIVRE A MADAGASCAR</b>
+                                        </p>
+
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-flag" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle ">
+                                                    NOM OFFICIEL
+                                                </td>
+                                                <td class="libelle ">Madagascar</td>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td class="labelle ">SUPERFICIE</td>
+                                                    <td class="libelle ">587 041 m²</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle ">
+                                                        POPULATION
+                                                    </td>
+                                                    <td class="libelle ">24 millions d’habitants.
+                                                        64% vivent dans des zones rurales et 36% dans des zones
+                                                        urbaines.
+                                                        55,68% sont de 15 à 64 ans
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td class="labelle ">RELIGIONS</td>
+                                                    <td class="libelle ">Christianisme (41%),
+                                                        Religion traditionnelle (52%), Islam (7%)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle ">
+                                                        LANGUES OFFICIELLES
+                                                    </td>
+                                                    <td class="libelle">Malagasy-Français
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td style="word-wrap: break-word;"
+                                                        class="labelle ">CONDITIONS METEOROLOGIQUES
+
+                                                    </td>
+                                                    <td class="libelle ">Mai à octobre : hiver (15 à 26ºC dans les régions côtières et 4 à 20ºC au centre). Novembre à Avril : été (20 à 37ºC dans les régions côtières et 15 à 30ºC au centre).
+                                                    </td>
+                                                </tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle ">
+                                                    FUSEAU HORAIRE
+                                                </td>
+                                                <td class="libelle ">EAT (UTC +3)</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="icon"></td>
+                                                <td class="labelle ">MONNAIE</td>
+                                                <td>ARIARY (MGA)
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-tty fa-1x" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle " style="word-wrap: break-word;">
+
+                                                    CODE TELEPHONIQUE
+
+                                                </td>
+                                                <td>+261</td>
+
+                                            </tr>
+
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <!--actualite 5-->
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
+                                         class="img img-responsive" alt="Il aux nattes"
+                                         id="img_qlt1"/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
+                                         class="img img-responsive" alt="lemur" id="img_qlt2"/>
+                                </div>
+                                <div class="col-md-7 para_qlt2">
+                                    <div class="col-text">
+
+                                        <p>
+                                            <b class="text-primary">COUT DE LA VIE</b>
+                                        </p>
+
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon">
+
+                                                </td>
+                                                <td style="color:#3498db;" class="labelle2 ">
+                                                    Estimation
+
+                                                </td>
+                                                <td style="color:#3498db;"
+                                                    class="libelle  budget-act-tab">Budget
+                                                </td>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-hotel" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Hébergement (USD/jour/personne)
+                                                    </td>
+                                                    <td class="libelle2 ">20-200
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Restauration (USD/jour/personne)
+
+                                                    </td>
+                                                    <td class="libelle2">6-15
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-car" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Location de voiture (USD/jour, carburant en sus)
+
+                                                    </td>
+                                                    <td class="libelle2 ">26-67</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-tint" aria-hidden="true"></i>
+                                                    </td>
+
+                                                    <td class="labelle2 ">Gasoil/Essence (USD/j)
+                                                    </td>
+                                                    <td class="libelle2 ">1,2
+                                                    </td>
+                                                </tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-taxi" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle2 ">
+                                                    Taxi, tour en centre-ville (USD/tour)
+
+                                                </td>
+                                                <td class="libelle2 ">1,6-5</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-taxi" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">Taxi, du centre-ville a
+                                                    l’aéroport international d’Ivato (USD/15km)
+
+                                                </td>
+                                                <td class="libelle2 ">16</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-internet-explorer fa-1x"
+                                                       aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">
+
+                                                    Internet (USD/200 Go)
+
+                                                </td>
+                                                <td class="libelle2 ">60</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-phone-square fa-1x" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">
+
+                                                    Communication(USD/s)
+                                                </td>
+                                                <td class="libelle2 ">0,002</td>
+
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--actualite 6-->
+
+                            <div class="row">
+                                <div class="col-md-7 para_qlt3">
+                                    <div class="col-text">
+
+                                        <p>
+                                            <b class="text-primary">INFORMATIONS EN PLUS SUR MADAGASCAR</b>
+                                        </p>
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon2">
+
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Membre de la Communauté de développement de l’Afrique
+                                                    Australe
+                                                    (SADC), COMESA (Marché commun pour l’Afrique Orientale et
+                                                    Australe) et la COI (Commission de l’Océan Indien).
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    A signé l’accord tripartite de libre-échange (TFTA), qui
+                                                    combine
+                                                    SADC, COMESA et la Communauté de l’Afrique de l’Est (EAC)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Augmentation des exportations vers d’autres pays (+12,8 % en
+                                                    2016 vers les USA et +44,6% en 2016 vers les pays de l’UE).
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Une large gamme d’opportunités dans le domaine du tourisme,
+                                                    de
+                                                    l’agro-industrie, des mines, des textiles, des TIC, des
+                                                    énergies
+                                                    renouvelables, de l’infrastructure.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Couts de la main d’œuvre, de l’électricité et de l’eau très
+                                                    compétitifs.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Disponibilité des matériaux « naturel », intrants à faible
+                                                    cout
+                                                    et facilité d’exploitation des ressources.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    La connexion internet occupe la deuxième place en termes de
+                                                    vitesse en Afrique.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Cadre juridique et fiscal bien défini pour l’investissement.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Appui du gouvernement malgache sur les partenariats
+                                                    public-privé
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Fort potentiel minier, agricole, énergétique et de pêche
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
+                                         class="img img-responsive" alt="baobab"
+                                         id="img_qlt3"/>
+                                    <br/>
+                                    <h6>Source : ECONOMIC DEVELOPPEMENT BOARD OF MADAGASCAR</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </template>
+
+
+
+    <!-- Template Outils de développement-->
+    <template id="s_outil_de_developpement" name="Nos outils de développement">
+      <section class="s_3_column_text contenu_outil">
+        <div class="container ">
+          <div class="row mt16 mb16">
+            <div class="col-md-4  animated zoomIn text-center " id="bg1">
+              <div class="marg  animated zoomIn bg1">
+                <img src="/website_ingenosya/static/src/img/snippets/outilweb.png" alt="" id="outil_img1" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">PHP,JAVASCRIPT,JAVA,.NET</font>
+                </h3>
+                <hr />
+                <p class="text-muted" style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">Nous développons vos sites web sur mesure en utilisant le HTML5,
+                    CSS3, PHP et Javascript</font>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center" id="bg2">
+              <div class="marg animated zoomIn bg2">
+                <img src="/website_ingenosya/static/src/img/snippets/odoo.png" alt="" id="outil_img2" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">ERP,CRM,...</font>
+                  <hr />
+                </h3>
+                <p class="text-muted" style="text-align: justify; ">
+                  <font color="#000000" style="color: rgb(0, 0, 0);">Ingenosya a décidé de s’appuyer sur l’ERP Odoo
+                    open source (autrefois Open ERP)..</font>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center" id="bg3">
+              <div class="marg animated zoomIn bg3">
+                <img src="/website_ingenosya/static/src/img/snippets/appmobile.png" alt="" id="outil_img3" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">XAMARIN,SWIFT,IONIC,...</font>
+                  <hr />
+                </h3>
+                <p class="text-muted" style="text-align: justify; ">
+                  <font color="#000000" style="color: rgb(0, 0, 0);">Nous développons vos applications mobiles
+                    (Android, IOS) hybrides avec apache cordova.</font>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container contenu_spec1">
+          <div class="row mt16 mb16">
+            <div class="col-md-4 text-center" id="bg4">
+              <div class="marg animated zoomIn ">
+                <img src="/website_ingenosya/static/src/img/snippets/cms.png" alt="" id="outil_img4" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">PRESTASHOP,WORDPRESS,...</font>
+                </h3>
+                <hr />
+                <p class="text-muted" style="text-align: justify; ">
+                  <font style="color: rgb(0, 0, 0);">Nous intégrons vos Plaquettes PSD en thème responsive wordpress
+                    avec le framework </font>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center " id="bg5">
+              <div class="marg animated zoomIn">
+                <img src="/website_ingenosya/static/src/img/snippets/desk.png" alt="" id="outil_img5" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">PYTHON,JAVA,WINDEV,C++,..</font>
+                </h3>
+                <hr />
+                <p class="text-muted" style="text-align: justify; ">
+                  <font color="#000000" style="color: rgb(0, 0, 0);">Nous développons vos applications windows et
+                    macintosh avec l'atélier de génie logiciel Windev. </font>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4  text-center" id="bg6">
+              <div class="marg animated zoomIn bg6">
+                <img src="/website_ingenosya/static/src/img/ui/webapplication.png" alt="" id="outil_img6" />
+                <h3 class="mb0 mt8">
+                  <font style="color: rgb(66, 66, 66);">WEB ET MOBILE</font>
+                </h3>
+                <hr />
+                <p class="text-muted" style="text-align: justify; ">
+                  <font color="#000000" style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des
+                    fonctionnalités et ...</font>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>
