@@ -161,13 +161,7 @@
                             <p class="text-justify" id="text_bref">Créée en 1999
                                 Ingenosya est une ESN (SSII offshore francophone) à Madagascar dont le siège social est
                                 en France et le
-                                bureau d'études et réalisation est à Antananarivo. INGENOSYA est spécialisée dans le
-                                développement
-                                d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles
-                                (Android, iOS…),
-                                l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou
-                                encore la
-                                maintenance de systèmes d’information.
+                                bureau d'études et réalisation est à Antananarivo. Ingenosya, ESN Offshore, accompagne les entreprises dans leurs démarches de transformation digitale : développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Android, iOS…), l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou encore la maintenance de systèmes d’information.
                             </p>
                             <p class="text-justify">Nos prestations s'adressent à tous ceux qui ont besoin de
                                 personnaliser leurs
@@ -1079,7 +1073,8 @@
                 </div>
             </section>
         </template>
-<!--  actualité-->
+
+<!--        ACTUALITE SEPTEMBRE     -->
 <template id="s_actualite" name="actualite">
             <section class="s_3_column_text oe_structure">
                 <div class="container mb32">
@@ -1090,7 +1085,7 @@
                         <div class="col-md-10">
                             <div>
                                 <h1 id="actualite" class="text-primary text-center animated zoomIn tous_les_titres">
-                                    Actualités Septembre 2019
+                                    Actualités OCTOBRE 2019
                                 </h1>
                             </div>
                             <!--actualite 1-->
@@ -1102,7 +1097,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/barea.jpg"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/soutient_com_dev.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1115,17 +1110,13 @@
                                                 </h3>
                                                 <h4>
                                                     <span>
-                                                        <b>INGENOSYA A SOUTENU LES BAREA</b>
+                                                        <b>INGENOSYA SOUTIENT LES COMMUNAUTES DE DEVELOPPEURS</b>
                                                     </span>
                                                 </h4>
 
-                                                <p class="text-justify">En tant qu’entreprise qui soutient les
-                                                    jeunes talents
+                                                <p class="text-justify">Toujours en voulant promouvoir les talents du numérique à Madagascar, Ingenosya a été cette année SPONSOR GOLD du DEVFEST 2019 organisé par le GDG (Google Developper’s Group)
                                                 </p>
-                                                <p class="text-justify">INGENOSYA a fourni des Goodies ainsi que des
-                                                    tee-shirts à l’effigie des BAREA, l’équipe Nationale de
-                                                    Football, à ses collaborateurs afin qu’ils aient tous les
-                                                    éléments pour les soutenir lors des 1/4 de finale de CAN 2019.
+                                                <p class="text-justify">Le DEVFEST, c'est l’évènement festif de l'année où les développeurs et ceux qui sont intéressés par les NTIC se retrouvent pour 2 jours de partages de connaissances (Conférences, Workshop), de compétitions (Hackaton) et surtout de Fêtes !
                                                 </p>
 
                                                 <a href="#"
@@ -1139,7 +1130,7 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img/actualite/africa 50.jpg"
+                                                <img src="/website_ingenosya/static/src/img/actualite/jeune_entrepreneur.jpg"
                                                      class="img img-responsive "/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
@@ -1151,35 +1142,23 @@
                                                 </h3>
                                                 <h4>
                                                     <span>
-                                                        <b>Financements des projets
-                                                            d’infrastructures : Madagascar
-                                                            présent à l’assemblée annuelle d’Africa 50
+                                                        <b>Trophée jeune entrepreneur – Les startups encouragés à participer
                                                         </b>
                                                     </span>
                                                 </h4>
 
-                                                <p class="text-justify">La visibilité de Madagascar au niveau de la
-                                                    communauté des bailleurs de fonds internationaux se renforce. La
-                                                    Grande Ile a participé à la 4e assemblée générale annuelle des
-                                                    actionnaires de la plateforme panafricaine d’investissement
-                                                    Africa50, qui s’est déroulée à Kigali (Rwanda), du 9 au 10
-                                                    juillet
-                                                    dernier.
+                                                <p class="text-justify">Le trophée jeune entrepreneur 2019 sera l’occasion, pour les porteurs de projet, de concrétiser leurs idées d’entreprise. Des financements sont prévus en ce sens.
                                                 </p>
                                                 <div class="text-down-act">
-                                                    <a href="http://www.midi-madagasikara.mg/economie/2019/07/13/financements-des-projets-dinfrastructures-madagascar-present-a-lassemblee-annuelle-dafrica-50/" target="_blank">
+                                                    <a href="https://lexpress.mg/09/11/2019/trophee-jeune-entrepreneur-les-startups-encourages-a-participer/" target="_blank">
                                                         Pour en savoir plus
                                                     </a>
 
                                                     <p style="width:97%">
                                                         <h6 style="word-wrap: break-word; font-size:12px">Source
-                                                            http://www.midi-madagasikara.mg/eco
+                                                            https://lexpress.mg/09/11/2019/
                                                             <br/>
-                                                            nomie/2019/07/13/financements-des-projets-<br/>dinfra
-
-                                                            structures-madagascar-present-a-lassem
-                                                            <br/>
-                                                            blee-annuelle-dafrica-50
+                                                            trophee-jeune-entrepreneur-les-startups-encourages<br/>-a-participer/
                                                         </h6>
                                                     </p>
 
@@ -1195,7 +1174,7 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/baleine.jpg"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/vazimba.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1209,30 +1188,23 @@
                                                 <p class="text-justify">
                                                     <h4>
                                                         <span>
-                                                            <b>Malgré les projections de
-                                                                performance en faveur du secteur, les opérateurs
-                                                                gardent les pieds sur terre pour assurer un
-                                                                développement pérenne du
-                                                                tourisme
+                                                            <b>Voyage : L’Amoronkay des mythes, et des Vazimba
                                                             </b>
                                                         </span>
                                                     </h4>
 
                                                 </p>
-                                                <p class="text-justify">Encourageant. Le cabinet d’études
-                                                    international Forward Keys a récemment annoncé que
-                                                    Madagascar est en bonne place pour vivre un boom touristique,
-                                                    cette année.
+                                                <p class="text-justify">La région historique d’Amoronkay, communément dénommée le Fanongoavana, recèle encore de ces légendes et de ces mythes séculaires. Présence morale et identitaire. Dernière demeure de Rapeto, terre d’appel de Ranavalona III… l’histoire d’Analamanga y a installé ses coulisses.
                                                 </p>
 
                                                 <div class="text-down-act">
-                                                    <a href="https://lexpress.mg/16/07/2019/tourisme-la-haute-saison-entre-optimisme-et-realisme/" target="_blank">
+                                                    <a href="http://www.midi-madagasikara.mg/dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba/" target="_blank">
                                                         Pour en savoir plus
                                                     </a>
                                                     <h6 style="word-wrap: break-word; font-size:12px">Source
-                                                        https://lexpress.mg/16/07/2019/touri
+                                                        http://www.midi-madagasikara.mg/
                                                         <br/>
-                                                        sme-la-haute-saison-entre-optimisme-et-realisme
+                                                        dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba
                                                     </h6>
                                                 </div>
 

@@ -122,6 +122,42 @@ class WebsiteIngenosya(http.Controller):
             order.sudo().message_post(type='comment', subtype='mail.mt_comment', context=None, **order_mail_values)
 
             mail.send()
+
+                    ###########################   Acknowledgment of receipt    ####################################
+            body_response = '''<p>Bonjour,</p>
+                        <p>Nous accusons bonne réception de votre demande de devis.</p>
+                        <p>Nous reviendrons vers vous dans un délai maximum de 3 jours ouvrés.</p>
+                        <p>Dans l’attente, veuillez trouver dans le lien ci-après notre plaquette commerciale <br/><a href="https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf">(https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf)</a>, <br/>contenant de plus amples informations sur nos offres et sur INGENOSYA.</p>
+                        <p>Nous restons à votre entière disposition pour toutes informations complémentaires et vous remercions pour la confiance que vous accordez à INGENOSYA,<p>
+                        <p>Très cordialement,<p>
+                        <p>L’équipe Commerciale d’INGENOSYA<p>'''
+
+            mail_response_values = {
+                'subject': 'Accusé de réception demande de devis',
+                'email_from': email_to,
+                'email_to': email,
+                'body_html': body_response,
+                'model': 'sale.order',
+                'res_id': order.id,
+                'message_type': 'email',
+            }
+
+            mail_response = http.request.env['mail.mail'].sudo().create(mail_response_values)
+
+            '''order_mail_response_values = {
+                                        'body': body_response,
+                                        'record_name': '', 
+                                        'no_auto_thread': False, 
+                                        'attachment_ids': [], 
+                                        'email_from': email_to, 
+                                        'partner_ids': [], 
+                                        'author_id': SUPERUSER_ID, 
+                                        'subject': 'Accusé de réception demande de devis',
+                                    }
+                                    order.sudo().message_post(type='comment', subtype='mail.mt_comment', context=None, **order_mail_response_values)'''
+            mail_response.send()
+
+            ######################################################################################
             
             return werkzeug.utils.redirect("/page/demande-de-devis-envoyee")
 
