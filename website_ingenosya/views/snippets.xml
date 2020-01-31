@@ -95,7 +95,7 @@
                     <div class="row">
 
                         <div class="col-md-4 animated zoomIn para_bref_ingenosya1">
-                            <h1 class="text-primary text-center" id="titre_bref2">Cette semaine</h1>
+                            <h2 class="text-primary text-center" id="titre_bref2">Cette semaine</h2>
                             <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
 
                             <br/>
@@ -156,9 +156,9 @@
 
                         </div>
                         <div class="col-md-4 animated zoomIn para_bref_ingenosya">
-                            <h1 class="text-primary text-center Présentation" id="titre_bref">Ingenosya en bref</h1>
+                            <h2 class="text-primary text-center Présentation" id="titre_bref">Investissements dans la RSE</h2>
                             <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
-                            <p class="text-justify" id="text_bref">Créée en 1999
+                            <!--<p class="text-justify" id="text_bref">Créée en 1999
                                 Ingenosya est une ESN (SSII offshore francophone) à Madagascar dont le siège social est
                                 en France et le
                                 bureau d'études et réalisation est à Antananarivo. Ingenosya, ESN Offshore, accompagne les entreprises dans leurs démarches de transformation digitale : développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Android, iOS…), l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou encore la maintenance de systèmes d’information.
@@ -177,10 +177,13 @@
                                 <a href="/page/ingenosya-en-bref" class="btn btn-primary btn-lg">Lire
                                     la suite
                                 </a>
+                              </p>-->
+                              <p class="text-justify" id="text_bref">
+                            <object width="100%" height="343" data="https://www.youtube.com/embed/-vHfZmCXF7E"></object>
                             </p>
                         </div>
                         <div class="col-md-4 animated zoomIn para_bref_ingenosya1">
-                            <h1 class="text-primary text-center" id="titre_bref2">Présentation</h1>
+                            <h2 class="text-primary text-center" id="titre_bref2">Présentation</h2>
                             <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
                             <p class="text-justify" id="text_bref">Proactif depuis 19 ans, Ingenosya est une ESN
                                 (SSII) spécialisée
