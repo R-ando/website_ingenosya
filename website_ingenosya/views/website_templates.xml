@@ -2169,6 +2169,519 @@
     </t>
   </template>
 
+<!-- Actualité Octobre 2019 -->
+
+<template id="website.actualite-octobre" name="actualite-octobre" page="True">
+    <t t-call="website.layout">
+            <section class="s_3_column_text oe_structure">
+                <div class="container mb32">
+                    <div class="row">
+                        <div class="col-md-2 ">
+                            <t t-call="website.sidebar-actualite"/>
+                        </div>
+                        <div class="col-md-10">
+                            <div>
+                                <h1 id="actualite" class="text-primary text-center animated zoomIn tous_les_titres">
+                                    Actualités OCTOBRE 2019
+                                </h1>
+                            </div>
+                            <!--actualite 1-->
+
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/actualite/soutient_com_dev.jpg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités ingenosya</center>
+                                                    </span>
+                                                </h3>
+                                                <h4>
+                                                    <span>
+                                                        <b>INGENOSYA SOUTIENT LES COMMUNAUTES DE DEVELOPPEURS</b>
+                                                    </span>
+                                                </h4>
+
+                                                <p class="text-justify">Toujours en voulant promouvoir les talents du numérique à Madagascar, Ingenosya a été cette année SPONSOR GOLD du DEVFEST 2019 organisé par le GDG (Google Developper’s Group)
+                                                </p>
+                                                <p class="text-justify">Le DEVFEST, c'est l’évènement festif de l'année où les développeurs et ceux qui sont intéressés par les NTIC se retrouvent pour 2 jours de partages de connaissances (Conférences, Workshop), de compétitions (Hackaton) et surtout de Fêtes !
+                                                </p>
+
+                                                <a href="#"
+                                                   class="btn btn-common text-down-act" target="_blank">
+                                                    Pour en savoir plus
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--actualite 2-->
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper">
+                                            <span>
+                                                <img src="/website_ingenosya/static/src/img/actualite/jeune_entrepreneur.jpg"
+                                                     class="img img-responsive "/>
+                                            </span>
+                                            <div class="blog-item-text element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités économiques</center>
+                                                    </span>
+                                                </h3>
+                                                <h4>
+                                                    <span>
+                                                        <b>Trophée jeune entrepreneur – Les startups encouragés à participer
+                                                        </b>
+                                                    </span>
+                                                </h4>
+
+                                                <p class="text-justify">Le trophée jeune entrepreneur 2019 sera l’occasion, pour les porteurs de projet, de concrétiser leurs idées d’entreprise. Des financements sont prévus en ce sens.
+                                                </p>
+                                                <div class="text-down-act">
+                                                    <a href="https://lexpress.mg/09/11/2019/trophee-jeune-entrepreneur-les-startups-encourages-a-participer/" target="_blank">
+                                                        Pour en savoir plus
+                                                    </a>
+
+                                                    <p style="width:97%">
+                                                        <h6 style="word-wrap: break-word; font-size:12px">Source
+                                                            https://lexpress.mg/09/11/2019/
+                                                            <br/>
+                                                            trophee-jeune-entrepreneur-les-startups-encourages<br/>-a-participer/
+                                                        </h6>
+                                                    </p>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--actualite 3-->
+                                    <div class="col-md-4 langage-item-act" style="">
+                                        <div class="blog-item-wrapper" style="">
+                                            <div class="blog-item-img">
+                                                <span>
+                                                    <img src="/website_ingenosya/static/src/img/actualite/vazimba.jpg"
+                                                         class="img img-responsive "/>
+                                                </span>
+                                            </div>
+                                            <div class="blog-item-text  element-actualite"
+                                            >
+                                                <h3>
+                                                    <span class="tilte-recruitment">
+                                                        <center>Actualités touristiques</center>
+                                                    </span>
+                                                </h3>
+                                                <p class="text-justify">
+                                                    <h4>
+                                                        <span>
+                                                            <b>Voyage : L’Amoronkay des mythes, et des Vazimba
+                                                            </b>
+                                                        </span>
+                                                    </h4>
+
+                                                </p>
+                                                <p class="text-justify">La région historique d’Amoronkay, communément dénommée le Fanongoavana, recèle encore de ces légendes et de ces mythes séculaires. Présence morale et identitaire. Dernière demeure de Rapeto, terre d’appel de Ranavalona III… l’histoire d’Analamanga y a installé ses coulisses.
+                                                </p>
+
+                                                <div class="text-down-act">
+                                                    <a href="http://www.midi-madagasikara.mg/dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba/" target="_blank">
+                                                        Pour en savoir plus
+                                                    </a>
+                                                    <h6 style="word-wrap: break-word; font-size:12px">Source
+                                                        http://www.midi-madagasikara.mg/
+                                                        <br/>
+                                                        dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba
+                                                    </h6>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h1 id="info-mada"
+                                            class="text-primary text-center animated zoomIn tous_les_titres_act2">
+                                            Informations sur Madagascar
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--actualite 4-->
+
+
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <br/>
+                                    <div class="col-text">
+                                        <span><font size="1">Les chiffres ci-après ne sont donnés qu’en tant que valeurs indicatives pour un éventuel voyageur. Il est toutefois possible que selon les endroits et les fournisseurs, ces données varient de façon significative.</font></span>
+                                        <p>
+                                            <b class="text-primary">VIVRE A MADAGASCAR</b>
+                                        </p>
+
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-flag" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle ">
+                                                    NOM OFFICIEL
+                                                </td>
+                                                <td class="libelle ">Madagascar</td>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td class="labelle ">SUPERFICIE</td>
+                                                    <td class="libelle ">587 041 m²</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle ">
+                                                        POPULATION
+                                                    </td>
+                                                    <td class="libelle ">24 millions d’habitants.
+                                                        64% vivent dans des zones rurales et 36% dans des zones
+                                                        urbaines.
+                                                        55,68% sont de 15 à 64 ans
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td class="labelle ">RELIGIONS</td>
+                                                    <td class="libelle ">Christianisme (41%),
+                                                        Religion traditionnelle (52%), Islam (7%)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle ">
+                                                        LANGUES OFFICIELLES
+                                                    </td>
+                                                    <td class="libelle">Malagasy-Français
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon"></td>
+                                                    <td style="word-wrap: break-word;"
+                                                        class="labelle ">CONDITIONS METEOROLOGIQUES
+
+                                                    </td>
+                                                    <td class="libelle ">Mai à octobre : hiver (15 à 26ºC dans les régions côtières et 4 à 20ºC au centre). Novembre à Avril : été (20 à 37ºC dans les régions côtières et 15 à 30ºC au centre).
+                                                    </td>
+                                                </tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle ">
+                                                    FUSEAU HORAIRE
+                                                </td>
+                                                <td class="libelle ">EAT (UTC +3)</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="icon"></td>
+                                                <td class="labelle ">MONNAIE</td>
+                                                <td>ARIARY (MGA)
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-tty fa-1x" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle " style="word-wrap: break-word;">
+
+                                                    CODE TELEPHONIQUE
+
+                                                </td>
+                                                <td>+261</td>
+
+                                            </tr>
+
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <!--actualite 5-->
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
+                                         class="img img-responsive" alt="Il aux nattes"
+                                         id="img_qlt1"/>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
+                                         class="img img-responsive" alt="lemur" id="img_qlt2"/>
+                                </div>
+                                <div class="col-md-7 para_qlt2">
+                                    <div class="col-text">
+
+                                        <p>
+                                            <b class="text-primary">COUT DE LA VIE</b>
+                                        </p>
+
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon">
+
+                                                </td>
+                                                <td style="color:#3498db;" class="labelle2 ">
+                                                    Estimation
+
+                                                </td>
+                                                <td style="color:#3498db;"
+                                                    class="libelle  budget-act-tab">Budget
+                                                </td>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-hotel" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Hébergement (USD/jour/personne)
+                                                    </td>
+                                                    <td class="libelle2 ">20-200
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Restauration (USD/jour/personne)
+
+                                                    </td>
+                                                    <td class="libelle2">6-15
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-car" aria-hidden="true"></i>
+                                                    </td>
+                                                    <td class="labelle2 ">
+                                                        Location de voiture (USD/jour, carburant en sus)
+
+                                                    </td>
+                                                    <td class="libelle2 ">26-67</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="icon">
+                                                        <i class="fa fa-tint" aria-hidden="true"></i>
+                                                    </td>
+
+                                                    <td class="labelle2 ">Gasoil/Essence (USD/j)
+                                                    </td>
+                                                    <td class="libelle2 ">1,2
+                                                    </td>
+                                                </tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-taxi" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="labelle2 ">
+                                                    Taxi, tour en centre-ville (USD/tour)
+
+                                                </td>
+                                                <td class="libelle2 ">1,6-5</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-taxi" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">Taxi, du centre-ville a
+                                                    l’aéroport international d’Ivato (USD/15km)
+
+                                                </td>
+                                                <td class="libelle2 ">16</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-internet-explorer fa-1x"
+                                                       aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">
+
+                                                    Internet (USD/200 Go)
+
+                                                </td>
+                                                <td class="libelle2 ">60</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="icon">
+                                                    <i class="fa fa-phone-square fa-1x" aria-hidden="true"></i>
+                                                </td>
+
+                                                <td class="labelle2 ">
+
+                                                    Communication(USD/s)
+                                                </td>
+                                                <td class="libelle2 ">0,002</td>
+
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--actualite 6-->
+
+                            <div class="row">
+                                <div class="col-md-7 para_qlt3">
+                                    <div class="col-text">
+
+                                        <p>
+                                            <b class="text-primary">INFORMATIONS EN PLUS SUR MADAGASCAR</b>
+                                        </p>
+                                        <table class="info-mad-tab">
+                                            <tr>
+                                                <td class="icon2">
+
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Membre de la Communauté de développement de l’Afrique
+                                                    Australe
+                                                    (SADC), COMESA (Marché commun pour l’Afrique Orientale et
+                                                    Australe) et la COI (Commission de l’Océan Indien).
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    A signé l’accord tripartite de libre-échange (TFTA), qui
+                                                    combine
+                                                    SADC, COMESA et la Communauté de l’Afrique de l’Est (EAC)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Augmentation des exportations vers d’autres pays (+12,8 % en
+                                                    2016 vers les USA et +44,6% en 2016 vers les pays de l’UE).
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Une large gamme d’opportunités dans le domaine du tourisme,
+                                                    de
+                                                    l’agro-industrie, des mines, des textiles, des TIC, des
+                                                    énergies
+                                                    renouvelables, de l’infrastructure.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Couts de la main d’œuvre, de l’électricité et de l’eau très
+                                                    compétitifs.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Disponibilité des matériaux « naturel », intrants à faible
+                                                    cout
+                                                    et facilité d’exploitation des ressources.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    La connexion internet occupe la deuxième place en termes de
+                                                    vitesse en Afrique.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Cadre juridique et fiscal bien défini pour l’investissement.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Appui du gouvernement malgache sur les partenariats
+                                                    public-privé
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon2">
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="space"></td>
+                                                <td class="labelle3 ">
+                                                    Fort potentiel minier, agricole, énergétique et de pêche
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-5 col-img mt16">
+                                    <img src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
+                                         class="img img-responsive" alt="baobab"
+                                         id="img_qlt3"/>
+                                    <br/>
+                                    <h6>Source : ECONOMIC DEVELOPPEMENT BOARD OF MADAGASCAR</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+          </t>
+        </template>
+
 <!--  actualité septembre-->
 <template id="website.actualite-septembre" name="actualite-septembre" page="True">
         <t t-call="website.layout">
@@ -2711,8 +3224,9 @@
     <a href="#info-mada" class="list-group-item scroll-reference list-group-item">Informations sur Madagascar</a>
     <br/>
     <br/>
-    <a href="/page/actualite" class="list-group-item">Actualités Octobre 2019</a>
+    <a href="/page/actualite" class="list-group-item">Actualités Janvier 2020</a>
     <a href="/page/actualite-septembre" class="list-group-item">Actualités Septembre 2019</a>
+    <a href="/page/actualite-octobre" class="list-group-item">Actualités Octobre 2019</a>
   </div>
 </template>
 

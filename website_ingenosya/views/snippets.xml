@@ -1077,7 +1077,7 @@
             </section>
         </template>
 
-<!--        ACTUALITE SEPTEMBRE     -->
+<!--        ACTUALITE JANVIER     -->
 <template id="s_actualite" name="actualite">
             <section class="s_3_column_text oe_structure">
                 <div class="container mb32">
@@ -1088,7 +1088,7 @@
                         <div class="col-md-10">
                             <div>
                                 <h1 id="actualite" class="text-primary text-center animated zoomIn tous_les_titres">
-                                    Actualités OCTOBRE 2019
+                                    Actualités JANVIER 2020
                                 </h1>
                             </div>
                             <!--actualite 1-->
@@ -1100,7 +1100,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/soutient_com_dev.jpg"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/don.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1113,13 +1113,13 @@
                                                 </h3>
                                                 <h4>
                                                     <span>
-                                                        <b>INGENOSYA SOUTIENT LES COMMUNAUTES DE DEVELOPPEURS</b>
+                                                        <b>INGENOSYA FAIT UNE DONATION POUR LA CLASSE ASAMA !</b>
                                                     </span>
                                                 </h4>
 
-                                                <p class="text-justify">Toujours en voulant promouvoir les talents du numérique à Madagascar, Ingenosya a été cette année SPONSOR GOLD du DEVFEST 2019 organisé par le GDG (Google Developper’s Group)
+                                                <p class="text-justify">Etant une Entreprise Malagasy, Soucieuse et Responsable de son Environnement, INGENOSYA a octroyé un don important pour l’année scolaire 2019 - 2020, en collaboration avec le Rotary Club Antananarivo Mahamasina, pour la classe ASAMA d'Ambolonkandrina.
                                                 </p>
-                                                <p class="text-justify">Le DEVFEST, c'est l’évènement festif de l'année où les développeurs et ceux qui sont intéressés par les NTIC se retrouvent pour 2 jours de partages de connaissances (Conférences, Workshop), de compétitions (Hackaton) et surtout de Fêtes !
+                                                <p class="text-justify">Ce don a servi à l'achat de kits scolaires pour les enfants, au paiement des salaires des enseignants et à la mise en place d'une cantine scolaire.
                                                 </p>
 
                                                 <a href="#"
@@ -1133,7 +1133,7 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img/actualite/jeune_entrepreneur.jpg"
+                                                <img src="/website_ingenosya/static/src/img/actualite/cacao.jpg"
                                                      class="img img-responsive "/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
@@ -1145,23 +1145,23 @@
                                                 </h3>
                                                 <h4>
                                                     <span>
-                                                        <b>Trophée jeune entrepreneur – Les startups encouragés à participer
+                                                        <b>France-Madagascar : Le chocolat devient un exemple de coopération
                                                         </b>
                                                     </span>
                                                 </h4>
 
-                                                <p class="text-justify">Le trophée jeune entrepreneur 2019 sera l’occasion, pour les porteurs de projet, de concrétiser leurs idées d’entreprise. Des financements sont prévus en ce sens.
+                                                <p class="text-justify">Une convention vient d’être signée pour encourager les entrepreneurs locaux dans la chocolaterie artisanale. Cinq maîtres chocolatiers français les encadreront.
                                                 </p>
                                                 <div class="text-down-act">
-                                                    <a href="https://lexpress.mg/09/11/2019/trophee-jeune-entrepreneur-les-startups-encourages-a-participer/" target="_blank">
+                                                    <a href="https://lexpress.mg/27/01/2020/france-madagascar-le-chocolat-devient-un-exemple-de-cooperation/" target="_blank">
                                                         Pour en savoir plus
                                                     </a>
 
                                                     <p style="width:97%">
                                                         <h6 style="word-wrap: break-word; font-size:12px">Source
-                                                            https://lexpress.mg/09/11/2019/
+                                                            https://lexpress.mg/27/01/2020/
                                                             <br/>
-                                                            trophee-jeune-entrepreneur-les-startups-encourages<br/>-a-participer/
+                                                            france-madagascar-le-chocolat-devient-un-exemple-de-cooperation/
                                                         </h6>
                                                     </p>
 
@@ -1177,7 +1177,7 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/vazimba.jpg"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/touriste.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1191,23 +1191,23 @@
                                                 <p class="text-justify">
                                                     <h4>
                                                         <span>
-                                                            <b>Voyage : L’Amoronkay des mythes, et des Vazimba
+                                                            <b>Transport aérien : L’aéroport international d’Ivato a dépassé le cap du million de passagers en 2019
                                                             </b>
                                                         </span>
                                                     </h4>
 
                                                 </p>
-                                                <p class="text-justify">La région historique d’Amoronkay, communément dénommée le Fanongoavana, recèle encore de ces légendes et de ces mythes séculaires. Présence morale et identitaire. Dernière demeure de Rapeto, terre d’appel de Ranavalona III… l’histoire d’Analamanga y a installé ses coulisses.
+                                                <p class="text-justify">Une année de performance. C’est ce que l’on peut dire de l’année 2019 pour Ravinala Airports. L’entreprise gestionnaire des aéroports internationaux d’Ivato et de Nosy-Be a réalisé un record historique pour l’aviation civile à Madagascar.
                                                 </p>
 
                                                 <div class="text-down-act">
-                                                    <a href="http://www.midi-madagasikara.mg/dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba/" target="_blank">
+                                                    <a href="http://www.midi-madagasikara.mg/economie/2020/01/28/transport-aerien-laeroport-international-divato-a-depasse-le-cap-du-million-de-passagers-en-2019/" target="_blank">
                                                         Pour en savoir plus
                                                     </a>
                                                     <h6 style="word-wrap: break-word; font-size:12px">Source
-                                                        http://www.midi-madagasikara.mg/
+                                                        http://www.midi-madagasikara.mg/economie/2020/01/28/transport-aerien-la
                                                         <br/>
-                                                        dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba
+                                                        eroport-international-divato-a-depasse-le-cap-du-million-de-passagers-en-2019/
                                                     </h6>
                                                 </div>
 
