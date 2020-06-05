@@ -11,7 +11,7 @@
             <li data-target="#myCarousel1535035937865" data-slide-to="2" />
           </ol>
           <div class="carousel-inner">
-            <div class="item oe_img_bg active" style="background-image: url(&quot;/website_ingenosya/static/src/img/slider/home_slide1.jpg&quot;);background-size:cover;background-position:center;">
+            <div class="item oe_img_bg active" style="background-image: url(&quot;/website_ingenosya/static/src/img_webp/slider/home_slide1.webp&quot;);background-size:cover;background-position:center;">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -33,7 +33,7 @@
                 </div>
               </div>
             </div>
-            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.jpg&quot;);background-size:cover;background-position:center;">
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.webp&quot;);background-size:cover;background-position:center;">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -55,7 +55,7 @@
               </div>
             </div>
 
-            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.jpg&quot;);">
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider/home_slide2.webp&quot;);">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -114,28 +114,28 @@
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <a href="/page/actualite">
-                                                <img src="/website_ingenosya/static/src/img/accueil/contenu1.jpg"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu1.webp"/>
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img/accueil/contenu2.jpg"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu2.webp"/>
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img/accueil/contenu3.jpg"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu3.webp"/>
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img/accueil/contenu4.jpg"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu4.webp"/>
                                             </a>
 
 
@@ -143,7 +143,7 @@
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img/accueil/contenu5.jpg"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu5.webp"/>
                                             </a>
 
                                         </div>
@@ -259,7 +259,7 @@
         <div class="container contenu_spec1" data-aos="fade-down">
           <div class="row mt16 mb16">
             <div class="col-md-4 text-center bg to-click" id="spec1" name="entreprise-ressource-planning">
-              <img src="/website_ingenosya/static/src/img/ui/ERP.png" alt="" id="logo_spc" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/ERP.webp" alt="" id="logo_spc" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Enterprise Resource Planning</font>
               </h3>
@@ -273,7 +273,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec2" name="business-intelligence">
-              <img src="/website_ingenosya/static/src/img/ui/bis.png" alt="" id="logo_spc" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/bis.webp" alt="" id="logo_spc" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Business Intelligence</font>
               </h3>
@@ -288,7 +288,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec3" name="web-et-applications-mobiles">
-              <img src="/website_ingenosya/static/src/img/ui/webapplication.png" alt="" id="logo_web" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" alt="" id="logo_web" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Web et applications mobiles</font>
               </h3>
@@ -313,7 +313,7 @@
         <div class="container target_animate_specialites">
           <div class="row mt16 mb16">
             <div class="col-md-4 text-center mb16 spec bg to-click" id="spec4" name="developpement-iphone-et-android">
-              <img src="/website_ingenosya/static/src/img/ui/b.png" alt="" id="logo_mobile" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/b.webp" alt="" id="logo_mobile" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Développement Iphone et Android</font>
               </h3>
@@ -328,7 +328,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec5" name="developpement-logiciel-en-regie">
-              <img src="/website_ingenosya/static/src/img/ui/regie.png" alt="" id="logo_spc" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/regie.webp" alt="" id="logo_spc" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Développement logiciel en régie</font>
               </h3>
@@ -343,7 +343,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec6" name="realisation-logiciel-au-forfait">
-              <img src="/website_ingenosya/static/src/img/ui/forfait.png" alt="" id="logo_forfait" />
+              <img src="/website_ingenosya/static/src/img_webp/ui/forfait.webp" alt="" id="logo_forfait" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Réalisation de logiciel au forfait</font>
               </h3>
@@ -404,7 +404,7 @@
             <div class="col-md-4 mt16" id="animation_reference">
               <div class="row">
               <div class="col-md-12 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/java.png" class="pull-left img_techno" alt="" id="logo_java" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/java.webp" class="pull-left img_techno" alt="" id="logo_java" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Développement avec JAVA/J2EE</font>
@@ -416,7 +416,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/mi.png" class="pull-left img_techno" alt="" id="logo_dotnet" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/mi.webp" class="pull-left img_techno" alt="" id="logo_dotnet" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Développement avec .NET</font>
@@ -428,7 +428,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/mobile.png" class="pull-left img_techno" alt="" id="logo_mobile" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/mobile.webp" class="pull-left img_techno" alt="" id="logo_mobile" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Application Mobile</font>
@@ -443,13 +443,13 @@
             </div>
             <div class="col-md-4 mt16">
               <div>
-                <img src="/website_ingenosya/static/src/img/pages/technologies.png" id="element-animated" alt="" />
+                <img src="/website_ingenosya/static/src/img_webp/pages/technologies.webp" id="element-animated" alt="" />
               </div>
             </div>
             <div class="col-md-4 mt16" id="animation_reference_suite">
               <div class="row">
               <div class="col-md-12 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/null.png" class="pull-left img_techno" alt="" id="logo_php" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/null.webp" class="pull-left img_techno" alt="" id="logo_php" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>Développement avec PHP</b>
@@ -460,7 +460,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/biiii.png" class="pull-left img_techno" alt="" id="logo_bii" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/biiii.webp" class="pull-left img_techno" alt="" id="logo_bii" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>Business Intelligence</b>
@@ -473,7 +473,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img src="/website_ingenosya/static/src/img/ui/aa.png" class="pull-left img_techno" alt="" id="logo_erp" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/aa.webp" class="pull-left img_techno" alt="" id="logo_erp" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>ERP/CRM</b>
@@ -515,7 +515,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -568,7 +568,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -621,7 +621,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -672,7 +672,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -723,7 +723,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec2.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -815,7 +815,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec2.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -863,7 +863,7 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -919,7 +919,7 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -968,7 +968,7 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1025,7 +1025,7 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1100,7 +1100,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/don.jpg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/don.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1133,7 +1133,7 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img/actualite/cacao.jpg"
+                                                <img src="/website_ingenosya/static/src/img_webp/actualite/cacao.webp"
                                                      class="img img-responsive "/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
@@ -1177,7 +1177,7 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/touriste.jpg"
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/touriste.webp"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -1325,7 +1325,7 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
                                          class="img img-responsive" alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
@@ -1333,7 +1333,7 @@
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
                                          class="img img-responsive" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
@@ -1572,7 +1572,7 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
                                          class="img img-responsive" alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>
@@ -1596,7 +1596,7 @@
           <div class="row mt16 mb16">
             <div class="col-md-4  animated zoomIn text-center " id="bg1">
               <div class="marg  animated zoomIn bg1">
-                <img src="/website_ingenosya/static/src/img/snippets/outilweb.png" alt="" id="outil_img1" />
+                <img src="/website_ingenosya/static/src/img_webp/snippets/outilweb.webp" alt="" id="outil_img1" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">PHP,JAVASCRIPT,JAVA,.NET</font>
                 </h3>
@@ -1609,7 +1609,7 @@
             </div>
             <div class="col-md-4 text-center" id="bg2">
               <div class="marg animated zoomIn bg2">
-                <img src="/website_ingenosya/static/src/img/snippets/odoo.png" alt="" id="outil_img2" />
+                <img src="/website_ingenosya/static/src/img_webp/snippets/odoo.webp" alt="" id="outil_img2" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">ERP,CRM,...</font>
                   <hr />
@@ -1622,7 +1622,7 @@
             </div>
             <div class="col-md-4 text-center" id="bg3">
               <div class="marg animated zoomIn bg3">
-                <img src="/website_ingenosya/static/src/img/snippets/appmobile.png" alt="" id="outil_img3" />
+                <img src="/website_ingenosya/static/src/img_webp/snippets/appmobile.webp" alt="" id="outil_img3" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">XAMARIN,SWIFT,IONIC,...</font>
                   <hr />
@@ -1639,7 +1639,7 @@
           <div class="row mt16 mb16">
             <div class="col-md-4 text-center" id="bg4">
               <div class="marg animated zoomIn ">
-                <img src="/website_ingenosya/static/src/img/snippets/cms.png" alt="" id="outil_img4" />
+                <img src="/website_ingenosya/static/src/img_webp/snippets/cms.webp" alt="" id="outil_img4" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">PRESTASHOP,WORDPRESS,...</font>
                 </h3>
@@ -1652,7 +1652,7 @@
             </div>
             <div class="col-md-4 text-center " id="bg5">
               <div class="marg animated zoomIn">
-                <img src="/website_ingenosya/static/src/img/snippets/desk.png" alt="" id="outil_img5" />
+                <img src="/website_ingenosya/static/src/img_webp/snippets/desk.webp" alt="" id="outil_img5" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">PYTHON,JAVA,WINDEV,C++,..</font>
                 </h3>
@@ -1665,7 +1665,7 @@
             </div>
             <div class="col-md-4  text-center" id="bg6">
               <div class="marg animated zoomIn bg6">
-                <img src="/website_ingenosya/static/src/img/ui/webapplication.png" alt="" id="outil_img6" />
+                <img src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" alt="" id="outil_img6" />
                 <h3 class="mb0 mt8">
                   <font style="color: rgb(66, 66, 66);">WEB ET MOBILE</font>
                 </h3>
