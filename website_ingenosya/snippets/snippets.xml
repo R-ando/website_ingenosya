@@ -7,18 +7,18 @@
                     <i class="fa fa-th-large" />Snippets Ingenosya
                 </div>
                 <div class="o_panel_body">
-                    <t t-snippet="website_ingenosya.s_header_slider" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/slide1.webp" />
-                    <t t-snippet="website_ingenosya.s_bref" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/logoV.webp" />
-                    <t t-snippet="website_ingenosya.s_icone" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/slide.webp" />
-                    <t t-snippet="website_ingenosya.s_specialit_titre" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/title_specialites1.webp" />
-                    <t t-snippet="website_ingenosya.s_contenu_splte_1" t-thumbnail="/website_ingenosya/static/src/img_webp/pages/web.webp" />
-                    <t t-snippet="website_ingenosya.s_contenu_splte_2" t-thumbnail="/website_ingenosya/static/src/img_webp/pages/web.webp" />
-                    <t t-snippet="website_ingenosya.s_titre_techonologie" t-thumbnail="/website_ingenosya/static/src/img_webp/pages/web.webp" />
-                    <t t-snippet="website_ingenosya.s_contenu_techonologie" t-thumbnail="/website_ingenosya/static/src/img_webp/pages/web.webp" />
-                    <t t-snippet="website_ingenosya.s_recrutement" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/recru1.webp" />
-                    <t t-snippet="website_ingenosya.s_outil_de_developpement" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/outil.webp" />
-                    <t t-snippet="website_ingenosya.s_titre_outil" t-thumbnail="/website_ingenosya/static/src/img_webp/snippets/title_outil.webp" />
-                    <t t-snippet="website_ingenosya.s_actualite" t-thumbnail="/website_ingenosya/static/src/img_webp/actualite/actualite.webp" />
+                    <t t-snippet="website_ingenosya.s_header_slider" t-thumbnail="/website_ingenosya/static/src/img/snippets/slide1.png" />
+                    <t t-snippet="website_ingenosya.s_bref" t-thumbnail="/website_ingenosya/static/src/img/snippets/logoV.png" />
+                    <t t-snippet="website_ingenosya.s_icone" t-thumbnail="/website_ingenosya/static/src/img/snippets/slide.png" />
+                    <t t-snippet="website_ingenosya.s_specialit_titre" t-thumbnail="/website_ingenosya/static/src/img/snippets/title_specialites1.png" />
+                    <t t-snippet="website_ingenosya.s_contenu_splte_1" t-thumbnail="/website_ingenosya/static/src/img/pages/web.png" />
+                    <t t-snippet="website_ingenosya.s_contenu_splte_2" t-thumbnail="/website_ingenosya/static/src/img/pages/web.png" />
+                    <t t-snippet="website_ingenosya.s_titre_techonologie" t-thumbnail="/website_ingenosya/static/src/img/pages/web.png" />
+                    <t t-snippet="website_ingenosya.s_contenu_techonologie" t-thumbnail="/website_ingenosya/static/src/img/pages/web.png" />
+                    <t t-snippet="website_ingenosya.s_recrutement" t-thumbnail="/website_ingenosya/static/src/img/snippets/recru1.png" />
+                    <t t-snippet="website_ingenosya.s_outil_de_developpement" t-thumbnail="/website_ingenosya/static/src/img/snippets/outil.png" />
+                    <t t-snippet="website_ingenosya.s_titre_outil" t-thumbnail="/website_ingenosya/static/src/img/snippets/title_outil.png" />
+                    <t t-snippet="website_ingenosya.s_actualite" t-thumbnail="/website_ingenosya/static/src/img/actualite/actualite.png" />
                 </div>
             </div>
         </xpath>

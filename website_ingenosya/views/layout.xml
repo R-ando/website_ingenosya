@@ -25,14 +25,14 @@
       
       <xpath expr="//t[@t-set='head_website']" position="inside">
         <!-- Facebook and linkedin sharing image -->
-        <meta property='og:image' t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.webp'"/>
+        <meta property='og:image' t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.png'"/>
         
         <!--  Twitter sharing data -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="Ingenosya Madagascar" />
         <meta name="twitter:title" content="Ingenosya, votre société offshore informatique à Madagascar" />
         <meta name="twitter:description" content="Ingenosya est une ESN (SSII) spécialisée dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Androïd, iOS…)," />
-        <meta name="twitter:image" t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.webp'" />
+        <meta name="twitter:image" t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.png'" />
       </xpath>
     </template>
 

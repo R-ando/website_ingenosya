@@ -17,7 +17,7 @@
 
     <div class="col-md-6 animated fadeInRight mt16">
       <!-- <blockquote> -->
-        <img src="/website_ingenosya/static/src/img_webp/presentation/presentation2.webp" class="img img-responsive" alt="Présentation" id="bref2" />
+        <img src="/website_ingenosya/static/src/img/presentation/presentation2.png" class="img img-responsive" alt="Présentation" id="bref2" />
       <!-- </blockquote> -->
     </div>
   </div>
@@ -77,7 +77,7 @@
 	    <div class="col-md-6">
 	      <blockquote>
 	        <div class="blockquote-text">
-	          <img src="/website_ingenosya/static/src/img_webp/pages/presentation1.webp" class="img img-responsive" alt="Equipe Ingenosya"
+	          <img src="/website_ingenosya/static/src/img/pages/presentation1.png" class="img img-responsive" alt="Equipe Ingenosya"
 	          id="presentation1" />
 	        </div>
 	      </blockquote>
@@ -147,7 +147,7 @@
         </div>
       </div>
       <!-- <div>
-        <img src="/website_ingenosya/static/src/img_webp/presentation/odoo1.webp" class="img img-responsive animated zoomIn" style="animation-delay:2s" alt="A qui s'adresse Ingenosya" id="a-qui-adresse-t-on" />
+        <img src="/website_ingenosya/static/src/img/presentation/odoo1.png" class="img img-responsive animated zoomIn" style="animation-delay:2s" alt="A qui s'adresse Ingenosya" id="a-qui-adresse-t-on" />
       </div> -->
       <div class="row">
         <!-- <div class="col-md-6 animated fadeInLeft mt8" style="animation-delay:2s"> -->
@@ -218,7 +218,7 @@
               </div>
           </div>
           <div class="col-md-6 col-img mt16">
-            <img src="/website_ingenosya/static/src/img_webp/presentation/quality4.webp" class="img img-responsive" alt="Méthodologie et assurance qualité" id="img_qlt1" />
+            <img data-src="/website_ingenosya/static/src/img_webp/presentation/quality4.webp" class="img img-responsive lazyload" alt="Méthodologie et assurance qualité" id="img_qlt1" />
           </div>
           <div class="col-md-12 mt16">
             <p class="text-justify">La recherche de la qualité est une préoccupation constante d’INGENOSYA. Le Contrôle Qualité est
@@ -231,7 +231,7 @@
         <!--Template separateur du code-->
         <div class="row">
           <div class="col-md-6 col-img mt16">
-            <img src="/website_ingenosya/static/src/img_webp/pages/q2.webp" class="img img-responsive" alt="" id="img_qlt2" />
+            <img data-src="/website_ingenosya/static/src/img_webp/pages/q2.webp" class="img img-responsive lazyload" alt="" id="img_qlt2" />
           </div>
           <div class="col-md-6 para_qlt2">
             <div class="col-text">
@@ -278,7 +278,7 @@
             </div>
           </div>
           <div class="col-md-6 col-img mt16">
-            <img src="/website_ingenosya/static/src/img_webp/presentation/quality6.webp" class="img img-responsive" alt="Procédures d'assurance qualité" id="img_qlt3" />
+            <img data-src="/website_ingenosya/static/src/img_webp/presentation/quality6.webp" class="img img-responsive lazyload" alt="Procédures d'assurance qualité" id="img_qlt3" />
           </div>
         </div>
         <div class="para_qlt4">
@@ -343,7 +343,7 @@
               suivi de plan.</p>
             </div>
             <div class="col-md-6">
-              <img src="/website_ingenosya/static/src/img_webp/presentation/agile1.webp" class="img img-responsive" rel="tooltip" data-toggle="tooltip" data-trigger="hover" alt="Methodologie agile" id="img_agile1" data-placement="left" data-title="Le Product Owner (PO)" data-content="est le porteur de la réalisation et de la vision produit, il représente le client au sein de l'equipe de réalisation. Il est la seule personne responsable de gérer le carnet de produit (Product Backlog). Le Scrum Master est un leader au service de l'équipe de réalisation. Il est responsable de s'assurer que le scrum est compris et mis en oeuvre.  Le Product Backlog est la liste priorisée des fonctionnalités du produit. Le Product Backlog est de la responsabilité du Product Owner (PO)."/>
+              <img data-src="/website_ingenosya/static/src/img_webp/presentation/agile1.webp" class="img img-responsive lazyload" rel="tooltip" data-toggle="tooltip" data-trigger="hover" alt="Methodologie agile" id="img_agile1" data-placement="left" data-title="Le Product Owner (PO)" data-content="est le porteur de la réalisation et de la vision produit, il représente le client au sein de l'equipe de réalisation. Il est la seule personne responsable de gérer le carnet de produit (Product Backlog). Le Scrum Master est un leader au service de l'équipe de réalisation. Il est responsable de s'assurer que le scrum est compris et mis en oeuvre.  Le Product Backlog est la liste priorisée des fonctionnalités du produit. Le Product Backlog est de la responsabilité du Product Owner (PO)."/>
             </div>
         </div>
 
@@ -553,7 +553,7 @@
             </div>
             <!-- <div class="col-md-6 animated fadeInRight mt16" style="animation-delay:1s"> -->
             <div class="col-md-6 animated">
-              <img src="/website_ingenosya/static/src/img_webp/presentation/conformite_rgpd.webp" class="img img-responsive" alt="Conformité RGPD"/>
+              <img data-src="/website_ingenosya/static/src/img/presentation/conformite_rgpd.png" class="img img-responsive lazyload" alt="Conformité RGPD"/>
             </div>
           </div>
         </div>
@@ -640,7 +640,7 @@
   <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel par itération</h1>
   <div class="row">
     <div class="col-md-6 mt16">
-      <img src="/website_ingenosya/static/src/img_webp/prestations/a1.webp" class="img img-responsive" alt="Réalisation logiciel par itération" id="rli1" />
+      <img src="/website_ingenosya/static/src/img/prestations/a1.png" class="img img-responsive" alt="Réalisation logiciel par itération" id="rli1" />
     </div>
     <div class="col-md-6 mt16 para_iteration1">
       <p class="text-justify">Quand il est difficile, voire impossible de réaliser un cahier des charges, clair
@@ -806,7 +806,7 @@
       <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Comptabilité financière.</p>
     </div>
     <div class="col-md-4 text-center">
-      <img src="/website_ingenosya/static/src/img_webp/specialites/erp2.webp" class="img img-responsive" alt="Enterprise Resource Planning - ERP" id="img-erp1" />
+      <img data-src="/website_ingenosya/static/src/img_webp/specialites/erp2.webp" class="img img-responsive lazyload" alt="Enterprise Resource Planning - ERP" id="img-erp1" />
       <a href="#">Enterprise Resource Planning</a>
     </div>
     <div class="col-md-4">
@@ -882,7 +882,7 @@
   <h1 class="text-center text-primary animated zoomIn tous_les_titres">Business Intelligence</h1>
   <div class="row">
     <div class="col-md-6 col-img mt16">
-      <!-- <img src="/website_ingenosya/static/src/img_webp/pages/a2.webp" class="img img-responsive animated bounceInLeft"
+      <!-- <img src="/website_ingenosya/static/src/img/pages/a2.jpeg" class="img img-responsive animated bounceInLeft"
       alt="" id="img_titre_bi" /> -->
       <img src="/website_ingenosya/static/src/img_webp/pages/a2.webp" class="img img-responsive" alt="Business Intelligence - BI" id="img_titre_bi" />
     </div>
@@ -919,34 +919,34 @@
         </div>
       </div>
       <div class="col-md-2 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/pages/vanilla1.webp" class="img img-responsive" alt="Technologies" id="img_vanilla" />
+        <img data-src="/website_ingenosya/static/src/img_webp/pages/vanilla1.webp" class="img img-responsive lazyload" alt="Technologies" id="img_vanilla" />
         <div class="icon_box_content">
           <h4>VANILLA :</h4>
           <p>Open source français, JAVA, GWT, Eclipse RCP, MySQL – Tous SGBDR</p>
         </div>
       </div>
       <div class="col-md-2 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/pages/talend1.webp" class="img img-responsive" alt="Technologies" id="img_talend" />
+        <img data-src="/website_ingenosya/static/src/img_webp/pages/talend1.webp" class="img img-responsive lazyload" alt="Technologies" id="img_talend" />
         <div class="icon_box_content">
           <h4>TALEND :</h4>
           <p>Java J2EE, JDBC – Tous SGBDR</p>
         </div>
       </div>
       <div class="col-md-2 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/pages/JasperReports.webp" class="img img-responsive" alt="Technologies" id="img_jasper" />
+        <img data-src="/website_ingenosya/static/src/img/pages/JasperReports.png" class="img img-responsive lazyload" alt="Technologies" id="img_jasper" />
         <div class="icon_box_content">
           <h4>JasperReports</h4>
         </div>
       </div>
       <div class="col-md-2 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/pages/powerbi.webp" class="img img-responsive" alt="Technologies" id="img_powerbi" />
+        <img data-src="/website_ingenosya/static/src/img_webp/pages/powerbi.webp" class="img img-responsive lazyload" alt="Technologies" id="img_powerbi" />
         <div class="icon_box_content">
           <h4>MICROSOFT BI :</h4>
           <p>langages dot Net, MS SQL SERVER 2008</p>
         </div>
       </div>
       <div class="col-md-2 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/pages/Qlik.webp" class="img img-responsive" alt="Technologies" id="img_qlik" />
+        <img data-src="/website_ingenosya/static/src/img_webp/pages/Qlik.webp" class="img img-responsive lazyload" alt="Technologies" id="img_qlik" />
         <div class="icon_box_content">
           <h4>QlikView, QlikSense</h4>
         </div>
@@ -999,7 +999,7 @@
         <p class="text-justify mb0">Cette offre requiert l’acquisition de la licence Microsoft par l’utilisateur final.</p>
       </div>
       <div class="col-md-6 mt16">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/bi.webp" class="img img-responsive" alt="Microsoft Business Intelligence - BI" id="img_bi1" />
+        <img data-src="/website_ingenosya/static/src/img_webp/specialites/bi.webp" class="img img-responsive lazyload" alt="Microsoft Business Intelligence - BI" id="img_bi1" />
       </div>
     </div>
 
@@ -1104,7 +1104,7 @@
         <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Mise en œuvre de Web Services</p>
       </div>
       <div class="col-md-6">
-        <!-- <img src="/website_ingenosya/static/src/img_webp/specialites/web2.webp" class="img img-responsive animated fadeInRight"
+        <!-- <img src="/website_ingenosya/static/src/img/specialites/web2.png" class="img img-responsive animated fadeInRight"
         alt=""  /> -->
         <img src="/website_ingenosya/static/src/img_webp/specialites/web2.webp" class="img img-responsive" alt="Développements site web - Développements site internet"  />
       </div>
@@ -1150,7 +1150,7 @@
       <h1 class="text-center text-primary animated zoomIn tous_les_titres">Odoo chez INGENOSYA</h1>
       <div class="row">
         <div class="col-md-6">
-          <!-- <img src="/website_ingenosya/static/src/img_webp/pages/odoo1.webp" class="img img-responsive animated fadeInLeft"
+          <!-- <img src="/website_ingenosya/static/src/img/pages/odoo1.png" class="img img-responsive animated fadeInLeft"
           alt="" id="img-odoo1" /> -->
           <img src="/website_ingenosya/static/src/img_webp/pages/odoo1.webp" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo1" />
         </div>
@@ -1175,7 +1175,7 @@
             marché.Voir<a href="https://www.odoo.com" target="_blank"> www.odoo.com</a></p>
         </div>
         <div class="col-md-6">
-          <!-- <img src="/website_ingenosya/static/src/img_webp/specialites/odoo_contenu2.webp" class="img img-responsive animated fadeInRight"
+          <!-- <img src="/website_ingenosya/static/src/img/specialites/odoo_contenu2.png" class="img img-responsive animated fadeInRight"
           style="animation-delay: 2s;" alt="" id="img-odoo2" /> -->
           <img src="/website_ingenosya/static/src/img_webp/specialites/odoo_contenu2.webp" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo2" />
         </div>
@@ -1257,13 +1257,13 @@
     </div>
 
     <div class="row module-odoo1">
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/1.webp" class="img img-responsive icon-odoo "
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/1.png" class="img img-responsive icon-odoo "
       alt="Module e-commerce odoo" id="img-odoo-gallery1" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/2.webp" class="img img-responsive icon-odoo "
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/2.png" class="img img-responsive icon-odoo "
       alt="Module ventes odoo" id="" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/3.webp" class="img img-responsive icon-odoo "
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/3.png" class="img img-responsive icon-odoo "
       alt="Module achats odoo" id="" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/4.webp" class="img img-responsive icon-odoo "
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/4.png" class="img img-responsive icon-odoo "
       alt="Module point de vente odoo" id="" /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/5.webp" class="img img-responsive icon-odoo "
       alt="Module mailling odoo" id="" /></div>
@@ -1277,32 +1277,32 @@
     </div>
 
     <div class="row module-odoo1">
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/10.webp" class="img img-responsive"
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/10.png" class="img img-responsive"
       alt="Module web odoo" id="img-odoo-gallery1" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/6.webp" class="img img-responsive"
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/6.png" class="img img-responsive"
       alt="Module stock odoo" id="" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/7.webp" class="img img-responsive"
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/7.png" class="img img-responsive"
       alt="Module projet odoo" id="" /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/8.webp" class="img img-responsive"
       alt="Module ressources humaines odoo" id="" /></div>
-      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/9.webp" class="img img-responsive"
+      <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/9.png" class="img img-responsive"
       alt="Module facturation comptabilité odoo" id="" /></div>
     </div>
 
     <div class="row module-odoo2">
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/1.webp" class="img-odoo" alt="Module e-commerce odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/1.png" class="img-odoo" alt="Module e-commerce odoo" />
       </div>
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/2.webp" class="img-odoo" alt="Module ventes odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/2.png" class="img-odoo" alt="Module ventes odoo" />
       </div>
     </div>
     <div class="row module-odoo2">
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/3.webp" class="img-odoo" alt="Module achats odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/3.png" class="img-odoo" alt="Module achats odoo" />
       </div>
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/4.webp" class="img-odoo" alt="Module point de vente odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/4.png" class="img-odoo" alt="Module point de vente odoo" />
       </div>
     </div>
     <div class="row module-odoo2">
@@ -1310,15 +1310,15 @@
         <img src="/website_ingenosya/static/src/img_webp/specialites/5.webp" class="img-odoo" alt="Module mailling odoo" />
       </div>
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/10.webp" class="img-odoo" alt="Module web odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/10.png" class="img-odoo" alt="Module web odoo" />
       </div>
     </div>
     <div class="row module-odoo2">
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/6.webp" class="img-odoo" alt="Module stock odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/6.png" class="img-odoo" alt="Module stock odoo" />
       </div>
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/7.webp" class="img-odoo" alt="Module projet odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/7.png" class="img-odoo" alt="Module projet odoo" />
       </div>
     </div>
     <div class="row module-odoo2">
@@ -1326,7 +1326,7 @@
         <img src="/website_ingenosya/static/src/img_webp/specialites/8.webp" class="img-odoo" alt="Module ressources humaines odoo" />
       </div>
       <div class="element-odoo">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/9.webp" class="img-odoo" alt="Module facturation comptabilité odoo" />
+        <img src="/website_ingenosya/static/src/img/specialites/9.png" class="img-odoo" alt="Module facturation comptabilité odoo" />
       </div>
     </div>
 
@@ -1344,11 +1344,11 @@
     <a href="#net" class="list-group-item scroll-reference">.NET
       <img alt=".NET" class="image-responsive pull-right" src="/website_ingenosya/static/src/img_webp/references/net.webp" style="max-height:25px; max-width:25px;"/></a>
     <a href="#appmobile" class="list-group-item scroll-reference">Applications Mobiles
-      <img alt="Applications mobiles" class="image-responsive pull-right" src="/website_ingenosya/static/src/img_webp/references/mobile.webp" style="max-height:25px; max-width:25px;"/></a>
+      <img alt="Applications mobiles" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/mobile.png" style="max-height:25px; max-width:25px;"/></a>
     <a href="#php" class="list-group-item scroll-reference">PHP
       <img alt="PHP" class="image-responsive pull-right scroll-reference" src="/website_ingenosya/static/src/img_webp/references/php.webp" style="max-height:25px; max-width:25px;"/></a>
     <a href="#bi" class="list-group-item scroll-reference">Business Intelligence
-      <img alt="Business Intelligence" class="image-responsive pull-right" src="/website_ingenosya/static/src/img_webp/references/bi.webp" style="max-height:25px; max-width:25px;"/></a>
+      <img alt="Business Intelligence" class="image-responsive pull-right" src="/website_ingenosya/static/src/img/references/bi.png" style="max-height:25px; max-width:25px;"/></a>
     <a href="#erp" class="list-group-item scroll-reference">ERP, CRM
       <img alt="ERP - CRM - Odoo" class="image-responsive pull-right" src="/website_ingenosya/static/src/img_webp/references/erp.webp" style="max-height:25px; max-width:25px;"/></a>
     <a href="#odoo" class="list-group-item scroll-reference">Odoo
@@ -1887,7 +1887,7 @@
           <p class="text-center"><a href="/page/tierce-maintenance-applicative" class="">Tierce Maintenance Applicative</a></p>
         </div>
         <div class="col-md-4 plan_de_site">
-          <img src="/website_ingenosya/static/src/img_webp/pages/plan_site.webp" class="img img-responsive" alt="Plan du site" id="img_plan_site" />
+          <img data-src="/website_ingenosya/static/src/img_webp/pages/plan_site.webp" class="img img-responsive lazyload" alt="Plan du site" id="img_plan_site" />
         </div>
         <div class="col-md-4 plan_de_site">
           <p class="text-center" id="btn_plan3"><a href="/page/specialites" class="btn btn-default btn-lg">Spécialités</a></p>
@@ -1970,7 +1970,7 @@
                 <div class="row demande">
                   <label class="col-md-4" for="fichier">Fichier cahier des charges</label>
                   <div class="col-md-8">
-                    <input name="ufile" type="file" class=" responsive-width" id="fichier" accept=".pdf,.webp,.doc,.docx"/>
+                    <input name="ufile" type="file" class=" responsive-width" id="fichier" accept=".pdf,.jpg,.doc,.docx"/>
                   </div>
                 </div>
                 <div class="row demande mt16">
@@ -2032,7 +2032,7 @@
               <h1 class="text-center text-primary animated zoomIn titleClickPrestations tous_les_titres">Prestations</h1>
               <div class="row">
                 <div class="col-md-6 contenu_prestations_click mt16">
-                  <img src="/website_ingenosya/static/src/img_webp/prestations/prestation.webp" class="img img-responsive" alt="Prestations" id="img_prestations"/>
+                  <img src="/website_ingenosya/static/src/img/prestations/prestation.png" class="img img-responsive" alt="Prestations" id="img_prestations"/>
                 </div>
                 <div class="col-md-6 contenu_prestations_click1 mt16">
                   <p class="text-justify">Tous les travaux techniques d’Ingenosya sont réalisés à Antananarivo, mais selon les circonstances, le personnel d’Ingenosya peut se déplacer pour de courtes durées (une à plusieurs semaines) sur le site clien-t, sans que cela ne surcharge les coûts de façon trop importante. Les prestations contractuelles d’Ingenosya, votre société de développement informatique offshore, sont conçues pour répondre avec souplesse aux différents besoins :</p>
@@ -2077,7 +2077,7 @@
           <div class="row">
             <!-- <div class="col-md-6 animated fadeInLeft img_Double_click mt16"> -->
             <div class="col-md-6 img_Double_click mt16">
-              <img src="/website_ingenosya/static/src/img_webp/specialites/aa.webp" class="img img-responsive" alt="Spécialités" id="img_specialites"/>
+              <img src="/website_ingenosya/static/src/img/specialites/aa.png" class="img img-responsive" alt="Spécialités" id="img_specialites"/>
             </div>
             <!-- <div class="col-md-6 para_spec_base animated fadeInRight img_Double_click1 mt16"> -->
             <div class="col-md-6 para_spec_base img_Double_click1 mt16">
@@ -2131,7 +2131,7 @@
               </div>
               <!-- <div class="col-md-7 animated fadeInRight contact_contenu2"> -->
               <div class="col-md-7 contact_contenu2">
-                <img src="/website_ingenosya/static/src/img_webp/contact/contact.webp" class="img img-responsive" alt="Contact" id="img_contact"/>
+                <img src="/website_ingenosya/static/src/img/contact/contact.png" class="img img-responsive" alt="Contact" id="img_contact"/>
                 <!-- <div id="map"></div> -->
               </div>
             </div>
@@ -2154,7 +2154,7 @@
           <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développement iphone et android</h1>
           <div class="row">
             <div class="col-md-6 col-img mt16">
-              <img src="/website_ingenosya/static/src/img_webp/pages/mobile.webp" class="img img-responsive" alt="Développement iphone et android" id="img-regie1" />
+              <img src="/website_ingenosya/static/src/img/pages/mobile.jpg" class="img img-responsive" alt="Développement iphone et android" id="img-regie1" />
             </div>
             <div class="col-md-6 para_regie mt16">
               <div class="col-text">
@@ -2194,7 +2194,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/soutient_com_dev.webp"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/soutient_com_dev.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -2227,7 +2227,7 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img_webp/actualite/jeune_entrepreneur.webp"
+                                                <img src="/website_ingenosya/static/src/img/actualite/jeune_entrepreneur.jpg"
                                                      class="img img-responsive "/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
@@ -2271,7 +2271,7 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/vazimba.webp"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/vazimba.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -2419,7 +2419,7 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
+                                    <img src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
                                          class="img img-responsive" alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
@@ -2427,7 +2427,7 @@
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
+                                    <img src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
                                          class="img img-responsive" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
@@ -2666,7 +2666,7 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
+                                    <img src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
                                          class="img img-responsive" alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>
@@ -2706,7 +2706,7 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/barea.webp"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/barea.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -2743,7 +2743,7 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img_webp/actualite/africa 50.webp"
+                                                <img src="/website_ingenosya/static/src/img/actualite/africa 50.jpg"
                                                      class="img img-responsive "/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
@@ -2799,7 +2799,7 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/baleine.webp"
+                                                    <img src="/website_ingenosya/static/src/img/actualite/baleine.jpg"
                                                          class="img img-responsive "/>
                                                 </span>
                                             </div>
@@ -2954,16 +2954,16 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
-                                         class="img img-responsive" alt="Il aux nattes"
+                                    <img data-src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
+                                         class="img img-responsive lazyload" alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
-                                         class="img img-responsive" alt="lemur" id="img_qlt2"/>
+                                    <img data-src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
+                                         class="img img-responsive lazyload" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
                                     <div class="col-text">
@@ -3201,8 +3201,8 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
-                                         class="img img-responsive" alt="baobab"
+                                    <img data-src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
+                                         class="img img-responsive lazyload" alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>
                                     <h6>Source : ECONOMIC DEVELOPPEMENT BOARD OF MADAGASCAR</h6>

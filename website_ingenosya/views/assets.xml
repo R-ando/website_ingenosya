@@ -19,7 +19,8 @@
     			<script type="text/javascript" src="/website_ingenosya/static/src/js/menu_animations.js"/>
     			<script type="text/javascript" src="/website_ingenosya/static/src/js/animations_de_page.js"/>
     			<script type="text/javascript" src="/website_ingenosya/static/src/js/sidebar.js"/>
-    			<script type="text/javascript" src="/website_ingenosya/static/src/js/google_map.js"/>    			
+    			<script type="text/javascript" src="/website_ingenosya/static/src/js/google_map.js"/>    
+				<script type="text/javascript" src="/website_ingenosya/static/src/js/lazysizes.min.js" async="async" />					
   			</xpath>
 		</template>
  </data>
