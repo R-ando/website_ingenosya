@@ -33,7 +33,7 @@
                 </div>
               </div>
             </div>
-            <div class="item oe_img_bg lazyload" style="background-image: url(&quot;website_ingenosya/static/src/img_webp/slider/home_slide2.webp&quot;);background-size:cover;background-position:center;">
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img_webp/slider/home_slide2.webp&quot;);background-size:cover;background-position:center;">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -55,7 +55,7 @@
               </div>
             </div>
 
-            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img/slider_webp/home_slide2.webp&quot;);">
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img_webp/slider/home_slide2.webp&quot;);">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -114,28 +114,28 @@
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <a href="/page/actualite">
-                                                <img data-src="/website_ingenosya/static/src/img_webp/accueil/contenu1.webp" class="lazyload" />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu1.webp"  />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu2.webp"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu2.webp"   />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img data-src="/website_ingenosya/static/src/img_webp/accueil/contenu3.webp" class="lazyload" />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu3.webp"   />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img data-src="/website_ingenosya/static/src/img_webp/accueil/contenu4.webp"  class="lazyload" />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu4.webp"  />
                                             </a>
 
 
@@ -143,7 +143,7 @@
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img data-src="/website_ingenosya/static/src/img_webp/accueil/contenu5.webp" class="lazyload" />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu5.webp"  />
                                             </a>
 
                                         </div>
@@ -259,7 +259,7 @@
         <div class="container contenu_spec1" data-aos="fade-down">
           <div class="row mt16 mb16">
             <div class="col-md-4 text-center bg to-click" id="spec1" name="entreprise-ressource-planning">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/ERP.webp" class="lazyload" alt="" id="logo_spc" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/ERP.webp" class="lazy"  alt="" id="logo_spc" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Enterprise Resource Planning</font>
               </h3>
@@ -273,7 +273,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec2" name="business-intelligence">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/bis.webp" class="lazyload" alt="" id="logo_spc" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/bis.webp" class="lazy"  alt="" id="logo_spc" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Business Intelligence</font>
               </h3>
@@ -288,7 +288,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec3" name="web-et-applications-mobiles">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" class="lazyload" alt="" id="logo_web" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" class="lazy"  alt="" id="logo_web" />
               <h3 class="mb0 mt8">
                 <font style="color: rgb(66, 66, 66);">Web et applications mobiles</font>
               </h3>
@@ -313,7 +313,7 @@
         <div class="container target_animate_specialites">
           <div class="row mt16 mb16">
             <div class="col-md-4 text-center mb16 spec bg to-click" id="spec4" name="developpement-iphone-et-android">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/b.webp" class="lazyload" alt="" id="logo_mobile" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/b.webp" class="lazy"  alt="" id="logo_mobile" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Développement Iphone et Android</font>
               </h3>
@@ -328,7 +328,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec5" name="developpement-logiciel-en-regie">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/regie.webp" class="lazyload" alt="" id="logo_spc" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/regie.webp" class="lazy"  alt="" id="logo_spc" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Développement logiciel en régie</font>
               </h3>
@@ -343,7 +343,7 @@
               </p>
             </div>
             <div class="col-md-4 text-center bg to-click" id="spec6" name="realisation-logiciel-au-forfait">
-              <img src="/website_ingenosya/static/src/img_webp/ui/forfait.webp" alt="" id="logo_forfait" />
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/forfait.webp" class="lazy"  alt="" id="logo_forfait" />
               <h3 class="mt8 mb0">
                 <font style="color: rgb(66, 66, 66);">Réalisation de logiciel au forfait</font>
               </h3>
@@ -404,7 +404,7 @@
             <div class="col-md-4 mt16" id="animation_reference">
               <div class="row">
               <div class="col-md-12 div-techno">
-                <img src="/website_ingenosya/static/src/img" class="pull-left img_techno" alt="" id="logo_java" />
+                <img  data-src="/website_ingenosya/static/src/img_webp/ui/java.webp" class="pull-left img_techno lazy"  alt="" id="logo_java" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Développement avec JAVA/J2EE</font>
@@ -416,7 +416,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img data-src="/website_ingenosya/static/src/img_webp/ui/mi.webp"  class="pull-left img_techno lazyload" alt="" id="logo_dotnet" />
+                <img data-src="/website_ingenosya/static/src/img_webp/ui/mi.webp"  class="pull-left img_techno lazy" alt="" id="logo_dotnet" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Développement avec .NET</font>
@@ -428,7 +428,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img data-src="/website_ingenosya/static/src/img_webp/ui/mobile.webp" class="pull-left img_techno lazyload" alt="" id="logo_mobile" />
+                <img data-src="/website_ingenosya/static/src/img_webp/ui/mobile.webp" class="pull-left img_techno lazy" alt="" id="logo_mobile" />
                 <h4 class="mb0 mt0">
                   <b>
                     <font style="color: rgb(0, 0, 0);">Application Mobile</font>
@@ -443,13 +443,13 @@
             </div>
             <div class="col-md-4 mt16">
               <div>
-                <img data-src="/website_ingenosya/static/src/img_webp/pages/technologies.webp" class="lazyload" id="element-animated" alt="" />
+                <img data-src="/website_ingenosya/static/src/img_webp/pages/technologies.webp" class="lazy"  id="element-animated" alt="" />
               </div>
             </div>
             <div class="col-md-4 mt16" id="animation_reference_suite">
               <div class="row">
               <div class="col-md-12 div-techno">
-                <img data-src="/website_ingenosya/static/src/img/ui/null.png" class="pull-left img_techno lazyload" alt="" id="logo_php" />
+                <img data-src="/website_ingenosya/static/src/img/ui/null.png"  class="pull-left img_techno lazy" alt="" id="logo_php" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>Développement avec PHP</b>
@@ -460,7 +460,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img data-src="/website_ingenosya/static/src/img/ui/biiii.png" class="pull-left img_techno lazyload" alt="" id="logo_bii" />
+                <img data-src="/website_ingenosya/static/src/img/ui/biiii.png" class="pull-left img_techno lazy" alt="" id="logo_bii" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>Business Intelligence</b>
@@ -473,7 +473,7 @@
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img data-src="/website_ingenosya/static/src/img_src/ui/aa.webp" class="pull-left img_techno lazyload" alt="" id="logo_erp" />
+                <img data-src="/website_ingenosya/static/src/img_webp/ui/aa.webp" class="pull-left img_techno lazy" alt="" id="logo_erp" />
                 <h4 class="mb0 mt0">
                   <font style="color: rgb(0, 0, 0);">
                     <b>ERP/CRM</b>
@@ -515,8 +515,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img data-src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive lazyload"/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="recru blog-item-text element-recruitment"
@@ -568,8 +568,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
@@ -621,8 +621,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
@@ -672,8 +672,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
@@ -724,13 +724,12 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
-                                                         class="img img-responsive "/>
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
 
 
-                                            <div class="blog-item-text element-recruitment" id="overflowTest"
-                                            >
+                                            <div class="blog-item-text element-recruitment" id="overflowTest">
                                                 <h3>
                                                     <span class="tilte-recruitment">RESPONSABLE TECHNICO-COMMERCIAL
                                                     </span>
@@ -815,8 +814,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec2.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
@@ -864,7 +863,7 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive "/>
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
@@ -919,8 +918,8 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
@@ -968,8 +967,8 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
@@ -1025,8 +1024,8 @@
                                         <div class="blog-item-wrapper max-height:60%" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/recrutement/img_rec1.jpeg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
@@ -1100,8 +1099,8 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/don.webp"
-                                                         class="img img-responsive lazyload"/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/don.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-actualite"
@@ -1133,8 +1132,8 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img data-srcset="/website_ingenosya/static/src/img_webp/actualite/cacao.webp"
-                                                     class="img img-responsive lazyload"/>
+                                                <img src="/website_ingenosya/static/src/img_webp/actualite/cacao.webp"
+                                                     class="img img-responsive lazy"/>
                                             </span>
                                             <div class="blog-item-text element-actualite"
                                             >
@@ -1177,8 +1176,8 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img data-srcset="/website_ingenosya/static/src/img_webp/actualite/touriste.webp"
-                                                         class="img img-responsive lazyload"/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/touriste.webp"
+                                                         class="img img-responsive lazy"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-actualite"
@@ -1325,20 +1324,19 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img data-srcset="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
-                                         class="img img-responsive lazyload" alt="Il aux nattes"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
+                                         class="img img-responsive lazy" alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
-                                         class="img img-responsive lazyload" alt="lemur" id="img_qlt2"/>
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
+                                         class="img img-responsive lazy" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
                                     <div class="col-text">
-
                                         <p>
                                             <b class="text-primary">COUT DE LA VIE</b>
                                         </p>
@@ -1572,8 +1570,8 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
-                                         class="img img-responsive lazyload" alt="baobab"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
+                                         class="img img-responsive lazy" alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>
                                     <h6>Source : ECONOMIC DEVELOPPEMENT BOARD OF MADAGASCAR</h6>
