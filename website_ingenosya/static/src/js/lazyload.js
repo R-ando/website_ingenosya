@@ -26,15 +26,16 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 function preloadImage(img) {
+    
     const src = img.getAttribute("data-src");
-    var style = img.getAttribute('styles');
+    if (img.tagName == "OBJECT"){
+        img.data = src
+        img.classList.remove('lazy')
+        return 
+    }
     if (src) {
         img.src = src
         img.classList.add('image-effect')
     }
-    if (style) {
-        img.style = style
-        img.classList.add('image-effect')
-
-    }
+   
 }

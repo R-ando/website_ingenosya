@@ -125,11 +125,11 @@
             <font class="fa fa-download" aria-hidden="true"></font> Plaquette Commerciale Ingenosya</a>
           </li>
           <li>
-            <a href="/website_ingenosya/static/src/documents/Application Mobile Ingenosya.pdf">
+            <a href="/website_ingenosya/static/src/documents/Application_Mobile_Ingenosya.pdf">
             <font class="fa fa-download" aria-hidden="true"></font> Application Mobile Ingenosya</a>
           </li>
           <li>
-            <a href="/website_ingenosya/static/src/documents/Réference App Web  Java et .Net.pdf">
+            <a href="/website_ingenosya/static/src/documents/Réference App_Web _Java_et_.Net.pdf">
             <font class="fa fa-download" aria-hidden="true"></font> Réference App Web / Java et .Net</a>
           </li>
         </ul>

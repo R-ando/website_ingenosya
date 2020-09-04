@@ -1,6 +1,87 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
   <data>
+  <!-- Customize meta -->
+  <template id="website_ingenosya.meta" inherit_id="web.layout">
+    <xpath expr="//meta[@http-equiv='X-UA-Compatible']" position="replace">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    </xpath>
+
+    <xpath expr="//meta[@name='viewport']" position="replace">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </xpath>
+  </template>
+
+  
+
+  <!-- end of meta -->
+
+  <!-- Add Json ld -->
+<template id="json_ld" inherit_id="website.layout">
+            <xpath expr="//header" position="inside">
+                <script type="application/ld+json">
+                    [
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": "Ingenosya",
+                        "image": "https://www.ingenosya.com/logo.png",
+                        "@id": "https://www.ingenosya.com",
+                        "url": "https://www.ingenosya.com",
+                        "telephone": "+261 20 226 93 62",
+                        "priceRange": "",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Antananarivo",
+                            "postalCode": "101",
+                            "addressCountry": "MG"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": -18.941218,
+                            "longitude": 47.502115
+                        },
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "08:00",
+                            "closes": "18:00"
+                        },
+                        "sameAs": [
+                            "https://www.facebook.com/Ingenosya",
+                            "https://twitter.com/Ingenosya_SSII",
+                            "https://www.linkedin.com/company/ingenosya"
+                        ]
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "Ingenosya",
+                        "url": "https://www.ingenosya.com",
+                        "logo": "https://www.ingenosya.com/logo.png",
+                        "contactPoint": {
+                            "@type": "ContactPoint",
+                            "telephone": "+261 20 226 93 62",
+                            "contactType": "customer service",
+                            "areaServed": "MG",
+                            "availableLanguage": [
+                                "fr",
+                                "en"
+                            ]
+                        }
+                    }
+                    ]
+    
+                </script>   
+            </xpath>
+        </template> 
+
     <!-- Customize container-->
     <template id="container" inherit_id="website.layout" name="menu">
       <xpath expr="//div[@id='wrapwrap']//div[@class='container']" position="attributes">
@@ -20,24 +101,26 @@
 
       <xpath expr="//meta[@property='og:title']" position="replace">
         <!-- Facebook and linkedin sharing title -->
-        <meta property="og:title" content="Ingenosya, votre société offshore informatique à Madagascar"/>
+        <meta property="og:title" content="INGENOSYA, votre ESN (SSII) à Madagascar"/>
       </xpath>
       
       <xpath expr="//t[@t-set='head_website']" position="inside">
+        <!-- Facebook description -->
+        <meta propert="og:description" content="INGENOSYA est une ESN (SSII), spécialisée dans la prestation et la transformation digitale depuis plus de 20 ans. Assurez la continuité de vos activités !" />
         <!-- Facebook and linkedin sharing image -->
         <meta property='og:image' t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.png'"/>
         
         <!--  Twitter sharing data -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="Ingenosya Madagascar" />
-        <meta name="twitter:title" content="Ingenosya, votre société offshore informatique à Madagascar" />
-        <meta name="twitter:description" content="Ingenosya est une ESN (SSII) spécialisée dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Androïd, iOS…)," />
+        <meta name="twitter:title" content="INGENOSYA, votre ESN (SSII) à Madagascar" />
+        <meta name="twitter:description" content="INGENOSYA est une ESN (SSII), spécialisée dans la prestation et la transformation digitale depuis plus de 20 ans. Assurez la continuité de vos activités !" />
         <meta name="twitter:image" t-att-content="request.httprequest.url_root+'website_ingenosya/static/src/img/slider/bg_slide3.png'" />
       </xpath>
     </template>
 
     <!-- Template footer-->
-    <template id="custom_footer" inherit_id="website.footer_default"  name="Custom footer">
+    <template id="website.custom_footer" inherit_id="website.footer_default"  name="Custom footer">
     <xpath expr="//div[@id='footer']" position="replace">
     <div id="footer">
     <div class="element-invisible">
@@ -47,11 +130,11 @@
         </ul>
     </div>
     
-    <section id="contact">
+    <section class="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-4 ">
-            <h4 class="mt16">Nous contacter</h4>
+            <h1 class="mt16 title-custom-footer">Nous contacter</h1>
             <ul class="location-link">
               <li class="item">
                 <i class="fa fa-map-marker fa-1x"></i>
@@ -73,38 +156,38 @@
               </li>
             </ul>
             <ul class="socialIcons" id="icone_footer">
-              <li class="facebook"><a id="facebook-link" href="https://www.facebook.com/Ingenosya/" target="_blank"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
-              <li class="twitter"><a href="https://twitter.com/Ingenosya_SSII" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
-              <li class="instagram"><a href="https://www.viadeo.com/p/00219dryixidsjlx?consultationType=29" target="_blank"><i class="fa fa-fw fa-instagram"></i>Viadeo</a></li>
-              <li class="pinterest"><a href="https://www.linkedin.com/company/ingenosya/" target="_blank"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+              <li class="facebook"><a id="facebook-link" href="https://www.facebook.com/Ingenosya/" target="_blank" rel="noopener"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+              <li class="twitter"><a href="https://twitter.com/Ingenosya_SSII" target="_blank" rel="noopener"><i class="fa fa-fw fa-twitter" ></i> Twitter   </a></li>
+              <li class="instagram"><a href="https://www.viadeo.com/p/00219dryixidsjlx?consultationType=29" target="_blank" rel="noopener"><i class="fa fa-fw fa-instagram"></i>  Viadeo</a></li>
+              <li class="linkedin"><a href="https://www.linkedin.com/company/ingenosya/" target="_blank" rel="noopener"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
             </ul>
           </div>
           <div class="col-md-4 ">
-            <h4 class="mt16">Documents à télécharger</h4>
+            <h1 class="mt16 title-custom-footer">Documents à télécharger</h1>
             <ul class="menu-link">
               <li>
-                <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank">
-                <font class="fa fa-download" aria-hidden="true"></font> Plaquette Commerciale Ingenosya</a>
+                <a href="/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf" target="_blank">
+                <i class="fa fa-download" aria-hidden="true"></i> Plaquette Commerciale Ingenosya</a>
               </li>
               <li>
-                <a href="/website_ingenosya/static/src/documents/Application Mobile Ingenosya.pdf" target="_blank">
-                <font class="fa fa-download" aria-hidden="true"></font> Application Mobile Ingenosya</a>
+                <a href="/website_ingenosya/static/src/documents/Application_Mobile_Ingenosya.pdf" target="_blank">
+                <i class="fa fa-download" aria-hidden="true"></i> Application Mobile Ingenosya</a>
               </li>
               <li>
-                <a href="/website_ingenosya/static/src/documents/Application Web, Java et .Net.pdf" target="_blank">
-                <font class="fa fa-download" aria-hidden="true"></font> Référence App Web / Java et .Net</a>
+                <a href="/website_ingenosya/static/src/documents/Application_Web,_Java_et_.Net.pdf" target="_blank">
+                <i class="fa fa-download" aria-hidden="true"></i> Référence App Web / Java et .Net</a>
               </li>
               <li>
-                <a href="/website_ingenosya/static/src/documents/Ingenosya CGV 12072018.pdf" target="_blank">
-                <font class="fa fa-download" aria-hidden="true"></font> Conditions Générales de Vente Ingenosya</a>
+                <a href="/website_ingenosya/static/src/documents/Ingenosya_CGV_12072018.pdf" target="_blank">
+                <i class="fa fa-download" aria-hidden="true"></i> Conditions Générales de Vente Ingenosya</a>
               </li>
             </ul>
           </div>
           <div class="col-md-4">
-            <h4 class="mt16"/>
+            <div class="mt16"/>
             <p>
               <a href="/page/plan-du-site" data-original-title="" title="">
-                <font>Plan du site</font>
+                Plan du site
               </a>
             </p>
             <!-- <a href="#contact" class="back-to-top">
@@ -137,13 +220,13 @@
                     <a class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a>
                 </div>
                 <!-- Add Copyright 2018 -->
-                <div class="pull-left text-muted" itemscope="itemscope" itemtype="http://schema.org/Organization">
+                <div class="pull-left" itemscope="itemscope" itemtype="http://schema.org/Organization">
                     Copyright &amp;copy; 2020 <span t-field="res_company.name" itemprop="name">Company name</span>
                 </div>
             </div>
             
             <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-43649827-1"></script>
+            <script src="https://www.googletagmanager.com/gtag/js?id=UA-43649827-1"></script>
             <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
@@ -151,7 +234,6 @@
 
               gtag('config', 'UA-43649827-1');
             </script>
-
         </xpath>
     </template>
 

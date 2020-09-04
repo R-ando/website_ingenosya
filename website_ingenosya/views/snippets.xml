@@ -3,7 +3,8 @@
   <data>
     <!--Snippets header_slider-->
     <template id="s_header_slider" name="slider header">
-      <section id="contact" class="section back">
+     
+      <section id="" class="contact section back ">
         <div id="myCarousel1535035937865" class="carousel slide s_banner" data-interval="8000" style="height: 550px;">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel1535035937865" data-slide-to="0" class="active" />
@@ -20,7 +21,7 @@
                       offshore informatique à Madagascar avec des prix particulièrement compétitifs</h3>
                     <div class="button_slide"><br /><br /><br />
 
-                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay ooo"
+                      <a href="/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay ooo test"
                         data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
                         Plaquette</a>
                       <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay ooo"
@@ -42,7 +43,7 @@
                       performants pour le suivi de votre projet</h3>
                     <div class="button_slide"><br /><br /><br />
 
-                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="text-center btn btn-warning btn-lg animated fadeInUp btn_delay"
+                      <a href="/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf" target="_blank" class="text-center btn btn-warning btn-lg animated fadeInUp btn_delay"
                         data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
                         Plaquette</a>
                       <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay"
@@ -55,7 +56,7 @@
               </div>
             </div>
 
-            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img_webp/slider/home_slide2.webp&quot;);">
+            <div class="item oe_img_bg" style="background-image: url(&quot;website_ingenosya/static/src/img_webp/slider/home_slide2.webp&quot;);background-size:cover;background-position:center;">
               <div class="container">
                 <div class="row content">
                   <div class="carousel-content col-md-offset-1 mt128 mb96 col-md-10">
@@ -63,7 +64,7 @@
                     <h3 class="text-center animated fadeInUp sous_Text_Slider">Des prix de sous-traitance offshore d'équipes structurées, plus avantageux à Madagascar qu'ailleurs </h3>
                     <div class="button_slide"><br /><br /><br />
 
-                      <a href="/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay"
+                      <a href="/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf" target="_blank" class="btn btn-warning btn-lg animated fadeInUp btn_delay"
                         data-original-title="" title=""><i class="fa fa-download" aria-hidden="true"></i>
                         Plaquette</a>
                       <a href="/page/poster-une-demande-de-devis" class="btn btn-primary btn-lg animated fadeInUp btn_delay"
@@ -114,28 +115,28 @@
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <a href="/page/actualite">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu1.webp"  />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu1.webp" aria-label="Esn madagascar" alt="Esn madagascar" />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu2.webp"   />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu2.webp" aria-label="informatique madagascar" alt="informatique madagascar"   />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu3.webp"   />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu3.webp" aria-label="methode agile madagascar" alt="methode agile madagascar"  />
                                             </a>
 
                                         </div>
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu4.webp"  />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu4.webp" aria-label="logiciel entreprise madagascar"  alt="logiciel entreprise madagascar" />
                                             </a>
 
 
@@ -143,7 +144,7 @@
 
                                         <div class="item">
                                             <a href="/page/recrutement">
-                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu5.webp"  />
+                                                <img src="/website_ingenosya/static/src/img_webp/accueil/contenu5.webp" aria-label="logiciel informatique madagascar" alt="logiciel informatique madagascar"  />
                                             </a>
 
                                         </div>
@@ -173,19 +174,79 @@
                                 externalisation
                                 informatique via une démarche...
                             </p>
-                            <p class="text-center" id="btn_b1">
+                            <p class="text-center btn_b1" >
                                 <a href="/page/ingenosya-en-bref" class="btn btn-primary btn-lg">Lire
                                     la suite
                                 </a>
                               </p>-->
-                              <p class="text-justify" id="text_bref">
-                            <object width="100%" height="343" data="https://www.youtube.com/embed/-vHfZmCXF7E"></object>
+                              <p class="text-justify text_bref">
+                            <object style="width:100%" height="343" data-src="https://www.youtube.com/embed/-vHfZmCXF7E" class="lazy" type="text/html" > Video presentation Ingenosya </object>
+                            <script  type="application/ld+json">
+                            [{
+                                "@context": "https://schema.org",
+                                "@type": "VideoObject",
+                                "name": "INGENOSYA, Transformateur Digital.",
+                                "thumbnailUrl": "https://yt3.ggpht.com/a/AATXAJxEWDVuYCr4Zch_uJ4uAJwpnQbppU3nzihBtw=s68-c-k-c0xffffffff-no-rj-mo",
+                                "uploadDate": "2020-01-07",
+                                "duration": "PT0M49S",
+                                "contentUrl": "https://i.ytimg.com/vi/-vHfZmCXF7E/sddefault.jpg",
+                                "embedUrl": "https://www.youtube.com/embed/-vHfZmCXF7E",
+                                "description": "Ingenosya"
+                                },
+                                {
+                                    "@context": "https://schema.org/",
+                                    "@type": "BreadcrumbList",
+                                    "itemListElement": [{
+                                        "@type": "ListItem",
+                                        "position": 1,
+                                        "name": "Présentation",
+                                        "item": "https://www.ingenosya.com/page/presentation"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 2,
+                                        "name": "Prestation",
+                                        "item": "https://www.ingenosya.com/page/prestations"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 3,
+                                        "name": "Spécialités",
+                                        "item": "https://www.ingenosya.com/page/specialites"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 4,
+                                        "name": "Références",
+                                        "item": "https://www.ingenosya.com/page/references"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 5,
+                                        "name": "Actualités",
+                                        "item": "https://www.ingenosya.com/page/actualite"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 6,
+                                        "name": "Contact",
+                                        "item": "https://www.ingenosya.com/page/contact"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 7,
+                                        "name": "Se Connecter",
+                                        "item": "https://www.ingenosya.com/web/login"
+                                    }, {
+                                        "@type": "ListItem",
+                                        "position": 8,
+                                        "name": "Accueil",
+                                        "item": "https://www.ingenosya.com"
+                                    }]
+                                }
+                                ]
+                                
+                            </script>
                             </p>
                         </div>
                         <div class="col-md-4 animated zoomIn para_bref_ingenosya1">
-                            <h2 class="text-primary text-center" id="titre_bref2">Présentation</h2>
+                            <h2 class="text-primary text-center" id="titre_bref1">Présentation</h2>
                             <div class="line-shape" style="margin-left: calc(50% - 40px);"/>
-                            <p class="text-justify" id="text_bref">Proactif depuis 19 ans, Ingenosya est une ESN
+                            <p class="text-justify text_bref">Proactif depuis 19 ans, Ingenosya est une ESN
                                 (SSII) spécialisée
                                 dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation
                                 d’applications mobiles
@@ -243,8 +304,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center Spécialités">
-                <font style="color: rgb(8, 82, 148);">Spécialités</font>
+              <h1 class="text-center Spécialités" style=" color: rgb(8, 82, 148);">
+                Spécialités
               </h1>
               <div class="line-shape" style="margin-left: calc(50% - 40px);" />
             </div>
@@ -258,46 +319,46 @@
       <section class="s_features" id="s_spec">
         <div class="container contenu_spec1" data-aos="fade-down">
           <div class="row mt16 mb16">
-            <div class="col-md-4 text-center bg to-click" id="spec1" name="entreprise-ressource-planning">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/ERP.webp" class="lazy"  alt="" id="logo_spc" />
-              <h3 class="mb0 mt8">
-                <font style="color: rgb(66, 66, 66);">Enterprise Resource Planning</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font style="color: rgb(0, 0, 0);">Ingenosya, votre société offshore informatique à Madagascar, a
-                  développé des compétences fonctionnelles et techniques relatives aux ERP (Enterprise Resource Planning) pour la mise en œuvre opérationnelle..</font>
-                <font style="color: rgb(66, 66, 66);">.</font>
-                <p class="text-center" id="btn_b1">
+            <div class="col-md-4 text-center bg to-click" id="spec1" title="entreprise-ressource-planning">
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/ERP.webp" class="lazy logo_spc"  alt=""  />
+              <h1 class="mb0 mt8" style="color: rgb(66, 66, 66);">
+                Enterprise Resource Planning
+              </h1>
+              <p class="text-muted" style="text-align: justify; color: rgb(0, 0, 0);">
+                Ingenosya, votre société offshore informatique à Madagascar, a
+                  développé des compétences fonctionnelles et techniques relatives aux ERP (Enterprise Resource Planning) pour la mise en œuvre opérationnelle..
+                <span style="color: rgb(66, 66, 66);">.</span>
+                <p class="text-center btn_b1" >
                   <a class="btn btn-primary btn-lg" href="/page/entreprise-ressource-planning" >Lire la suite</a>
                 </p>
               </p>
             </div>
-            <div class="col-md-4 text-center bg to-click" id="spec2" name="business-intelligence">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/bis.webp" class="lazy"  alt="" id="logo_spc" />
-              <h3 class="mb0 mt8">
-                <font style="color: rgb(66, 66, 66);">Business Intelligence</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font color="#000000" style="color: rgb(0, 0, 0);">Ingenosya, votre SSII à Madagascar, a développé
+            <div class="col-md-4 text-center bg to-click" id="spec2" title="business-intelligence">
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/bis.webp" class="lazy logo_spc"  alt="" />
+              <h1 class="mb0 mt8" style="color: rgb(66, 66, 66);">
+               Business Intelligence
+              </h1>
+              <p class="text-muted"  style="text-align: justify; color: rgb(0, 0, 0);"  >
+                Ingenosya, votre SSII à Madagascar, a développé
                   plusieurs spécialités, souvent exercées au service de quelques métiers fonctionnels, réalisées sous
-                  une ou plusieurs technologies..</font>
-                <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
-                <p class="text-center" id="btn_b1">
+                  une ou plusieurs technologies..
+                <span  style="color: rgb(66, 66, 66);">.</span>
+                <p class="text-center btn_b1" >
                    <a class="btn btn-primary btn-lg" href="/page/business-intelligence" >Lire la suite</a>
                 </p>
               </p>
             </div>
-            <div class="col-md-4 text-center bg to-click" id="spec3" name="web-et-applications-mobiles">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" class="lazy"  alt="" id="logo_web" />
-              <h3 class="mb0 mt8">
-                <font style="color: rgb(66, 66, 66);">Web et applications mobiles</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font color="#000000" style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des
+            <div class="col-md-4 text-center bg to-click" id="spec3" title="web-et-applications-mobiles" >
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/webapplication.webp" class="lazy logo_web"  alt=""  />
+              <h1 class="mb0 mt8" style="color: rgb(66, 66, 66);">
+               Web et applications mobiles
+              </h1>
+              <p class="text-muted"  style="text-align: justify;color: rgb(0, 0, 0); " >
+                De nombreuses applications du web pour des
                   fonctionnalités et des métiers divers ont été développés par Ingenosya, votre société offshore
-                  informatique à Madagascar :..</font>
-                <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
-                <p class="text-center" id="btn_b1">
+                  informatique à Madagascar :..
+                <span  style="color: rgb(66, 66, 66);">.</span>
+                <p class="text-center btn_b1" >
                   <a class="btn btn-primary btn-lg" href="/page/web-et-applications-mobiles" >Lire la suite</a>
                 </p>
               </p>
@@ -312,47 +373,47 @@
       <section class="s_spec1" id="suite_specc1">
         <div class="container target_animate_specialites">
           <div class="row mt16 mb16">
-            <div class="col-md-4 text-center mb16 spec bg to-click" id="spec4" name="developpement-iphone-et-android">
+            <div class="col-md-4 text-center mb16 spec bg to-click" id="spec4" title="developpement-iphone-et-android" >
               <img data-src="/website_ingenosya/static/src/img_webp/ui/b.webp" class="lazy"  alt="" id="logo_mobile" />
-              <h3 class="mt8 mb0">
-                <font style="color: rgb(66, 66, 66);">Développement Iphone et Android</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font style="color: rgb(0, 0, 0);">Face à l’évolution du développement des applications pour les
+              <h1 class="mt8 mb0" style="color: rgb(66, 66, 66);">
+               Développement Iphone et Android
+              </h1>
+              <p class="text-muted" style="text-align: justify; color: rgb(0, 0, 0);">
+               Face à l’évolution du développement des applications pour les
                   smartphones et les tablettes, Ingenosya, SSII offshore francophone, s’est lancé dans le développement
-                  Iphone et Android..</font>
-                <font style="color: rgb(156, 156, 148);">.</font>
-                <p class="text-center" id="btn_b1">
+                  Iphone et Android..
+                <span style="color: rgb(156, 156, 148);">.</span>
+                <p class="text-center btn_b1" >
                   <a class="btn btn-primary btn-lg" href="/page/developpement-iphone-et-android" >Lire la suite</a>
                 </p>
               </p>
             </div>
-            <div class="col-md-4 text-center bg to-click" id="spec5" name="developpement-logiciel-en-regie">
-              <img data-src="/website_ingenosya/static/src/img_webp/ui/regie.webp" class="lazy"  alt="" id="logo_spc" />
-              <h3 class="mt8 mb0">
-                <font style="color: rgb(66, 66, 66);">Développement logiciel en régie</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font style="color: rgb(0, 0, 0);">Ingenosya, votre SSII offshore francophone, détache souvent des
+            <div class="col-md-4 text-center bg to-click" id="spec5" title="developpement-logiciel-en-regie">
+              <img data-src="/website_ingenosya/static/src/img_webp/ui/regie.webp" class="lazy logo_spc"  alt="" />
+              <h1 class="mt8 mb0" style="color: rgb(66, 66, 66);">
+                Développement logiciel en régie
+              </h1>
+              <p class="text-muted" style="text-align: justify; color: rgb(0, 0, 0); ">
+                Ingenosya, votre SSII offshore francophone, détache souvent des
                   prestataires de développement pour le compte de clients afin qu’ils travaillent à distance et à la
-                  demande. Cela suppose,..</font>
-                <font style="color: rgb(156, 156, 148);">.</font>
-                <p class="text-center" id="btn_b1">
+                  demande. Cela suppose,..
+                <span style="color: rgb(156, 156, 148);">.</span>
+                <p class="text-center btn_b1" >
                   <a class="btn btn-primary btn-lg" href="/page/developpement-logiciel-en-regie" >Lire la suite</a>
                 </p>
               </p>
             </div>
-            <div class="col-md-4 text-center bg to-click" id="spec6" name="realisation-logiciel-au-forfait">
+            <div class="col-md-4 text-center bg to-click" id="spec6" title="realisation-logiciel-au-forfait">
               <img data-src="/website_ingenosya/static/src/img_webp/ui/forfait.webp" class="lazy"  alt="" id="logo_forfait" />
-              <h3 class="mt8 mb0">
-                <font style="color: rgb(66, 66, 66);">Réalisation de logiciel au forfait</font>
-              </h3>
-              <p class="text-muted" style="text-align: justify; ">
-                <font style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des fonctionnalités et des
+              <h1 class="mt8 mb0" style="color: rgb(66, 66, 66);">
+                Réalisation de logiciel au forfait
+              </h1>
+              <p class="text-muted" style="text-align: justify; color: rgb(0, 0, 0); ">
+              De nombreuses applications du web pour des fonctionnalités et des
                   métiers divers ont été développés par Ingenosya, votre société offshore informatique à Madagascar :
-                  Ecommerce et..</font>
-                  <font color="#000000" style="color: rgb(66, 66, 66);">.</font>
-                <p class="text-center" id="btn_b1">
+                  Ecommerce et..
+                  <span  style="color: rgb(66, 66, 66);">.</span>
+                <p class="text-center btn_b1" >
                   <a class="btn btn-primary btn-lg" href="/page/realisation-logiciel-au-forfait" >Lire la suite</a>
                 </p>
               </p>
@@ -368,8 +429,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 titre_techno">
-              <h1 class="text-center">
-                <font style="color: rgb(8, 82, 148);">Technologies</font>
+              <h1 class="text-center" style=" color: rgb(8, 82, 148);">
+                Technologies
                 <br />
               </h1>
               <div class="line-shape" style="margin-left: calc(50% - 40px);" />
@@ -385,8 +446,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 titre_techno">
-              <h1 class="text-center Spécialités">
-                <font style="color: rgb(8, 82, 148);">Nos outils de développement</font>
+              <h1 class="text-center Spécialités" style=" color: rgb(8, 82, 148);">
+               Nos outils de développement
                 <br />
               </h1>
               <div class="line-shape" style="margin-left: calc(50% - 40px);" />
@@ -405,38 +466,38 @@
               <div class="row">
               <div class="col-md-12 div-techno">
                 <img  data-src="/website_ingenosya/static/src/img_webp/ui/java.webp" class="pull-left img_techno lazy"  alt="" id="logo_java" />
-                <h4 class="mb0 mt0">
-                  <b>
-                    <font style="color: rgb(0, 0, 0);">Développement avec JAVA/J2EE</font>
+                <h1 class="mb0 mt0">
+                  <b style="color: rgb(0, 0, 0);">
+                   Développement avec JAVA/J2EE
                   </b>
-                </h4>
-                <p style="text-align: justify; ">
-                  <font style="color: rgb(0, 0, 0);">Développement d’une application web de location de balises et de
-                    réquisitions judiciaires</font>
+                </h1>
+                <p style="text-align: justify; color: rgb(0, 0, 0);">
+                 Développement d’une application web de location de balises et de
+                    réquisitions judiciaires
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
                 <img data-src="/website_ingenosya/static/src/img_webp/ui/mi.webp"  class="pull-left img_techno lazy" alt="" id="logo_dotnet" />
-                <h4 class="mb0 mt0">
-                  <b>
-                    <font style="color: rgb(0, 0, 0);">Développement avec .NET</font>
+                <h1 class="mb0 mt0">
+                  <b style="color: rgb(0, 0, 0);">
+                    Développement avec .NET
                   </b>
-                </h4>
-                <p style="text-align: justify;" >
-                  <font style="color: rgb(0, 0, 0);">Développement de plusieurs composants de digitalisation et
-                    dématérialisation de documents</font>
+                </h1>
+                <p style="text-align: justify; color: rgb(0, 0, 0);" >
+                 Développement de plusieurs composants de digitalisation et
+                    dématérialisation de documents
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
-                <img data-src="/website_ingenosya/static/src/img_webp/ui/mobile.webp" class="pull-left img_techno lazy" alt="" id="logo_mobile" />
-                <h4 class="mb0 mt0">
-                  <b>
-                    <font style="color: rgb(0, 0, 0);">Application Mobile</font>
+                <img data-src="/website_ingenosya/static/src/img_webp/ui/mobile.webp" class="pull-left img_techno lazy" alt="" id="logo_mobile_2" />
+                <h1 class="mb0 mt0">
+                  <b style="color: rgb(0, 0, 0);">
+                   Application Mobile
                   </b>
                   <br />
-                </h4>
-                <p style="text-align: justify; ">
-                  <font style="color: rgb(0, 0, 0);">Présentation des coins touristiques aux alentours</font>
+                </h1>
+                <p style="text-align: justify; color: rgb(0, 0, 0);">
+                  Présentation des coins touristiques aux alentours
                 </p>
               </div>
             </div>
@@ -450,38 +511,34 @@
               <div class="row">
               <div class="col-md-12 div-techno">
                 <img data-src="/website_ingenosya/static/src/img/ui/null.png"  class="pull-left img_techno lazy" alt="" id="logo_php" />
-                <h4 class="mb0 mt0">
-                  <font style="color: rgb(0, 0, 0);">
+                <h1 class="mb0 mt0" style="color: rgb(0, 0, 0);">
+                  
                     <b>Développement avec PHP</b>
-                  </font>
-                </h4>
-                <p style="text-align: justify; ">
-                  <font style="color: rgb(0, 0, 0);">CRM (Gestion relationnel de client) avec AMSTER GROUP.</font>
+                 
+                </h1>
+                <p style="text-align: justify; color: rgb(0, 0, 0);">
+                  CRM (Gestion relationnel de client) avec AMSTER GROUP.
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
                 <img data-src="/website_ingenosya/static/src/img/ui/biiii.png" class="pull-left img_techno lazy" alt="" id="logo_bii" />
-                <h4 class="mb0 mt0">
-                  <font style="color: rgb(0, 0, 0);">
-                    <b>Business Intelligence</b>
-                  </font>
-                  <br />
-                </h4>
-                <p style="text-align: justify; ">
-                  <font style="color: rgb(0, 0, 0);">Mise en place d’un système intégré d’information et de
-                    statistiques touristiques de Madagascar</font>
+                <h1 class="mb0 mt0" style="color: rgb(0, 0, 0);">
+                    <b >Business Intelligence</b>
+                    <br />
+                </h1>
+                <p style="text-align: justify; color: rgb(0, 0, 0);">
+                    Mise en place d’un système intégré d’information et de
+                    statistiques touristiques de Madagascar
                 </p>
               </div>
               <div class="col-md-12 mt8 div-techno">
                 <img data-src="/website_ingenosya/static/src/img_webp/ui/aa.webp" class="pull-left img_techno lazy" alt="" id="logo_erp" />
-                <h4 class="mb0 mt0">
-                  <font style="color: rgb(0, 0, 0);">
+                <h1 class="mb0 mt0" style="color: rgb(0, 0, 0);">        
                     <b>ERP/CRM</b>
-                  </font>
-                  <br />
-                </h4>
-                <p>
-                  <font style="color: rgb(0, 0, 0);">Développement ou migration de CRM basés sur le framework OPENCRM</font>
+                    <br />
+                </h1>
+                <p style="color: rgb(0, 0, 0);">
+                 Développement ou migration de CRM basés sur le framework OPENCRM
                 </p>
               </div>
             </div>
@@ -516,13 +573,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                     alt="recrutement developpeur madagascar"    class="img img-responsive"/>
                                                 </span>
                                             </div>
                                             <div class="recru blog-item-text element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR PHP/PRESTASHOP</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR PHP/PRESTASHOP</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -569,13 +626,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy" />
+                                                       alt="recrutement developpeur madagascar"  class="img img-responsive" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR PHP SENIOR</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR PHP SENIOR</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -622,13 +679,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                      alt="recrutement developpeur madagascar"   class="img img-responsive "/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR JAVA SPRING</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR JAVA SPRING</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -673,13 +730,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                     alt="recrutement developpeur madagascar"    class="img img-responsive "/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR CODELGNITER</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR CODELGNITER</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -724,14 +781,14 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
-                                                         class="img img-responsive lazy"/>
+                                                       alt="recrutement technico-commercial madagascar"  class="img img-responsive"/>
                                                 </span>
                                             </div>
 
 
                                             <div class="blog-item-text element-recruitment" id="overflowTest">
                                                 <h3>
-                                                    <span class="tilte-recruitment">RESPONSABLE TECHNICO-COMMERCIAL
+                                                    <span class="title-recruitment">RESPONSABLE TECHNICO-COMMERCIAL
                                                     </span>
                                                 </h3>
                                                 <p class="text-justify">
@@ -815,13 +872,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec2.webp"
-                                                         class="img img-responsive lazy"/>
+                                                       alt="recrutement technico-commercial madagascar"  class="img img-responsive"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">TELEPROSPECTEUR</span>
+                                                    <span class="title-recruitment">TELEPROSPECTEUR</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -863,13 +920,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                       alt="recrutement developpeur madagascar"  class="img img-responsive "/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR ASP NET SENIOR</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR ASP NET SENIOR</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -919,13 +976,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                     alt="recrutement developpeur madagascar"    class="img img-responsive"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR ANDROID</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR ANDROID</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -968,13 +1025,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                       alt="recrutement developpeur madagascar"  class="img img-responsive"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR PRESTASHOP</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR PRESTASHOP</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -1025,13 +1082,13 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img_webp/recrutement/img_rec1.webp"
-                                                         class="img img-responsive lazy"/>
+                                                      alt="recrutement developpeur madagascar"   class="img img-responsive"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-recruitment"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">DEVELOPPEUR PENTAHO</span>
+                                                    <span class="title-recruitment">DEVELOPPEUR PENTAHO</span>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>Vos missions :</h4>
@@ -1078,6 +1135,82 @@
 
 <!--        ACTUALITE JANVIER     -->
 <template id="s_actualite" name="actualite">
+            <script type="application/ld+json" class="o_default_snippet_text">
+                {
+                    "@context": "https://schema.org/",
+                    "@type": "BreadcrumbList",
+                        "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Accueil",
+                            "item": "https://www.ingenosya.com"
+                        }, 
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Présentation",
+                            "item": "https://www.ingenosya.com/page/presentation"
+                        }, 
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "Prestation",
+                            "item": "https://www.ingenosya.com/page/prestations"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "name": "Spécialités",
+                            "item": "https://www.ingenosya.com/page/specialites"
+                        }, 
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "name": "Références",
+                            "item": "https://www.ingenosya.com/page/references"
+                        }, 
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "name": "Contact",
+                            "item": "https://www.ingenosya.com/page/contact"
+                        }, 
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "name": "Se Connecter",
+                            "item": "https://www.ingenosya.com/web/login"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "name": "Actualités",
+                            "item": "https://www.ingenosya.com/page/actualite"
+                        }
+	                ]
+                }
+            </script>
+            <script type="application/ld+json">
+                {
+                "@context": "https://schema.org",
+                "@type": "Event",
+                "name": "Actualités JANVIER 2020",
+                "description": "Etant une Entreprise Malagasy, Soucieuse et Responsable de son Environnement, INGENOSYA a octroyé un don important pour l’année scolaire 2019 - 2020, en collaboration avec le Rotary Club Antananarivo Mahamasina, pour la classe ASAMA d'Ambolonkandrina. Ce don a servi à l 'achat de kits scolaires pour les enfants, au paiement des salaires des enseignants et à la mise en place d'une cantine scolaire.",
+                "image": "https://www.ingenosya.com/website_ingenosya/static/src/img/actualite/don.jpg",
+                "location": {		
+                    "@type": "Place",
+                    "name": "Ambolokandrina",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "",
+                        "addressLocality": "Antananarivo",
+                        "postalCode": "101",
+                        "addressCountry": "MG"
+                        }
+                    }
+                }
+            </script>
             <section class="s_3_column_text oe_structure">
                 <div class="container mb32">
                     <div class="row">
@@ -1090,25 +1223,24 @@
                                     Actualités JANVIER 2020
                                 </h1>
                             </div>
+
+                            
                             <!--actualite 1-->
-
-
                             <div>
                                 <div class="row">
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/don.webp"
-                                                         class="img img-responsive lazy"/>
+                                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/don.webp"
+                                                         class="img img-responsive lazy" alt="dons rse esn"/>
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-actualite"
                                             >
-                                                <h3>
-                                                    <span class="tilte-recruitment">
-                                                        <center>Actualités ingenosya</center>
-                                                    </span>
+                                                <h3 class="title-recruitment" style="text-align:center">
+                                                    Actualités ingenosya
+                                                    
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -1121,8 +1253,8 @@
                                                 <p class="text-justify">Ce don a servi à l'achat de kits scolaires pour les enfants, au paiement des salaires des enseignants et à la mise en place d'une cantine scolaire.
                                                 </p>
 
-                                                <a href="#"
-                                                   class="btn btn-common text-down-act" target="_blank">
+                                                <a href="http://www.midi-madagasikara.mg/societe/2020/01/16/ingenosya-et-rotary-club-mahamasina-don-de-10-millions-dariary-pour-la-classe-asama-ambolokandrina/"
+                                                   class="btn btn-common text-down-act" rel="noopener" target="_blank">
                                                     Pour en savoir plus
                                                 </a>
                                             </div>
@@ -1132,15 +1264,13 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img_webp/actualite/cacao.webp"
-                                                     class="img img-responsive lazy"/>
+                                                <img data-src="/website_ingenosya/static/src/img_webp/actualite/cacao.webp"
+                                                     class="img img-responsive lazy" alt="entreprise informatique" />
                                             </span>
                                             <div class="blog-item-text element-actualite"
                                             >
-                                                <h3>
-                                                    <span class="tilte-recruitment">
-                                                        <center>Actualités économiques</center>
-                                                    </span>
+                                                <h3 class="title-recruitment" style="text-align:center">
+                                                  Actualités économiques
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -1152,7 +1282,7 @@
                                                 <p class="text-justify">Une convention vient d’être signée pour encourager les entrepreneurs locaux dans la chocolaterie artisanale. Cinq maîtres chocolatiers français les encadreront.
                                                 </p>
                                                 <div class="text-down-act">
-                                                    <a href="https://lexpress.mg/27/01/2020/france-madagascar-le-chocolat-devient-un-exemple-de-cooperation/" target="_blank">
+                                                    <a href="https://lexpress.mg/27/01/2020/france-madagascar-le-chocolat-devient-un-exemple-de-cooperation/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
 
@@ -1176,16 +1306,13 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/touriste.webp"
-                                                         class="img img-responsive lazy"/>
+                                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/touriste.webp"
+                                                         class="img img-responsive lazy" alt="logiciel tourisme" />
                                                 </span>
                                             </div>
-                                            <div class="blog-item-text  element-actualite"
-                                            >
-                                                <h3>
-                                                    <span class="tilte-recruitment">
-                                                        <center>Actualités touristiques</center>
-                                                    </span>
+                                            <div class="blog-item-text  element-actualite">
+                                                <h3 class="title-recruitment" style="text-align:center"> 
+                                                    Actualités touristiques
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>
@@ -1200,7 +1327,7 @@
                                                 </p>
 
                                                 <div class="text-down-act">
-                                                    <a href="http://www.midi-madagasikara.mg/economie/2020/01/28/transport-aerien-laeroport-international-divato-a-depasse-le-cap-du-million-de-passagers-en-2019/" target="_blank">
+                                                    <a href="http://www.midi-madagasikara.mg/economie/2020/01/28/transport-aerien-laeroport-international-divato-a-depasse-le-cap-du-million-de-passagers-en-2019/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
                                                     <h6 style="word-wrap: break-word; font-size:12px">Source
@@ -1230,7 +1357,7 @@
                                 <div class="col-md-7">
                                     <br/>
                                     <div class="col-text">
-                                        <span><font size="1">Les chiffres ci-après ne sont donnés qu’en tant que valeurs indicatives pour un éventuel voyageur. Il est toutefois possible que selon les endroits et les fournisseurs, ces données varient de façon significative.</font></span>
+                                        <span style="font-size: 10px">Les chiffres ci-après ne sont donnés qu’en tant que valeurs indicatives pour un éventuel voyageur. Il est toutefois possible que selon les endroits et les fournisseurs, ces données varient de façon significative.</span>
                                         <p>
                                             <b class="text-primary">VIVRE A MADAGASCAR</b>
                                         </p>
@@ -1324,7 +1451,7 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
+                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
                                          class="img img-responsive lazy" alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
@@ -1332,7 +1459,7 @@
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
+                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
                                          class="img img-responsive lazy" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
@@ -1346,11 +1473,11 @@
                                                 <td class="icon">
 
                                                 </td>
-                                                <td style="color:#3498db;" class="labelle2 ">
+                                                <td style="color:#005683;" class="labelle2 ">
                                                     Estimation
 
                                                 </td>
-                                                <td style="color:#3498db;"
+                                                <td style="color:#005683;"
                                                     class="libelle  budget-act-tab">Budget
                                                 </td>
                                                 <tr>
@@ -1570,7 +1697,7 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
+                                    <img data-src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
                                          class="img img-responsive lazy" alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>
@@ -1595,8 +1722,8 @@
             <div class="col-md-4  animated zoomIn text-center " id="bg1">
               <div class="marg  animated zoomIn bg1">
                 <img src="/website_ingenosya/static/src/img/snippets/outilweb.png" alt="" id="outil_img1" />
-                <h3 class="mb0 mt8">
-                  <font style="color: rgb(66, 66, 66);">PHP,JAVASCRIPT,JAVA,.NET</font>
+                <h3 class="mb0 mt8" style="color: rgb(66, 66, 66);">
+                  <font >PHP,JAVASCRIPT,JAVA,.NET</font>
                 </h3>
                 <hr />
                 <p class="text-muted" style="text-align: justify; ">
@@ -1613,7 +1740,7 @@
                   <hr />
                 </h3>
                 <p class="text-muted" style="text-align: justify; ">
-                  <font color="#000000" style="color: rgb(0, 0, 0);">Ingenosya a décidé de s’appuyer sur l’ERP Odoo
+                  <font   style="color: rgb(0, 0, 0);">Ingenosya a décidé de s’appuyer sur l’ERP Odoo
                     open source (autrefois Open ERP)..</font>
                 </p>
               </div>
@@ -1626,7 +1753,7 @@
                   <hr />
                 </h3>
                 <p class="text-muted" style="text-align: justify; ">
-                  <font color="#000000" style="color: rgb(0, 0, 0);">Nous développons vos applications mobiles
+                  <font   style="color: rgb(0, 0, 0);">Nous développons vos applications mobiles
                     (Android, IOS) hybrides avec apache cordova.</font>
                 </p>
               </div>
@@ -1656,7 +1783,7 @@
                 </h3>
                 <hr />
                 <p class="text-muted" style="text-align: justify; ">
-                  <font color="#000000" style="color: rgb(0, 0, 0);">Nous développons vos applications windows et
+                  <font   style="color: rgb(0, 0, 0);">Nous développons vos applications windows et
                     macintosh avec l'atélier de génie logiciel Windev. </font>
                 </p>
               </div>
@@ -1669,7 +1796,7 @@
                 </h3>
                 <hr />
                 <p class="text-muted" style="text-align: justify; ">
-                  <font color="#000000" style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des
+                  <font   style="color: rgb(0, 0, 0);">De nombreuses applications du web pour des
                     fonctionnalités et ...</font>
                 </p>
               </div>

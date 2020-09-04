@@ -127,7 +127,7 @@ class WebsiteIngenosya(http.Controller):
             body_response = '''<p>Bonjour,</p>
                         <p>Nous accusons bonne réception de votre demande de devis.</p>
                         <p>Nous reviendrons vers vous dans un délai maximum de 3 jours ouvrés.</p>
-                        <p>Dans l’attente, veuillez trouver dans le lien ci-après notre plaquette commerciale <br/><a href="https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf">(https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette Commerciale Ingenosya 2018.pdf)</a>, <br/>contenant de plus amples informations sur nos offres et sur INGENOSYA.</p>
+                        <p>Dans l’attente, veuillez trouver dans le lien ci-après notre plaquette commerciale <br/><a href="https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf">(https://www.ingenosya.com/website_ingenosya/static/src/documents/Plaquette_Commerciale_Ingenosya_2018.pdf)</a>, <br/>contenant de plus amples informations sur nos offres et sur INGENOSYA.</p>
                         <p>Nous restons à votre entière disposition pour toutes informations complémentaires et vous remercions pour la confiance que vous accordez à INGENOSYA,<p>
                         <p>Très cordialement,<p>
                         <p>L’équipe Commerciale d’INGENOSYA<p>'''

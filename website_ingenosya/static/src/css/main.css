@@ -1,12 +1,8 @@
-/* font awesome optimization */
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
-    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+a{
+  color: #005e8e;
+}
+/* font awesome soptimization */
+
   .fa-custom-size{
     font-size: 0.6em !important;
   }
@@ -29,3 +25,30 @@
 }
 
 /*  end of images */
+
+/* footer */
+.pull-right{
+  display: none;
+}
+/* end of footer */
+
+
+/* end of fonts style */
+
+/* Recrutement pages */
+.btn-info.active.btn{
+    background-color:  #006178;
+    border-color:  #006178;
+}
+
+/* end of recrutement */
+.mb0.mt8{
+  font-size: 24px !important;
+}
+
+.mb0.mt0{
+  font-size: 18px !important;
+}
+.mt16.title-custom-footer{
+  font-size: 18px !important;
+}

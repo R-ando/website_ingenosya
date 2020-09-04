@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
+>
+
 <!--Template Ingenosya en Bref !!!btn Lire la suite!!!-->
 <template id="website.ingenosya-en-bref" name="Ingenosya en Bref" page="True">
 <t t-call="website.layout">
 <div class="container mb32">
-  <h1 class="text-center text-primary animated fadeInDown tous_les_titres">Ingenosya en Bref</h1>
+   <h1 class="text-center text-primary animated fadeInDown tous_les_titres">Ingenosya en Bref</h1>
   <div class="row">
     <div class="col-md-6 animated fadeInLeft mt16">
       <p class="text-justify">Créée en 1999 Ingenosya est une ESN (SSII offshore francophone) à Madagascar dont le siège social est en France et le bureau d'études et réalisation est à Antananarivo.</p>
@@ -37,6 +39,84 @@
 
 <!--Template presentation -->
 <template id="website.presentation" name="Présentation" page="True">
+<t t-set="head"> 
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/", 
+    "@type": "BreadcrumbList", 
+    "itemListElement": [{
+      "@type": "ListItem", 
+      "position": 1, 
+      "name": "Accueil",
+      "item": "https://www.ingenosya.com"  
+    },{
+      "@type": "ListItem", 
+      "position": 2, 
+      "name": "Prestation",
+      "item": "https://www.ingenosya.com/page/prestations"  
+    },{
+      "@type": "ListItem", 
+      "position": 3, 
+      "name": "Spécialités",
+      "item": "https://www.ingenosya.com/page/specialites"  
+    },{
+      "@type": "ListItem", 
+      "position": 4, 
+      "name": "Références",
+      "item": "https://www.ingenosya.com/page/references"  
+    },{
+      "@type": "ListItem", 
+      "position": 5, 
+      "name": "Actualités",
+      "item": "https://www.ingenosya.com/page/actualite"  
+    },{
+      "@type": "ListItem", 
+      "position": 6, 
+      "name": "Contact",
+      "item": "https://www.ingenosya.com/page/contact"  
+    },{
+      "@type": "ListItem", 
+      "position": 7, 
+      "name": "Se Connecter",
+      "item": "https://www.ingenosya.com/web/login"  
+    },{
+      "@type": "ListItem", 
+      "position": 8, 
+      "name": "Présentation",
+      "item": "https://www.ingenosya.com/page/presentation"  
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.ingenosya.com/page/presentation"
+      },
+      "headline": "Présentation d' Ingenosya",
+      "description": "Proactif depuis 19 ans, Ingenosya est une ESN (SSII) spécialisée dans le développement d'applications Web (Java, PHP et dotNET…), la réalisation d’applications mobiles (Androïd, iOS…), l’intégration de systèmes (la conception de solutions ERP, Business intelligence), ou encore la maintenance de systèmes d’information.",
+      "image": "https://www.ingenosya.com/website_ingenosya/static/src/img/pages/presentation1.png",  
+      "author": {
+        "@type": "Organization",
+        "name": "Ingenosya"
+      },  
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ingenosya",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.ingenosya.com/logo.png"
+        }
+      }
+    }
+  </script>
+  
+
+
+</t>
 <t t-call="website.layout">
 <div class="container">
 <div class="row">
@@ -191,6 +271,7 @@
 
 <!-- Template Département Qualité -->
 <template id="website.departement-qualite" name="Département Qualité" page="True">
+
   <t t-call="website.layout">
     <div class="container mb32">
     <div class="row">
@@ -205,7 +286,7 @@
             <div class="col-text">
               <h3 class="text-primary">Méthodologie et assurance qualité</h3>
               <p class="text-justify">Chez Ingenosya, fournisseur de solution digitale de pointe, la qualité est un principe érigé en objectif. L'orientation volontariste d’INGENOSYA vers la Qualité correspond aux quatre motivations principales des marchés occidentaux et français et à l'obligation qui s'impose encore plus à une société off-shore qui réalise ses travaux à distance:</p>
-                <span>
+                <div>
                   <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité correspond à une
                   préoccupation forte de toute maîtrise d'ouvrage,</p>
                   <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité devient un atout
@@ -214,7 +295,7 @@
                   privilégié d'accroissement de la performance,</p>
                   <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité est le seul moyen de
                   rendre une relation de sous traitance offshore récurrente,</p>
-                </span>
+                </div>
               </div>
           </div>
           <div class="col-md-6 col-img mt16">
@@ -236,7 +317,7 @@
           <div class="col-md-6 para_qlt2">
             <div class="col-text">
               <h3 class="text-primary">Missions du département qualité</h3>
-              <span>
+              <div>
                 <p class="text-justify">Le département Qualité d’Ingenosya assure les missions suivantes :</p>
                 <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>La qualité est le moyen
                 privilégié d'accroissement de la performance,</p>
@@ -251,7 +332,7 @@
                 tous les applicatifs permettant l’automatisation des procédures de test</p>
                 <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Conduite des revues avec le
                 client et d'audits internes</p>
-              </span>
+              </div>
             </div>
           </div>
         </div>
@@ -263,13 +344,13 @@
               <h3 class="text-primary">Procédures d'assurance qualité</h3>
               <p class="text-justify">L'assurance qualité implique tout au long du cycle de vie d'un projet la mise en
                 œuvre de trois types de procédures spécifiques :</p>
-              <span>
+              <div>
                 <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions de vérification en
                 cours de production,</p>
                 <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions de qualification,</p>
                 <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Les actions d'acceptation des
                 fournitures intermédiaires ou finales.</p>
-              </span>
+              </div>
               <p class="text-justify">Les actions de vérification en cours de production ont pour but de détecter les
                 erreurs résiduelles dans la fourniture intermédiaire ou finale (document, logiciel, jeux d'essai,..).
                 Elles permettent de s'assurer que le niveau de qualité sur le fond et la forme est optimal pour
@@ -581,7 +662,7 @@
   <t t-call="website.sidebar-prestations"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel au forfait</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation et développement logiciel entreprise au forfait à Madagascar</h1>
   <div class="row">
     <div class="col-md-6 icone_forfait mt8">
       <div class="col-md-4 mt8">
@@ -609,13 +690,13 @@
           éventuelle succèdent à la phase de développement. Cette prestation s’appuie sur des méthodologies dites de cycle en V.</p>
         <div class="col-md-12 social_forfait">
           <ul class="social-network social-circle">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoFacebook" title="Facebook"><i
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" rel="noopener" target="_blank" class="icoFacebook" title="Facebook"><i
             class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoTwitter" title="Twitter"><i
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" rel="noopener" target="_blank" class="icoTwitter" title="Twitter"><i
             class="fa fa-twitter"></i></a></li>
-            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait&amp;title=Ingenosya&amp;" target="_blank"
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait&amp;title=Ingenosya&amp;" rel="noopener" target="_blank"
             class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-au-forfait" target="_blank" rel="noopener" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
             <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
           </ul>
         </div>
@@ -637,10 +718,10 @@
   <t t-call="website.sidebar-prestations"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel par itération</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Réalisation logiciel entreprise à Madagascar par itération – Méthode Agile</h1>
   <div class="row">
     <div class="col-md-6 mt16">
-      <img src="/website_ingenosya/static/src/img/prestations/a1.png" class="img img-responsive" alt="Réalisation logiciel par itération" id="rli1" />
+      <img src="/website_ingenosya/static/src/img/prestations/a1.png" class="img img-responsive" alt="Réalisation logiciel entreprise à Madagascar par itération Méthode Agile,réalisation logiciel entreprise" id="rli1" />
     </div>
     <div class="col-md-6 mt16 para_iteration1">
       <p class="text-justify">Quand il est difficile, voire impossible de réaliser un cahier des charges, clair
@@ -652,13 +733,13 @@
         finale des travaux s’en trouve grandement améliorée. Cette prestation s’appuie sur des méthodologies dites Agile.</p>
       <div class="col-md-12 para_iteration2">
         <ul class="social-network social-circle">
-          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoFacebook" title="Facebook"><i
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" rel="noopener"  target="_blank" class="icoFacebook" title="Facebook"><i
           class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoTwitter" title="Twitter"><i
+          <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" rel="noopener" target="_blank" class="icoTwitter" title="Twitter"><i
           class="fa fa-twitter"></i></a></li>
-          <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration&amp;title=Ingenosya&amp;" target="_blank"
+          <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration&amp;title=Ingenosya&amp;" target="_blank" rel="noopener"
           class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/realisation-logiciel-par-iteration" target="_blank" rel="noopener" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
           <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
         </ul>
       </div>
@@ -679,10 +760,10 @@
   <t t-call="website.sidebar-prestations"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développement logiciel en régie</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développeur logiciel de gestion entreprise à Madagascar</h1>
   <div class="row">
     <div class="col-md-6 col-img mt16">
-      <img src="/website_ingenosya/static/src/img_webp/pages/regie3.webp" class="img img-responsive" alt="Développement logiciel en régie" id="img-regie1" />
+      <img src="/website_ingenosya/static/src/img_webp/pages/regie3.webp" class="img img-responsive" alt="Développeur logiciel de gestion entreprise à Madagascar,logiciel gestion entreprise " id="img-regie1" />
     </div>
     <div class="col-md-6 para_regie mt16">
       <div class="col-text">
@@ -694,13 +775,13 @@
         <p class="text-justify">Cette prestation s’intègre entièrement dans la méthodologie du client.</p>
         <div class="">
           <ul class="social-network social-circle">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoFacebook" title="Facebook"><i
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" rel="noopener" class="icoFacebook" title="Facebook"><i
             class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoTwitter" title="Twitter"><i
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" rel="noopener" class="icoTwitter" title="Twitter"><i
             class="fa fa-twitter"></i></a></li>
-            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie&amp;title=Ingenosya&amp;" target="_blank"
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/developpement-logiciel-en-regie&amp;title=Ingenosya&amp;" target="_blank" rel="noopener"
             class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/developpement-logiciel-en-regie" target="_blank" rel="noopener" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
             <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
           </ul>
         </div>
@@ -722,10 +803,10 @@
   <t t-call="website.sidebar-prestations"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Tierce Maintenance Applicative</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Maintenance corrective et évolutive des système informatique</h1>
   <div class="row">
     <div class="col-md-6 col-img mt16">
-      <img src="/website_ingenosya/static/src/img_webp/pages/tma1.webp" class="img img-responsive" alt="Tierce Maintenance applicative" id="img-tma1" />
+      <img src="/website_ingenosya/static/src/img_webp/pages/tma1.webp" class="img img-responsive" alt="Prestataire Digitale – INGENOSYA Madagascar,prestation digitale, gestion projet digital, agence digitale" id="img-tma1" />
     </div>
     <div class="col-md-6 para_tma1 mt16">
       <div class="col-text">
@@ -742,13 +823,13 @@
         livraison sur un serveur de pré-production.</p>
         <div class="">
           <ul class="social-network social-circle">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoFacebook" title="Facebook"><i
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" rel="noopener" class="icoFacebook" title="Facebook"><i
             class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoTwitter" title="Twitter"><i
+            <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" rel="noopener" class="icoTwitter" title="Twitter"><i
             class="fa fa-twitter"></i></a></li>
-            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative&amp;title=Ingenosya&amp;" target="_blank"
+            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/tierce-maintenance-applicative&amp;title=Ingenosya&amp;" target="_blank" rel="noopener"
             class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/tierce-maintenance-applicative" target="_blank" rel="noopener" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
             <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
           </ul>
         </div>
@@ -773,6 +854,7 @@
 
 <!--Template Pages Enterprise Resource Planning-->
 <template id="website.entreprise-ressource-planning" name="Enterprise Resource Planning" page="True">
+
 <t t-call="website.layout">
 <div class="container mb32">
 <div class="row">
@@ -780,7 +862,7 @@
   <t t-call="website.sidebar-specialites"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Enterprise Resource Planning</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Création logiciel ERP d’entreprise avec Ingenosya</h1>
   <div class="">
     <p class="text-justify">Ingenosya, votre société offshore informatique à Madagascar, spécialisée dans la digitalisation a développé des compétences fonctionnelles et techniques relatives aux ERP (Enterprise Resource Planning)</p>
     <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Pour la mise en œuvre opérationnelle
@@ -806,7 +888,7 @@
       <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i>Comptabilité financière.</p>
     </div>
     <div class="col-md-4 text-center">
-      <img src="/website_ingenosya/static/src/img_webp/specialites/erp2.webp" class="img img-responsive " alt="Enterprise Resource Planning - ERP" id="img-erp1" />
+      <img src="/website_ingenosya/static/src/img_webp/specialites/erp2.webp" class="img img-responsive " alt="Création logiciel ERP d’entreprise avec Ingenosya,logiciel ERP" id="img-erp1" />
       <a href="#">Enterprise Resource Planning</a>
     </div>
     <div class="col-md-4">
@@ -879,12 +961,12 @@
   <t t-call="website.sidebar-specialites"/>
 </div>
 <div class="col-md-10">
-  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Business Intelligence</h1>
+  <h1 class="text-center text-primary animated zoomIn tous_les_titres">Développeur logiciel business intelligence et concepteur framework à Madagascar</h1>
   <div class="row">
     <div class="col-md-6 col-img mt16">
       <!-- <img src="/website_ingenosya/static/src/img/pages/a2.jpeg" class="img img-responsive animated bounceInLeft"
       alt="" id="img_titre_bi" /> -->
-      <img src="/website_ingenosya/static/src/img_webp/pages/a2.webp" class="img img-responsive" alt="Business Intelligence - BI" id="img_titre_bi" />
+      <img src="/website_ingenosya/static/src/img_webp/pages/a2.webp" class="img img-responsive" alt="Développeur logiciel business intelligence et concepteur framework à Madagascar,business intelligence" id="img_titre_bi" />
     </div>
     <!-- <div class="col-md-6 mt16 mb16 animated bounceInRight"> -->
     <div class="col-md-6 mt16 mb16">
@@ -1041,7 +1123,7 @@
         <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Accès direct aux documents gérés par QlikView Server et QlikView Publisher via le client QlikView</p>
         <p class="text-justify"><i class="fa fa-circle fa-custom-size" aria-hidden="true"></i> Synchronisation des distributions de QlikView Server et QlikView Publisher</p>
       </div>
-      <img src="/website_ingenosya/static/src/img_webp/specialites/Qlik1.webp" class="img img-responsive" alt="Qlik View" id="img_bi1" />
+      <img src="/website_ingenosya/static/src/img_webp/specialites/Qlik1.webp" class="img img-responsive" alt="Qlik View" id="img_bi2" />
       </div>
     </div>
   </div>
@@ -1060,7 +1142,7 @@
     <t t-call="website.sidebar-specialites"/>
   </div>
   <div class="col-md-10">
-    <h1 class="text-center text-primary animated zoomIn tous_les_titres">Web et applications mobiles</h1>
+    <h1 class="text-center text-primary animated zoomIn tous_les_titres"> #1 Créateur et développeur application mobile &#38; application web à Madagascar </h1>
     <p>De nombreuses applications du web pour des fonctionnalités et des métiers divers ont été développées par
         Ingenosya, votre société offshore informatique à Madagascar :
     </p>
@@ -1106,7 +1188,7 @@
       <div class="col-md-6">
         <!-- <img src="/website_ingenosya/static/src/img/specialites/web2.png" class="img img-responsive animated fadeInRight"
         alt=""  /> -->
-        <img src="/website_ingenosya/static/src/img_webp/specialites/web2.webp" class="img img-responsive " alt="Développements site web - Développements site internet"  />
+        <img src="/website_ingenosya/static/src/img_webp/specialites/web2.webp" class="img img-responsive " alt="#1 Créateur et développeur application mobile &#38; application web à Madagascar,Python,C#"  />
       </div>
     </div>
 
@@ -1118,7 +1200,7 @@
 
     <div class="row" id="contenu_web4">
       <div class="col-md-4">
-        <img src="/website_ingenosya/static/src/img_webp/pages/web10.webp" class="img img-responsive " alt="Développements site web - Développements site internet" id="img_web10" />
+        <img src="/website_ingenosya/static/src/img_webp/pages/web10.webp" class="img img-responsive " alt="#1 Créateur et développeur application mobile &#38; application web à Madagascar,application mobile" id="img_web10" />
       </div>
       <div class="col-md-4 para_web5">
         <p class="text-justify">En complément des applications Web, Ingenosya, votre prestataire informatique offshore à Madagascar, délivre continuellement des solutions digitales de pointe aux clients avec son expertise en développement d’applications mobiles pour les Smartphones, afin de compléter les moyens de mises en relations des usagers des systèmes d’information Web.</p>
@@ -1147,12 +1229,12 @@
       <t t-call="website.sidebar-specialites"/>
     </div>
     <div class="col-md-10">
-      <h1 class="text-center text-primary animated zoomIn tous_les_titres">Odoo chez INGENOSYA</h1>
+      <h1 class="text-center text-primary animated zoomIn tous_les_titres">Odoo &#38; Open ERP en entreprise chez INGENSOYA</h1>
       <div class="row">
         <div class="col-md-6">
           <!-- <img src="/website_ingenosya/static/src/img/pages/odoo1.png" class="img img-responsive animated fadeInLeft"
           alt="" id="img-odoo1" /> -->
-          <img src="/website_ingenosya/static/src/img_webp/pages/odoo1.webp" class="img img-responsive" alt="Odoo - ERP - OpenERP" id="img-odoo1" />
+          <img src="/website_ingenosya/static/src/img_webp/pages/odoo1.webp" class="img img-responsive" alt="Odoo &#38; Open ERP en entreprise chez INGENSOYA,partenaire Odoo" id="img-odoo1" />
         </div>
         <!-- <div class="col-md-6 animated fadeInRight" style="animation-delay: 1s;"> -->
         <div class="col-md-6">
@@ -1172,12 +1254,12 @@
           <p class="text-justify">Son interface 100% Web et responsive design permet d’accéder à la base de données
             de l’entreprise, à tout moment et de n’importe où avec n’importe quel terminal muni d’un navigateur
             internet (PC, Smart phone, tablette …). C’est l’un des ERP les plus modernes performants et complets du
-            marché.Voir<a href="https://www.odoo.com" target="_blank"> www.odoo.com</a></p>
+            marché.Voir<a href="https://www.odoo.com" target="_blank" rel="noopener"> www.odoo.com</a></p>
         </div>
         <div class="col-md-6">
           <!-- <img src="/website_ingenosya/static/src/img/specialites/odoo_contenu2.png" class="img img-responsive animated fadeInRight"
           style="animation-delay: 2s;" alt="" id="img-odoo2" /> -->
-          <img src="/website_ingenosya/static/src/img_webp/specialites/odoo_contenu2.webp" class="img img-responsive " alt="Odoo - ERP - OpenERP" id="img-odoo2" />
+          <img src="/website_ingenosya/static/src/img_webp/specialites/odoo_contenu2.webp" class="img img-responsive " alt="Odoo &#38; Open ERP en entreprise chez INGENSOYA,intégrateur Odoo" id="img-odoo2" />
         </div>
       </div>
 
@@ -1242,7 +1324,7 @@
         <p class="text-justify">3) chez Odoo avec sa formule d’hébergement en mode SaaS</p>
       </div>
       <div class="col-md-6">
-        <img src="/website_ingenosya/static/src/img_webp/specialites/odooo.webp" class="img img-responsive " alt="Odoo - ERP - OpenERP" id="img-odoo5" />
+        <img src="/website_ingenosya/static/src/img_webp/specialites/odooo.webp" class="img img-responsive " alt="Odoo &#38; Open ERP en entreprise chez INGENSOYA,Odoo CRM" id="img-odoo5" />
       </div>
     </div>
 
@@ -1261,13 +1343,13 @@
       data-sizes="(max-width:200px) 200px, 100vw"
       alt="Module e-commerce odoo" id="img-odoo-gallery1" /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/2.png" class="img img-responsive icon-odoo "
-      alt="Module ventes odoo" id="" /></div>
+      alt="Module ventes odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/3.png" class="img img-responsive icon-odoo "
-      alt="Module achats odoo" id="" /></div>
+      alt="Module achats odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/4.png" class="img img-responsive icon-odoo "
-      alt="Module point de vente odoo" id="" /></div>
+      alt="Module point de vente odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/5.webp" class="img img-responsive  icon-odoo "
-      alt="Module mailling odoo" id="" /></div>
+      alt="Module mailling odoo"  /></div>
     </div>
 
     <!-- Template separateur de code -->
@@ -1279,15 +1361,15 @@
 
     <div class="row module-odoo1">
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/10.png" class="img img-responsive "
-      alt="Module web odoo" id="img-odoo-gallery1" /></div>
+      alt="Module web odoo" id="img-odoo-gallery2" /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/6.png" class="img img-responsive "
-      alt="Module stock odoo" id="" /></div>
+      alt="Module stock odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/7.png" class="img img-responsive "
-      alt="Module projet odoo" id="" /></div>
+      alt="Module projet odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img_webp/specialites/8.webp" class="img img-responsive "
-      alt="Module ressources humaines odoo" id="" /></div>
+      alt="Module ressources humaines odoo"  /></div>
       <div class="col-xs-2 column"><img src="/website_ingenosya/static/src/img/specialites/9.png" class="img img-responsive "
-      alt="Module facturation comptabilité odoo" id="" /></div>
+      alt="Module facturation comptabilité odoo"  /></div>
     </div>
 
     <div class="row module-odoo2">
@@ -1359,6 +1441,56 @@
 
 <!-- Page TABLEAU REFERENCE -->
 <template id="website.references" name="Références" page="True">
+<t t-set="head">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/", 
+      "@type": "BreadcrumbList", 
+      "itemListElement": [
+      {
+        "@type": "ListItem", 
+        "position": 1, 
+        "name": "Accueil",
+        "item": "https://www.ingenosya.com"  
+      },{
+        "@type": "ListItem", 
+        "position": 2, 
+        "name": "Présentation",
+        "item": "https://www.ingenosya.com/page/presentation"  
+      },{
+        "@type": "ListItem", 
+        "position": 3, 
+        "name": "Prestation",
+        "item": "https://www.ingenosya.com/page/prestations"  
+      },{
+        "@type": "ListItem", 
+        "position": 4, 
+        "name": "Spécialités",
+        "item": "https://www.ingenosya.com/page/specialites"  
+      },{
+        "@type": "ListItem", 
+        "position": 5, 
+        "name": "Actualités",
+        "item": "https://www.ingenosya.com/page/actualite"  
+      },{
+        "@type": "ListItem", 
+        "position": 6, 
+        "name": "Contact",
+        "item": "https://www.ingenosya.com/page/contact"  
+      },{
+        "@type": "ListItem", 
+        "position": 7, 
+        "name": "Se Connecter",
+        "item": "https://www.ingenosya.com/web/login"  
+      },{
+        "@type": "ListItem", 
+        "position": 8, 
+        "name": "Références",
+        "item": "https://www.ingenosya.com/page/references"  
+      }]
+    }
+    </script>
+</t>
 <t t-call="website.layout">
 <div class="container">
 <div class="row">
@@ -1856,7 +1988,7 @@
 	        	</div>
 			</div>
 		    <p><b>Directeur de la publication :</b> Jean Luc Rajaona</p>
-		    <p class="text-justify mb0">Le site est hébergé par OVH <a href="https://www.ovh.com" target="_blank">www.ovh.com</a> - 2 rue Kellermann -
+		    <p class="text-justify mb0">Le site est hébergé par OVH <a href="https://www.ovh.com" target="_blank" rel="noopener">www.ovh.com</a> - 2 rue Kellermann -
 		      59100 Roubaix - France</p>
 		   </div>
 	   </div>
@@ -2023,6 +2155,90 @@
 
 	<!-- Prestations base -->
 	<template id="website.prestations" name="Prestations" page="True">
+        <t t-set="head">
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": 
+                [
+                  {
+                    "@type": "ListItem", 
+                    "position": 1, 
+                    "name": "Accueil",
+                    "item": "https://www.ingenosya.com"  
+                  },
+                  {
+                  "@type": "ListItem", 
+                  "position": 2, 
+                  "name": "Présentation",
+                  "item": "https://www.ingenosya.com/page/presentation"  
+                  },
+                  {
+                  "@type": "ListItem", 
+                    "position": 3, 
+                    "name": "Spécialités",
+                    "item": "https://www.ingenosya.com/page/specialites"  
+                  },
+                  {
+                    "@type": "ListItem", 
+                    "position": 4, 
+                    "name": "Références",
+                    "item": "https://www.ingenosya.com/page/references"  
+                  },
+                  {
+                    "@type": "ListItem", 
+                    "position": 5, 
+                    "name": "Actualités",
+                    "item": "https://www.ingenosya.com/page/actualite"  
+                  },
+                  {
+                  "@type": "ListItem", 
+                  "position": 6, 
+                  "name": "Contact",
+                  "item": "https://www.ingenosya.com/page/contact"  
+                  },{
+                    "@type": "ListItem", 
+                    "position": 7, 
+                    "name": "Se Connecter",
+                    "item": "https://www.ingenosya.com/web/login"  
+                  }
+                  ,{
+                    "@type": "ListItem", 
+                    "position": 8, 
+                    "name": "Prestation",
+                    "item": "https://www.ingenosya.com/page/prestations"  
+                  }
+                ]
+              }
+            </script>
+
+            <script type="application/ld+json">
+              {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "Prestation chez Ingenosya",
+                "image": "https://www.ingenosya.com/website_ingenosya/static/src/img/prestations/prestation.png",
+                "description": "Les prestations contractuelles d’Ingenosya, votre société de développement informatique offshore, sont conçues pour répondre avec souplesse aux différents besoins: Conseil en organisation de start up ,assistance technique au développement logiciel en régie ,réalisation de logiciel au forfait ,tierce Maintenance Applicative ",
+                "brand": "Ingenosya",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "5",
+                  "bestRating": "5",
+                  "worstRating": "2",
+                  "ratingCount": "5"
+                  },
+                  "offers": {
+                    "@type": "Offer",
+                    "url": "https://www.ingenosya.com/page/prestations",
+                    "priceCurrency": "EUR",
+                    "price": "4"
+                  }
+                }
+              
+            </script>
+
+        </t>
         <t t-call="website.layout">
           <div class="container mb32">
           <div class="row">
@@ -2030,30 +2246,30 @@
            		<t t-call="website.sidebar-prestations"/>
             </div>
             <div class="col-md-10">
-              <h1 class="text-center text-primary animated zoomIn titleClickPrestations tous_les_titres">Prestations</h1>
+              <h1 class="text-center text-primary animated zoomIn titleClickPrestations tous_les_titres">Prestataire Digitale – INGENOSYA Madagascar</h1>
               <div class="row">
                 <div class="col-md-6 contenu_prestations_click mt16">
-                  <img src="/website_ingenosya/static/src/img_webp/prestations/prestation.webp" class="img img-responsive" alt="Prestations" id="img_prestations"/>
+                  <img src="/website_ingenosya/static/src/img_webp/prestations/prestation.webp" class="img img-responsive" alt="Prestataire Digitale – INGENOSYA Madagascar,prestation digitale" id="img_prestations"/>
                 </div>
                 <div class="col-md-6 contenu_prestations_click1 mt16">
-                  <p class="text-justify">Tous les travaux techniques d’Ingenosya sont réalisés à Antananarivo, mais selon les circonstances, le personnel d’Ingenosya peut se déplacer pour de courtes durées (une à plusieurs semaines) sur le site clien-t, sans que cela ne surcharge les coûts de façon trop importante. Les prestations contractuelles d’Ingenosya, votre société de développement informatique offshore, sont conçues pour répondre avec souplesse aux différents besoins :</p>
-                  <p class="text-justify">
-                  <ul>
-                    <li> Conseil en organisation de start up (business plan, recherche de fonds, formalisation des processus organisationnels, organisation en vue du CIR, …)</li>
-                    <li> Assistance technique au développement logiciel en régie</li>
-                    <li> Réalisation de logiciel au forfait, estimé sur la base d’un cahier des charges détaillé</li>
-                    <li> Tierce Maintenance Applicative</li>
-                  </ul>
-                  </p>
+                  <p class="text-justify">Tous les travaux techniques d’Ingenosya sont réalisés à Antananarivo, mais selon les circonstances, le personnel d’Ingenosya peut se déplacer pour de courtes durées (une à plusieurs semaines) sur le site client, sans que cela ne surcharge les coûts de façon trop importante. Les prestations contractuelles d’Ingenosya, votre société de développement informatique offshore, sont conçues pour répondre avec souplesse aux différents besoins :</p>
+                  <div class="text-justify">
+                    <ul>
+                      <li> Conseil en organisation de start up (business plan, recherche de fonds, formalisation des processus organisationnels, organisation en vue du CIR, …)</li>
+                      <li> Assistance technique au développement logiciel en régie</li>
+                      <li> Réalisation de logiciel au forfait, estimé sur la base d’un cahier des charges détaillé</li>
+                      <li> Tierce Maintenance Applicative</li>
+                    </ul>
+                  </div>
                   <div class="social_forfait">
                     <ul class="social-network social-circle">
-                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/prestations" target="_blank" class="icoFacebook" title="Facebook"><i
-                      class="fa fa-facebook"></i></a></li>
-                      <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/prestations" target="_blank" class="icoTwitter" title="Twitter"><i
+                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.ingenosya.com/page/prestations" target="_blank" rel="noopener" class="icoFacebook" title="Facebook"><i
+                      class="fa fa-facebook"></i></a></li> 
+                      <li><a href="https://twitter.com/intent/tweet?text=Ingenosya&amp;url=http://www.ingenosya.com/page/prestations" target="_blank" rel="noopener" class="icoTwitter" title="Twitter"><i
                       class="fa fa-twitter"></i></a></li>
-                      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/prestations&amp;title=Ingenosya&amp;" target="_blank"
+                      <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ingenosya.com/page/prestations&amp;title=Ingenosya&amp;" target="_blank" rel="noopener"
                       class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/prestations" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="https://plus.google.com/share?url=http://www.ingenosya.com/page/prestations" target="_blank" rel="noopener" class="icoGoogle"  title="Google +"><i class="fa fa-google-plus"></i></a></li>
                       <!-- <li><a href="http://www.viadeo.com/shareit/share/?url={url}" target="_blank" class="icoViadeo" title="Viadeo"><i class="fa fa-viadeo"></i></a></li> -->
                     </ul>
                   </div>
@@ -2067,6 +2283,76 @@
 
      <!--Template spécialités base -->
      <template id="website.specialites" name="Spécialités" page="True">
+        <t t-set="head">
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              "itemListElement": [{
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Accueil",
+                  "item": "https://www.ingenosya.com"
+                }, {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Présentation",
+                  "item": "https://www.ingenosya.com/page/presentation"
+            
+                }, {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Prestation",
+                  "item": "https://www.ingenosya.com/page/prestations"
+                }, {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Références",
+                  "item": "https://www.ingenosya.com/page/references"
+                }, {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Actualités",
+                  "item": "https://www.ingenosya.com/page/actualite"
+                }, {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "name": "Contact",
+                  "item": "https://www.ingenosya.com/page/contact"
+                }, {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "name": "Se Connecter",
+                  "item": "https://www.ingenosya.com/web/login"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "name": "Spécialités",
+                  "item": "https://www.ingenosya.com/page/specialites"
+                }
+              ]
+            }
+          </script>
+
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/", 
+            "@type": "Product", 
+            "name": "Logiciel",
+            "image": "https://www.ingenosya.com/website_ingenosya/static/src/img/specialites/aa.png",
+            "description": "Chez Ingenosya,nous développons des progiciels ERP,nous mettons on place des solutions décisionnelles ou de business intelligence et concevons des applications web et mobiles",
+            "brand": "Ingenosya",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "2",
+              "ratingCount": "5"
+            }
+          }
+        </script>
+        </t>
         <t t-call="website.layout">
         <div class="container mb32">
         <div class="row">
@@ -2074,11 +2360,11 @@
           <t t-call="website.sidebar-specialites"/>
         </div>
         <div class="col-md-10">
-          <h1 class="text-center text-primary animated zoomIn titleClickSpecialites tous_les_titres">Spécialités</h1>
+          <h1 class="text-center text-primary animated zoomIn titleClickSpecialites tous_les_titres">Tous travaux digitale:Gestion back office,Framework</h1>
           <div class="row">
             <!-- <div class="col-md-6 animated fadeInLeft img_Double_click mt16"> -->
             <div class="col-md-6 img_Double_click mt16">
-              <img src="/website_ingenosya/static/src/img_webp/specialites/aa.webp" class="img img-responsive" alt="Spécialités" id="img_specialites"/>
+              <img src="/website_ingenosya/static/src/img_webp/specialites/aa.webp" class="img img-responsive" alt="Tous travaux digitale : Gestion back office,Framework, Application,entreprise digitale" id="img_specialites"/>
             </div>
             <!-- <div class="col-md-6 para_spec_base animated fadeInRight img_Double_click1 mt16"> -->
             <div class="col-md-6 para_spec_base img_Double_click1 mt16">
@@ -2105,6 +2391,64 @@
 
       <!-- Contact base -->
       <template id="website.contact" name="Contact" page="True">
+      <t t-set="head">
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "BreadcrumbList",
+ 	          "itemListElement": [
+             {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://www.ingenosya.com"
+ 		          }, 
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Présentation",
+                "item": "https://www.ingenosya.com/page/presentation"
+              }, 
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Prestation",
+                "item": "https://www.ingenosya.com/page/prestations"
+              }, 
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Spécialités",
+                "item": "https://www.ingenosya.com/page/specialites"
+              }, 
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Références",
+                "item": "https://www.ingenosya.com/page/references"
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Actualités",
+                "item": "https://www.ingenosya.com/page/actualite"
+              }, 
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "Se Connecter",
+                "item": "https://www.ingenosya.com/web/login"
+              },
+              {
+                "@type": "ListItem",
+                "position": 8,
+                "name": "Contact",
+                "item": "https://www.ingenosya.com/page/contact"
+              }
+ 	          ]
+          }
+      </script>
+      </t>
       <t t-call="website.layout">
         <div class="container mb32">
         <div class="row">
@@ -2196,15 +2540,15 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img/actualite/soutient_com_dev.jpg"
-                                                         class="img img-responsive "/>
+                                                         class="img img-responsive " alt="talents developpeur" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités ingenosya</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -2229,14 +2573,14 @@
                                         <div class="blog-item-wrapper">
                                             <span>
                                                 <img src="/website_ingenosya/static/src/img/actualite/jeune_entrepreneur.jpg"
-                                                     class="img img-responsive "/>
+                                                     class="img img-responsive " alt="entreprise digital" />
                                             </span>
                                             <div class="blog-item-text element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités économiques</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -2248,7 +2592,7 @@
                                                 <p class="text-justify">Le trophée jeune entrepreneur 2019 sera l’occasion, pour les porteurs de projet, de concrétiser leurs idées d’entreprise. Des financements sont prévus en ce sens.
                                                 </p>
                                                 <div class="text-down-act">
-                                                    <a href="https://lexpress.mg/09/11/2019/trophee-jeune-entrepreneur-les-startups-encourages-a-participer/" target="_blank">
+                                                    <a href="https://lexpress.mg/09/11/2019/trophee-jeune-entrepreneur-les-startups-encourages-a-participer/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
 
@@ -2273,15 +2617,15 @@
                                             <div class="blog-item-img">
                                                 <span>
                                                     <img src="/website_ingenosya/static/src/img/actualite/vazimba.jpg"
-                                                         class="img img-responsive "/>
+                                                         class="img img-responsive " alt="culture esn madagascar" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités touristiques</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>
@@ -2296,7 +2640,7 @@
                                                 </p>
 
                                                 <div class="text-down-act">
-                                                    <a href="http://www.midi-madagasikara.mg/dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba/" target="_blank">
+                                                    <a href="http://www.midi-madagasikara.mg/dossiers/2019/11/09/voyage-lamoronkay-des-mythes-et-des-vazimba/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
                                                     <h6 style="word-wrap: break-word; font-size:12px">Source
@@ -2426,7 +2770,7 @@
 
                             <div class="row">
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/lemur.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/lemur.webp"
                                          class="img img-responsive" alt="lemur" id="img_qlt2"/>
                                 </div>
                                 <div class="col-md-7 para_qlt2">
@@ -2441,11 +2785,11 @@
                                                 <td class="icon">
 
                                                 </td>
-                                                <td style="color:#3498db;" class="labelle2 ">
+                                                <td style="color:##00568;" class="labelle2 ">
                                                     Estimation
 
                                                 </td>
-                                                <td style="color:#3498db;"
+                                                <td style="color:##00568;"
                                                     class="libelle  budget-act-tab">Budget
                                                 </td>
                                                 <tr>
@@ -2705,16 +3049,16 @@
                                         <div class="blog-item-wrapper">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/barea.jpg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/barea.webp"
+                                                         class="img img-responsive " alt="rse esn" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités ingenosya</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -2742,15 +3086,15 @@
                                     <div class="col-md-4 langage-item-act" style="">
                                         <div class="blog-item-wrapper">
                                             <span>
-                                                <img src="/website_ingenosya/static/src/img/actualite/africa 50.jpg"
-                                                     class="img img-responsive "/>
+                                                <img src="/website_ingenosya/static/src/img_webp/actualite/africa_50.webp"
+                                                     class="img img-responsive " alt="logiciel finance" />
                                             </span>
                                             <div class="blog-item-text element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités économiques</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <h4>
                                                     <span>
@@ -2770,7 +3114,7 @@
                                                     dernier.
                                                 </p>
                                                 <div class="text-down-act">
-                                                    <a href="http://www.midi-madagasikara.mg/economie/2019/07/13/financements-des-projets-dinfrastructures-madagascar-present-a-lassemblee-annuelle-dafrica-50/" target="_blank">
+                                                    <a href="http://www.midi-madagasikara.mg/economie/2019/07/13/financements-des-projets-dinfrastructures-madagascar-present-a-lassemblee-annuelle-dafrica-50/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
 
@@ -2798,16 +3142,16 @@
                                         <div class="blog-item-wrapper" style="">
                                             <div class="blog-item-img">
                                                 <span>
-                                                    <img src="/website_ingenosya/static/src/img/actualite/baleine.jpg"
-                                                         class="img img-responsive "/>
+                                                    <img src="/website_ingenosya/static/src/img_webp/actualite/baleine.webp"
+                                                         class="img img-responsive " alt="logiciel tourisme madagascar" />
                                                 </span>
                                             </div>
                                             <div class="blog-item-text  element-actualite"
                                             >
                                                 <h3>
-                                                    <span class="tilte-recruitment">
+                                                    <div class="title-recruitment">
                                                         <center>Actualités touristiques</center>
-                                                    </span>
+                                                    </div>
                                                 </h3>
                                                 <p class="text-justify">
                                                     <h4>
@@ -2829,7 +3173,7 @@
                                                 </p>
 
                                                 <div class="text-down-act">
-                                                    <a href="https://lexpress.mg/16/07/2019/tourisme-la-haute-saison-entre-optimisme-et-realisme/" target="_blank">
+                                                    <a href="https://lexpress.mg/16/07/2019/tourisme-la-haute-saison-entre-optimisme-et-realisme/" target="_blank" rel="noopener">
                                                         Pour en savoir plus
                                                     </a>
                                                     <h6 style="word-wrap: break-word; font-size:12px">Source
@@ -2953,7 +3297,7 @@
                                 </div>
                                 <!--actualite 5-->
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/Ile-aux-Nattes.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Ile-aux-Nattes.webp"
                                          class="img img-responsive " alt="Il aux nattes"
                                          id="img_qlt1"/>
                                 </div>
@@ -2976,11 +3320,11 @@
                                                 <td class="icon">
 
                                                 </td>
-                                                <td style="color:#3498db;" class="labelle2 ">
+                                                <td style="color:#005683;" class="labelle2 ">
                                                     Estimation
 
                                                 </td>
-                                                <td style="color:#3498db;"
+                                                <td style="color:#005683;"
                                                     class="libelle  budget-act-tab">Budget
                                                 </td>
                                                 <tr>
@@ -3200,7 +3544,7 @@
 
 
                                 <div class="col-md-5 col-img mt16">
-                                    <img src="/website_ingenosya/static/src/img/actualite/Sunset_baobabs_Madagascar.jpg"
+                                    <img src="/website_ingenosya/static/src/img_webp/actualite/Sunset_baobabs_Madagascar.webp"
                                          class="img img-responsive " alt="baobab"
                                          id="img_qlt3"/>
                                     <br/>

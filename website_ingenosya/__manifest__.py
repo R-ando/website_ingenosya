@@ -15,6 +15,7 @@
         'snippets/snippets.xml',
         'views/res_partner.xml',
         'views/search.xml',
+        'views/redirection.xml'
     ],
     'category': 'Theme/Creative',
     'depends': ['base', 'website', 'sale'],

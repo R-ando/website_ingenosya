@@ -19,24 +19,12 @@ $(document).ready(function () {
 
 }, 2000);
 
-/* add animate content quality*/
-$(window).scroll(function () {
-	if ($(document).scrollTop() > 280) {
-		$(".para_qlt2").addClass('base');
-	}
-});
+
 // add function in hover agility
 $(function(){
     $("[data-toggle=tooltip]").popover();
 });
-/* add animate content quality*/
-$(window).scroll(function () {
-	if ($(document).scrollTop() > 480) {
-//		$(".para_qlt3").addClass('base');
-		$("#img_qlt3").addClass('base');
-//		$("#img-erp2").addClass('base');
-	}
-});
+
 var position;
 /*$(window).scroll(function () {
 	if ($(document).scrollTop() > 400) {
@@ -63,49 +51,13 @@ var position;
 //	}
 //});
 
-$(window).scroll(function () {
-	if ($(document).scrollTop() > 1000) {
-		$('.Spécialités').addClass('fadeInLeft,animated');
-	}
-});
 
-/* srolling back to home button footer*/
-$(document).ready(function () {
-	$('a[href*=#]:not([href=#])').click(function () {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
-			location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-				$('html,body').animate({ scrollTop: 0 }, "slow");
-  				return false;
-			}
-		}
-	});
-});
-/* show button srolling back home*/
-$(window).scroll(function () {
-	if ($(document).scrollTop() > 300) {
-		$('.back-to-top').addClass('vue');
-	} else {
-		$('.back-to-top').removeClass('vue');
-	}
-});
 
-/* on click back to up */
-$(document).ready(function() {
-	$(".back-to-top").click(function(e) {
-		//$(window).scrollTop(0);
-		$('html, body').animate({scrollTop: 0}, 700);
-	});
-});
 
-/* add animate title technologie*/
-$(window).scroll(function () {
-	if ($(document).scrollTop() > 1200) {
-		$('.titre_techno').addClass('base');
-	}
-});
+
+
+
+
 
 /*simple click ou double click */
 	var headerHeight = $("header").height() + 120;
@@ -113,49 +65,5 @@ $(window).scroll(function () {
     var top_menus = $("#top_menu li > a.dropdown-toggle");
     var template = $('#titre_bref').position();
     $(document).ready(function() {
-        $(".navbar-default .navbar-nav > li > a.dropdown-toggle").click(function(e) {
-            var div_target = $(e.target).text().trim();
-            if ($('.' + div_target).offset() != undefined) {
-                $('html, body').animate({
-                    scrollTop: $("." + div_target).offset().top - headerHeight
-                }, 1000);
-            }
-        });
-	
-	/*add function simpleClick page Prestation*/
-			$(".navbar-default .navbar-nav > li > a.dropdown-toggle").click(function (e) {
-			var div_target = $(e.target).text().trim();
-			if (div_target === "Prestations") {
-				window.location.href = document.location.origin + "/page/prestations";
-			}
-		});
-	
-	/*add function simpleClick page Contact*/
-			$(".navbar-default .navbar-nav > li > a.dropdown-toggle").click(function (e) {
-			var div_target = $(e.target).text().trim();
-
-			if (div_target === "Contact") {
-				window.location.href = document.location.origin + "/page/contact";
-			}
-		});
-	
-
-	/*add function dblclick page Présentations*/
-			$(".navbar-default .navbar-nav > li > a.dropdown-toggle").dblclick(function (e) {
-			var div_target = $(e.target).text().trim();
-			// console.log("===div_target = ", div_target);
-			if (div_target === "Présentation") {
-				window.location.href = document.location.origin + "/page/presentation";
-			}
-		});
-	
-
-	/*add function dblclick pages Spécialités*/
-			$(".navbar-default .navbar-nav > li > a.dropdown-toggle").dblclick(function (e) {
-			var div_target = $(e.target).text().trim();
-			// console.log("===div_target = ", div_target);
-			if (div_target === "Spécialités") {
-				window.location.href = document.location.origin + "/page/specialites";
-			}
-		});
+       
 	});
