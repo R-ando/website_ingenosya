@@ -14,15 +14,6 @@ a{
 /* end of navbar */
 
 /* images lazy load animations */
-.lazy{
-  opacity: 0;
-  transition: all 3s;
-}
-
-.image-effect{
-  opacity: 1;
-  transition: all 3s;
-}
 
 /*  end of images */
 

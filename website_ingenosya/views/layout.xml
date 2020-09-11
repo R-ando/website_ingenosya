@@ -129,7 +129,6 @@
             <li><a href="/">Home</a></li>
         </ul>
     </div>
-    
     <section class="contact">
       <div class="container">
         <div class="row">
@@ -221,7 +220,7 @@
                 </div>
                 <!-- Add Copyright 2018 -->
                 <div class="pull-left" itemscope="itemscope" itemtype="http://schema.org/Organization">
-                    Copyright &amp;copy; 2020 <span t-field="res_company.name" itemprop="name">Company name</span>
+                    Copyright &amp;copy; 2020 <span t-field="res_company.name" itemprop="name">Ingenosya Madagascar</span>
                 </div>
             </div>
             
